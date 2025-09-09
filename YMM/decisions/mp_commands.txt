@@ -1,0 +1,205 @@
+targetted_decisions = {
+	mp_alliance = {
+		from_potential = {
+			is_alive = yes
+			ai = no
+		}
+		potential = {
+			is_alive = yes
+			ai = no
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			NOT = {
+				AND = {
+					ROOT = {
+						has_character_flag = mp_alliance
+					}
+					FROM = {
+						has_character_flag = mp_alliance
+					}
+				}
+			}
+		}
+		allow = {
+			NOT = {
+				AND = {
+					ROOT = {
+						has_character_flag = mp_alliance
+					}
+					FROM = {
+						has_character_flag = mp_alliance
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = { 
+				add_alliance = { 
+				who = ROOT 
+				years = 1000 
+				}
+				set_character_flag = mp_alliance
+			}
+			ROOT = {
+				add_alliance = {
+				who = FROM 
+				years = 1000 
+				}
+				set_character_flag = mp_alliance
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+
+	mp_friend = {
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = { is_friend = FROM }
+		}
+		potential = {
+			is_alive = yes
+			ai = no
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			NOT = { is_friend = FROM }
+		}
+		allow = {
+			NOT = { is_friend = FROM }
+		}
+		effect = {
+			FROM = { 
+				add_friend = ROOT
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+
+	mp_cash_100 = {
+		from_potential = {
+			is_alive = yes
+			ai = no
+		}
+		potential = {
+			is_alive = yes
+			ai = no
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			FROM = {
+				wealth >= 100
+			}
+		}
+		allow = {
+			FROM = {
+				wealth >= 100
+			}
+		}
+		effect = {
+			FROM = { wealth = -100 }
+			ROOT = { wealth = 100 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+
+	mp_cash_500 = {
+		from_potential = {
+			is_alive = yes
+			ai = no
+		}
+		potential = {
+			is_alive = yes
+			ai = no
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			FROM = {
+	        	wealth >= 500
+			}
+		}
+		allow = {
+			FROM = {
+	        	wealth >= 500
+			}
+		}
+		effect = {
+			FROM = { wealth = -500 }
+			ROOT = { wealth = 500 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+	
+	mp_cash_1000 = {
+		from_potential = {
+			is_alive = yes
+			ai = no
+		}
+		potential = {
+			is_alive = yes
+			ai = no
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			FROM = {
+	        	wealth >= 1000
+			}
+		}
+		allow = {
+			FROM = {
+	        	wealth >= 1000
+			}
+		}
+		effect = {
+			FROM = { wealth = -1000 }
+			ROOT = { wealth = 1000 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+	
+	mp_cash_5000 = {
+		from_potential = {
+			is_alive = yes
+			ai = no
+		}
+		potential = {
+			is_alive = yes
+			ai = no
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			FROM = {
+	        	wealth >= 5000
+			}
+		}
+		allow = {
+			FROM = {
+	        	wealth >= 5000
+			}
+		}
+		effect = {
+			FROM = { wealth = -5000 }
+			ROOT = { wealth = 5000 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+}

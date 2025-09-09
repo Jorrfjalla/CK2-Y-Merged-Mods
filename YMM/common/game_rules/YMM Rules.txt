@@ -1,0 +1,70 @@
+y_succ_laws = {
+	name = "RULE_Y_SUCC_LAWS"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = disabled
+		text = "RULE_Y_SUCC_LAWS_DISABLED"
+		desc = "RULE_Y_SUCC_LAWS_DISABLED_DESC"
+	}
+	option = {
+		name = enabled
+		text = "RULE_Y_SUCC_LAWS_ENABLED"
+		desc = "RULE_Y_SUCC_LAWS_ENABLED_DESC"
+	}
+}
+rename_family = {
+	name = "RULE_RENAME_FAMILY"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = enabled
+		text = "RULE_RENAME_FAMILY_ENABLED"
+		desc = "RULE_RENAME_FAMILY_ENABLED_DESC"
+	}
+	option = {
+		name = disabled
+		text = "RULE_RENAME_FAMILY_DISABLED"
+		desc = "RULE_RENAME_FAMILY_DISABLED_DESC"
+	}
+}
+artifact_mod = {
+	name = "RULE_ARTIFACT_MOD"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = disabled
+		text = "RULE_ARTIFACT_MOD_DISABLED"
+		desc = "RULE_ARTIFACT_MOD_DISABLED_DESC"
+	}
+	option = {
+		name = enabled
+		text = "RULE_ARTIFACT_MOD_ENABLED"
+		desc = "RULE_ARTIFACT_MOD_ENABLED_DESC"
+	}
+}
+non_aggression_pact_decision = {
+	name = "RULE_NON_AGGRESSION_PACT_DECISION"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = enabled
+		text = "RULE_NON_AGGRESSION_PACT_DECISION_ENABLED"
+		desc = "RULE_NON_AGGRESSION_PACT_DECISION_ENABLED_DESC"
+	}
+	option = {
+		name = disabled
+		text = "RULE_NON_AGGRESSION_PACT_DECISION_DISABLED"
+		desc = "RULE_NON_AGGRESSION_PACT_DECISION_DISABLED_DESC"
+	}
+}
+multiplayer_commands = {
+	name = "RULE_MULTIPLAYER_COMMANDS"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = enabled
+		text = "RULE_MULTIPLAYER_COMMANDS_ENABLED"
+		desc = "RULE_MULTIPLAYER_COMMANDS_ENABLED_DESC"
+	}
+	option = {
+		name = disabled
+		text = "RULE_MULTIPLAYER_COMMANDS_DISABLED"
+		desc = "RULE_MULTIPLAYER_COMMANDS_DISABLED_DESC"
+	}
+}

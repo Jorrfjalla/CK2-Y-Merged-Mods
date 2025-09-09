@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_yam_yan_pic"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\yam_yan_pic.dds"
+	}
+	spriteType = {
+		name = "GFX_yam_yan_pic_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\yam_yan_pic_small.dds"
+	}
+}

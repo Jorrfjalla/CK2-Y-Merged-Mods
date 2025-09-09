@@ -1,0 +1,66 @@
+targetted_decisions = {
+    pact_suggest = {
+        from_potential = { #Players only
+            is_alive = yes
+            ai = no
+        }
+        potential = {
+            has_game_rule = {
+				name = non_aggression_pact_decision
+				value = enabled
+			}
+            NOT = { #No existing pact, otherwise hide
+                ROOT = {
+                    has_non_aggression_pact_with = FROM
+                }
+            }
+			is_ruler = yes
+        }
+        allow = {
+            OR = {
+                ROOT = {
+                    opinion = {
+                    who = FROM
+                    value >= 95
+                    }
+                }
+                AND = {
+                    ROOT = {
+                        opinion = {
+                        who = FROM
+                        value >= 80
+                        }
+                        culture = FROM
+                    }
+                }
+                AND = {
+                    ROOT = {
+                        opinion = {
+                        who = FROM
+                        value >= 80
+                        }
+                        religion = FROM
+                    }
+                }
+                AND = {
+                    ROOT = {
+                        opinion = {
+                        who = FROM
+                        value >= 70
+                        }
+                        religion = FROM
+                        culture = FROM
+                    }
+                }
+            }
+            
+        }
+        effect = {
+            opinion = {
+                modifier = in_non_aggression_pact
+                years = 50
+                who = FROM
+            }
+        }
+    }
+}

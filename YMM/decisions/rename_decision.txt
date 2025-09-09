@@ -1,0 +1,50 @@
+targetted_decisions = {
+
+    rename_on = {
+		filter = all
+		
+		from_potential = {
+			ai = no
+		}
+		potential = {
+			ai = yes
+			dynasty = FROM
+			has_game_rule = {
+				name = rename_family
+				value = enabled
+			}
+		}
+		allow = {
+			dynasty = FROM
+		}
+		effect = {
+	        ROOT = {
+		        prompt_name = { player = from type = RENAME_CHARACTER_MESSAGE }
+	        }
+		}
+	}
+
+
+    rename_self = {
+		filter = self
+		
+		from_potential = {
+			ai = no
+		}
+		potential = {
+			is_alive = yes
+			has_game_rule = {
+				name = rename_family
+				value = enabled
+			}
+		}
+		allow = {
+	        always = yes
+		}
+		effect = {
+	        ROOT = {
+		        prompt_name = { player = from type = RENAME_CHARACTER_MESSAGE }
+	        }
+		}
+	}
+}

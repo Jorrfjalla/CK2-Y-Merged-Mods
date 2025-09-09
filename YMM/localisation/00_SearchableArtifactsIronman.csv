@@ -1,0 +1,490 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
+loot_axe;+2' Axe (2);;;;;;;;;;;;;;x
+strange_chest;Strange Chest (1);;;;;;;;;;;;;;x
+necronomicon;The Necronomicon (4);;;;;;;;;;;;;;x
+cursed_diamond;Cursed Diamond (3);;;;;;;;;;;;;;x
+cursed_diamond_crown;Cursed Diamond Crown (4);;;;;;;;;;;;;;x
+rival_skull;Skull trophy (1);;;;;;;;;;;;;;x
+magnificent_painting;Magnificent Painting (1);;;;;;;;;;;;;;x
+avant_garde_painting;Avant Garde Painting (1);;;;;;;;;;;;;;x
+finger_of_st_john;Finger of St. John (2);;;;;;;;;;;;;;x
+prosthetic_hand_gold;Gold Hand (2);;;;;;;;;;;;;;x
+prosthetic_hand_metal;Iron Hand (2);;;;;;;;;;;;;;x
+prosthetic_leg_artifact;Prosthetic Leg (2);;;;;;;;;;;;;;x
+famous_head;Head of a [This.GetArtifactSourceCap] (1);;;;;;;;;;;;;;x
+famous_tongue;Tongue of a [This.GetArtifactSourceCap] (1);;;;;;;;;;;;;;x
+infamous_tongue;Tongue of an Unbeliever (1);;;;;;;;;;;;;;x
+famous_hand;Hand of a [This.GetArtifactSourceCap] (1);;;;;;;;;;;;;;x
+famous_arm;Arm of a [This.GetArtifactSourceCap] (1);;;;;;;;;;;;;;x
+famous_foot;Foot of a [This.GetArtifactSourceCap] (1);;;;;;;;;;;;;;x
+famous_ancient_weapon;Ancient Rusty Weapon (1);;;;;;;;;;;;;;x
+iron_crown_of_lombardy;Iron Crown of Lombardy (4);;;;;;;;;;;;;;x
+shroud_of_jesus;Shroud of Jesus (5);;;;;;;;;;;;;;x
+spear_of_destiny;Lance of Longinus (5);;;;;;;;;;;;;;x
+holy_grail;Holy Grail (5);;;;;;;;;;;;;;x
+holy_chalice;Holy Grail (5);;;;;;;;;;;;;;x
+bones_of_st_peter;Bones of St. Peter (5);;;;;;;;;;;;;;x
+crown_of_thorns;Crown of Thorns (4);;;;;;;;;;;;;;x
+seamless_robe_of_jesus;Seamless Robe of Jesus (4);;;;;;;;;;;;;;x
+fragment_of_true_cross;Nail of the True Cross (3);;;;;;;;;;;;;;x
+holy_foreskin;Holy Prepuce (3);;;;;;;;;;;;;;x
+fingerbone_of_saint;Saint's Fingerbone (1);;;;;;;;;;;;;;x
+chains_of_st_peter;Chains of St. Peter (2);;;;;;;;;;;;;;x
+right_hand_st_demetrius;Right Hand of St. Demetrius (2);;;;;;;;;;;;;;x
+veil_of_veronica;Veil of Veronica (2);;;;;;;;;;;;;;x
+image_of_edessa;Image of Edessa (3);;;;;;;;;;;;;;x
+remains_of_st_cessianus;Remains of St. Cessianus (2);;;;;;;;;;;;;;x
+weeping_statue;Weeping Statue (2);;;;;;;;;;;;;;x
+staff_of_moses;Staff of Moses (5);;;;;;;;;;;;;;x
+davids_harp;King David's Harp (5);;;;;;;;;;;;;;x
+ark_of_the_covenant;Ark of the Covenant (5);;;;;;;;;;;;;;x
+seal_of_solomon;Seal of Solomon (4);;;;;;;;;;;;;;x
+tabernacle;The Tabernacle (3);;;;;;;;;;;;;;x
+davids_sling;King David's Sling (2);;;;;;;;;;;;;;x
+seal_of_mohammad;Seal of Mohammad (5);;;;;;;;;;;;;;x
+holy_banner_of_mohammad;Holy Banner of Mohammad (5);;;;;;;;;;;;;;x
+blessed_mantle;Blessed Mantle (5);;;;;;;;;;;;;;x
+sword_of_mohammad;Sword of Mohammad (4);;;;;;;;;;;;;;x
+blessed_sandals;Blessed Sandals (4);;;;;;;;;;;;;;x
+letter_of_mohammad;Letter of Mohammad (3);;;;;;;;;;;;;;x
+cloak_of_mohammad;Cloak of Mohammad (3);;;;;;;;;;;;;;x
+mohammads_bowl;Mohammad's Bowl (2);;;;;;;;;;;;;;x
+mohammads_beard;Hair from the Beard of Mohammad (2);;;;;;;;;;;;;;x
+water_of_blessed_mantle;Water of the Blessed Mantle (1);;;;;;;;;;;;;;x
+tooth_of_mohammad;Tooth of Mohammad (2);;;;;;;;;;;;;;x
+cup_of_jamshid;Cup of Jamshid (5);;;;;;;;;;;;;;x
+babr_e_bayan;Babr-e-Bayan (5);;;;;;;;;;;;;;x
+derafsh_kaviani;Derafsh Kaviani (4);;;;;;;;;;;;;;x
+cyrus_cylinder;Cyrus Cylinder (3);;;;;;;;;;;;;;x
+haoma_sapling;Haoma Sapling (2);;;;;;;;;;;;;;x
+keshmar_cypress_branch;Branch of the Keshmar Cypress (1);;;;;;;;;;;;;;x
+mjolnir;Mjolnir (5);;;;;;;;;;;;;;x
+andvaranaut;Andvaranaut (5);;;;;;;;;;;;;;x
+gjallarhorn;Gjallarhorn (3);;;;;;;;;;;;;;x
+fetish_of_souls;The Fetish of Souls (5);;;;;;;;;;;;;;x
+sampo;Sampo (5);;;;;;;;;;;;;;x
+axe_of_perun;Axe of Perun (5);;;;;;;;;;;;;;x
+axe_of_perkunas;Axe of Perkunas (5);;;;;;;;;;;;;;x
+yada_tashy;Yada Tashy (5);;;;;;;;;;;;;;x
+buddhas_tooth;The Tooth of Buddha  (5);;;;;;;;;;;;;;x
+mountain_of_light_diamond;The Mountain of Light (5);;;;;;;;;;;;;;x
+elaborate_danda;Jewelled Danda (3);;;;;;;;;;;;;;x
+sarira;Sarira (2);;;;;;;;;;;;;;x
+sariraka_actual_body_part;Sariraka Bone (3);;;;;;;;;;;;;;x
+magnum_opus_theurgy_ritual_1;Magnum Opus on Ritualistic Theurgy (1);;;;;;;;;;;;;;x
+magnum_opus_theurgy_ritual_2;Magnum Opus on Ritualistic Theurgy (2);;;;;;;;;;;;;;x
+magnum_opus_theurgy_ritual_3;Magnum Opus on Ritualistic Theurgy (3);;;;;;;;;;;;;;x
+magnum_opus_theurgy_ritual_4;Magnum Opus on Ritualistic Theurgy (4);;;;;;;;;;;;;;x
+magnum_opus_theurgy_contemplation_1;Magnum Opus on Contemplative Theurgy (1);;;;;;;;;;;;;;x
+magnum_opus_theurgy_contemplation_2;Magnum Opus on Contemplative Theurgy (2);;;;;;;;;;;;;;x
+magnum_opus_theurgy_contemplation_3;Magnum Opus on Contemplative Theurgy (3);;;;;;;;;;;;;;x
+magnum_opus_theurgy_contemplation_4;Magnum Opus on Contemplative Theurgy (4);;;;;;;;;;;;;;x
+magnum_opus_astrology_stars_1;Magnum Opus on Stellar Astrology (1);;;;;;;;;;;;;;x
+magnum_opus_astrology_stars_2;Magnum Opus on Stellar Astrology (2);;;;;;;;;;;;;;x
+magnum_opus_astrology_stars_3;Magnum Opus on Stellar Astrology (3);;;;;;;;;;;;;;x
+magnum_opus_astrology_stars_4;Magnum Opus on Stellar Astrology (4);;;;;;;;;;;;;;x
+magnum_opus_astrology_planets_1;Magnum Opus on Planetary Astrology (1);;;;;;;;;;;;;;x
+magnum_opus_astrology_planets_2;Magnum Opus on Planetary Astrology (2);;;;;;;;;;;;;;x
+magnum_opus_astrology_planets_3;Magnum Opus on Planetary Astrology (3);;;;;;;;;;;;;;x
+magnum_opus_astrology_planets_4;Magnum Opus on Planetary Astrology (4);;;;;;;;;;;;;;x
+magnum_opus_alchemy_panacea_1;Magnum Opus on Universal Panacea (1);;;;;;;;;;;;;;x
+magnum_opus_alchemy_panacea_2;Magnum Opus on Universal Panacea (2);;;;;;;;;;;;;;x
+magnum_opus_alchemy_panacea_3;Magnum Opus on Universal Panacea (3);;;;;;;;;;;;;;x
+magnum_opus_alchemy_panacea_4;Magnum Opus on Universal Panacea (4);;;;;;;;;;;;;;x
+magnum_opus_alchemy_transmutation_1;Magnum Opus on Transmutative Alchemy (1);;;;;;;;;;;;;;x
+magnum_opus_alchemy_transmutation_2;Magnum Opus on Transmutative Alchemy (2);;;;;;;;;;;;;;x
+magnum_opus_alchemy_transmutation_3;Magnum Opus on Transmutative Alchemy (3);;;;;;;;;;;;;;x
+magnum_opus_alchemy_transmutation_4;Magnum Opus on Transmutative Alchemy (4);;;;;;;;;;;;;;x
+hermetic_handgun;Handgun (3);;;;;;;;;;;;;;x
+hermetic_compass;Magnetic Compass (3);;;;;;;;;;;;;;x
+radius_astronomicus;Radius Astronomicus (3);;;;;;;;;;;;;;x
+hermetic_cypher_machine;Cipher Disc (2);;;;;;;;;;;;;;x
+hermetic_plate_armor;Plate Armor (1);;;;;;;;;;;;;;x
+hermetic_glasses;Spectacles (1);;;;;;;;;;;;;;x
+emerald_tablet;Emerald Tablet (4);;;;;;;;;;;;;;x
+ingredient_herb1;Ingredient: Hibiscus;;;;;;;;;;;;;;x
+ingredient_herb2;Ingredient: Ginger Root;;;;;;;;;;;;;;x
+ingredient_herb3;Ingredient: Mandrake;;;;;;;;;;;;;;x
+ingredient_herb4;Ingredient: Lemon Grass;;;;;;;;;;;;;;x
+ingredient_herb5;Ingredient: Nettles;;;;;;;;;;;;;;x
+ingredient_herb6;Ingredient: Wormwood;;;;;;;;;;;;;;x
+ingredient_herb7;Ingredient: Valerian;;;;;;;;;;;;;;x
+ingredient_herb8;Ingredient: Violet;;;;;;;;;;;;;;x
+ingredient_herb9;Ingredient: Yarrow;;;;;;;;;;;;;;x
+ingredient_animal1;Ingredient: Gall Bladder;;;;;;;;;;;;;;x
+ingredient_animal2;Ingredient: Kidney;;;;;;;;;;;;;;x
+ingredient_animal3;Ingredient: Eyeballs;;;;;;;;;;;;;;x
+ingredient_animal4;Ingredient: Cloven hooves;;;;;;;;;;;;;;x
+ingredient_animal5;Ingredient: Antlers;;;;;;;;;;;;;;x
+ingredient_animal6;Ingredient: Snout;;;;;;;;;;;;;;x
+ingredient_animal7;Ingredient: Heart;;;;;;;;;;;;;;x
+ingredient_animal8;Ingredient: Liver;;;;;;;;;;;;;;x
+ingredient_animal9;Ingredient: Intestines;;;;;;;;;;;;;;x
+ingredient_metal_exotic1;Ingredient: Silver;;;;;;;;;;;;;;x
+ingredient_metal_exotic2;Ingredient: Mercury;;;;;;;;;;;;;;x
+ingredient_metal_exotic3;Ingredient: Aqua Regia;;;;;;;;;;;;;;x
+ingredient_metal_exotic4;Ingredient: Aqua Fortis;;;;;;;;;;;;;;x
+ingredient_metal_exotic5;Ingredient: Sulphur;;;;;;;;;;;;;;x
+ingredient_metal_exotic6;Ingredient: Gold;;;;;;;;;;;;;;x
+ingredient_metal_exotic7;Ingredient: Copper;;;;;;;;;;;;;;x
+ingredient_metal_exotic8;Ingredient: Iron;;;;;;;;;;;;;;x
+ingredient_metal_exotic9;Ingredient: Tin;;;;;;;;;;;;;;x
+crown_of_majesty_2;The Crown of Majesty (4);;;;;;;;;;;;;;x
+emerald_scepter_2;Emerald Scepter (4);;;;;;;;;;;;;;x
+sword_of_heroes_2;Sword of Heroes (4);;;;;;;;;;;;;;x
+crown_of_majesty;The Crown of Majesty (3);;;;;;;;;;;;;;x
+emerald_scepter;Emerald Scepter (3);;;;;;;;;;;;;;x
+sword_of_heroes;Sword of Heroes (3);;;;;;;;;;;;;;x
+crown_of_pearls;Crown of Pearls (2);;;;;;;;;;;;;;x
+ruby_scepter;Ruby Scepter (2);;;;;;;;;;;;;;x
+golden_sword;Golden Sword (2);;;;;;;;;;;;;;x
+the_lily_crown;Crown of Lilies (1);;;;;;;;;;;;;;x
+noble_scepter;Noble Scepter (1);;;;;;;;;;;;;;x
+engraved_sword;Engraved Sword (1);;;;;;;;;;;;;;x
+dagger_of_glory_2;Dagger of Glory (4);;;;;;;;;;;;;;x
+ruby_bracelets_2;Ruby Bracelets (4);;;;;;;;;;;;;;x
+dagger_of_glory;Dagger of Glory (3);;;;;;;;;;;;;;x
+ruby_bracelets;Ruby Bracelets (3);;;;;;;;;;;;;;x
+bejeweled_dagger;Bejeweled Dagger (2);;;;;;;;;;;;;;x
+golden_bracelets;Golden Bracelets (2);;;;;;;;;;;;;;x
+engraved_dagger;Engraved Dagger (1);;;;;;;;;;;;;;x
+silver_bracelets;Silver Bracelets (1);;;;;;;;;;;;;;x
+dagger_of_glory_2;Dagger of Glory (4);;;;;;;;;;;;;;x
+celestial_necklace_2;Celestial Necklace (4);;;;;;;;;;;;;;x
+dagger_of_glory;Dagger of Glory (3);;;;;;;;;;;;;;x
+celestial_necklace;Celestial Necklace (3);;;;;;;;;;;;;;x
+bejeweled_dagger;Bejeweled Dagger (2);;;;;;;;;;;;;;x
+necklace_of_radiance;Necklace of Radiance (2);;;;;;;;;;;;;;x
+engraved_dagger;Engraved Dagger (1);;;;;;;;;;;;;;x
+collar_of_pearls;Collar of Pearls (1);;;;;;;;;;;;;;x
+circlet_of_the_heavens_2;Heavenly Circlet (4);;;;;;;;;;;;;;x
+staff_of_majesty_2;Staff of Majesty (4);;;;;;;;;;;;;;x
+circlet_of_the_heavens;Heavenly Circlet (3);;;;;;;;;;;;;;x
+staff_of_majesty;Staff of Majesty (3);;;;;;;;;;;;;;x
+circlet_of_the_sun;Circlet of the Sun (2);;;;;;;;;;;;;;x
+golden_staff;Golden Staff (2);;;;;;;;;;;;;;x
+circlet_of_twilight;Circlet of Twilight (1);;;;;;;;;;;;;;x
+silver_staff;Silver Staff (1);;;;;;;;;;;;;;x
+sword_of_heroes_2;Sword of Heroes (4);;;;;;;;;;;;;;x
+crown_of_crows_2;Crown of Crows (4);;;;;;;;;;;;;;x
+sword_of_heroes;Sword of Heroes (3);;;;;;;;;;;;;;x
+crown_of_crows;Crown of Crows (3);;;;;;;;;;;;;;x
+golden_sword;Golden Sword (2);;;;;;;;;;;;;;x
+crown_of_the_sea;Crown of the Sea (2);;;;;;;;;;;;;;x
+engraved_sword;Engraved Sword (1);;;;;;;;;;;;;;x
+iron_crown;Iron Crown (1);;;;;;;;;;;;;;x
+heros_crown_2;Hero's Crown (4);;;;;;;;;;;;;;x
+axe_of_the_ancestors_2;Axe of the Ancestors (4);;;;;;;;;;;;;;x
+heros_crown;Hero's Crown (3);;;;;;;;;;;;;;x
+axe_of_the_ancestors;Axe of the Ancestors (3);;;;;;;;;;;;;;x
+amber_crown;Amber Crown (2);;;;;;;;;;;;;;x
+obsidian_axe;Obsidian Axe (2);;;;;;;;;;;;;;x
+engraved_crown;Engraved Crown (1);;;;;;;;;;;;;;x
+ceremonial_axe;Ceremonial Axe (1);;;;;;;;;;;;;;x
+terrible_sword;Poorly Crafted Sword (1);;;;;;;;;;;;;;x
+sword_tier_1_new;Arming Sword (1);;;;;;;;;;;;;;x
+sword_tier_2_new;Longsword (2);;;;;;;;;;;;;;x
+sword_tier_3_heartseeker;Heartseeker (3);;;;;;;;;;;;;;x
+sword_tier_3_vengeance;Vengeance (3);;;;;;;;;;;;;;x
+sword_tier_3_fury;Fury (3);;;;;;;;;;;;;;x
+sword_tier_4_heartseeker;Dragonseeker (4);;;;;;;;;;;;;;x
+sword_tier_4_vengeance;Heaven's Vengeance (4);;;;;;;;;;;;;;x
+sword_tier_4_fury;God's Fury (4);;;;;;;;;;;;;;x
+scimitar_tier_1_new;Scimitar (1);;;;;;;;;;;;;;x
+scimitar_tier_2_new;Fine Scimitar (2);;;;;;;;;;;;;;x
+scimitar_tier_3_golden;The Golden Scimitar (3);;;;;;;;;;;;;;x
+scimitar_tier_3_fortune;Scimitar of Fortune (3);;;;;;;;;;;;;;x
+scimitar_tier_3_conquest;Scimitar of Conquest (3);;;;;;;;;;;;;;x
+scimitar_tier_4_golden;Golden Vengeance (4);;;;;;;;;;;;;;x
+scimitar_tier_4_fortune;Scimitar of the Night (4);;;;;;;;;;;;;;x
+scimitar_tier_4_conquest;Scimitar of Death (4);;;;;;;;;;;;;;x
+lance_tier_1_new;Lance (1);;;;;;;;;;;;;;x
+lance_tier_2_new;Twohanded Lance (2);;;;;;;;;;;;;;x
+lance_tier_3_impaler;The Impaler (3);;;;;;;;;;;;;;x
+lance_tier_3_trident;The Trident (3);;;;;;;;;;;;;;x
+lance_tier_3_piercer;The Piercer (3);;;;;;;;;;;;;;x
+lance_tier_4_trident;Bleeding Lance (4);;;;;;;;;;;;;;x
+lance_tier_4_piercer;Death Strike (4);;;;;;;;;;;;;;x
+lance_tier_4_impaler;Ascalon (4);;;;;;;;;;;;;;x
+axe_tier_1_new;Throwing Axe (1);;;;;;;;;;;;;;x
+axe_tier_2_new;Battle Axe (2);;;;;;;;;;;;;;x
+axe_tier_3_cleaver;Cleaver (3);;;;;;;;;;;;;;x
+axe_tier_3_ravager;Ravager (3);;;;;;;;;;;;;;x
+axe_tier_3_marauder;Marauder (3);;;;;;;;;;;;;;x
+axe_tier_4_marauder;Darkbringer (4);;;;;;;;;;;;;;x
+axe_tier_4_ravager;Heaven's Devastator (4);;;;;;;;;;;;;;x
+axe_tier_4_cleaver;The Dragon Cleaver (4);;;;;;;;;;;;;;x
+mace_tier_1_new;Mace (1);;;;;;;;;;;;;;x
+mace_tier_2_new;Iron Mace (2);;;;;;;;;;;;;;x
+mace_tier_3_foe_hammer;The Foe Hammer (3);;;;;;;;;;;;;;x
+mace_tier_3_bone_breaker;The Bone Breaker (3);;;;;;;;;;;;;;x
+mace_tier_3_shatterer;The Shatterer (3);;;;;;;;;;;;;;x
+mace_tier_4_foe_hammer;The Skullcrusher (4);;;;;;;;;;;;;;x
+mace_tier_4_bone_breaker;The Twilight Hammer (4);;;;;;;;;;;;;;x
+mace_tier_4_shatterer;The Giant Shatterer (4);;;;;;;;;;;;;;x
+bow_tier_1_new;Self Bow (1);;;;;;;;;;;;;;x
+bow_tier_2_new;Composite Bow (2);;;;;;;;;;;;;;x
+bow_tier_3_silent_wind;Silent Wind (3);;;;;;;;;;;;;;x
+bow_tier_3_lightning;Lightning (3);;;;;;;;;;;;;;x
+bow_tier_3_eagle;Eagle (3);;;;;;;;;;;;;;x
+bow_tier_4_silent_wind;Death Wind (4);;;;;;;;;;;;;;x
+bow_tier_4_lightning;Lightning Strike (4);;;;;;;;;;;;;;x
+bow_tier_4_eagle;Ice Eagle (4);;;;;;;;;;;;;;x
+terrible_armor;Poorly Crafted Armor;;;;;;;;;;;;;;x
+armor_tier_1;Chain Mail (1);;;;;;;;;;;;;;x
+armor_tier_2;Splint Mail (2);;;;;;;;;;;;;;x
+armor_tier_3_guardian;Guardian (3);;;;;;;;;;;;;;x
+armor_tier_3_champion;Champion (3);;;;;;;;;;;;;;x
+armor_tier_3_warden;Warden (3);;;;;;;;;;;;;;x
+armor_tier_4_guardian;Angelic Guardian (4);;;;;;;;;;;;;;x
+armor_tier_4_champion;Green Armor (4);;;;;;;;;;;;;;x
+armor_tier_4_warden;Immortal (4);;;;;;;;;;;;;;x
+horse_armor_tier_1;Mail Horse Armor (1);;;;;;;;;;;;;;x
+horse_armor_tier_2;Heavy Mail Horse Armor (2);;;;;;;;;;;;;;x
+horse_armor_tier_3_golden_stallion;Golden Stallion Armor (3);;;;;;;;;;;;;;x
+horse_armor_tier_3_gilded_mare;Gilded Mare Armor (3);;;;;;;;;;;;;;x
+horse_armor_tier_3_ornate_steed;Ornate Steed Armor (3);;;;;;;;;;;;;;x
+jade_dragon;Jade Dragon (5-);;;;;;;;;;;;;;x
+chinese_dragon_amulet;Dragon Amulet (4-);;;;;;;;;;;;;;x
+chinese_artwork;[offmap_china.GetShortName] Artwork (2-);;;;;;;;;;;;;;x
+chinese_calligraphy;[offmap_china.GetShortName] Calligraphy (2-);;;;;;;;;;;;;;x
+chinese_sculpture;[offmap_china.GetShortName] Sculpture (2-);;;;;;;;;;;;;;x
+chinese_ceremonial_robes;Ceremonial Robes (3-);;;;;;;;;;;;;;x
+silk_shroud;Silk Shroud (3-);;;;;;;;;;;;;;x
+water_clock;Water Clock (4-);;;;;;;;;;;;;;x
+jian_sword;Jian (4-);;;;;;;;;;;;;;x
+chinese_prev_emperor_sculpture;Figurine of [offmap_china.PrevRuler.GetFullName] (1-);;;;;;;;;;;;;;x
+chinese_arm_protector;Chinese Arm Protector (2-);;;;;;;;;;;;;;x
+chinese_serpent_spear;Serpent Spear (2-);;;;;;;;;;;;;;x
+chinese_ji;Ji (3-);;;;;;;;;;;;;;x
+chinese_crossbow;Zhuge Crossbow (3-);;;;;;;;;;;;;;x
+chinese_bronze_sculpture;[offmap_china.GetShortName] Bronze Sculpture (3-);;;;;;;;;;;;;;x
+chinese_painting_of_glitterhoof;Painting of Shanguang Tí (1-);;;;;;;;;;;;;;x
+chinese_tapestry;Tapestry of [tapestry_target.GetName] (2-);;;;;;;;;;;;;;x
+chinese_tapestry_grand;[offmap_china.GetShortName] Tapestry (3-);;;;;;;;;;;;;;x
+art_of_war;The Art of War (5-);;;;;;;;;;;;;;x
+classic_of_poetry;Classic of Poetry (5-);;;;;;;;;;;;;;x
+chinese_book_health;[offmap_china.GetShortName] Compendium of Medicine (3-);;;;;;;;;;;;;;x
+chinese_book_law;[offmap_china.GetShortName] Treatise on Law (3-);;;;;;;;;;;;;;x
+chinese_book_history;History of [offmap_china.GetShortName] (1-);;;;;;;;;;;;;;x
+chinese_book_economy;[offmap_china.Governor.GetFirstName]'s Chronicle of Economic Principle (3-);;;;;;;;;;;;;;x
+chinese_journal;The Journal of [Root.GetFirstName] (3-);;;;;;;;;;;;;;x
+how_to_hold_a_sword;How To Hold a Sword (1);;;;;;;;;;;;;;x
+a_soldiers_life;A Soldier's Life (2);;;;;;;;;;;;;;x
+a_history_of_armor;A History of Armor (2);;;;;;;;;;;;;;x
+the_life_of_root;The Life of [From.OriginalOwner.GetBestName] (2);;;;;;;;;;;;;;x
+military_strategy_guide;Military Strategy, according to [From.OriginalOwner.GetBestName] (3);;;;;;;;;;;;;;x
+my_fechtbuch;The Fechtbuch (3);;;;;;;;;;;;;;x
+codex_dynasty_name;Codex [From.OriginalOwner.GetOnlyDynastyName] (3);;;;;;;;;;;;;;x
+the_sword_and_buckler;The Sword and Buckler Manual (3);;;;;;;;;;;;;;x
+lessons_taught_to_me_by_rival_1;Lessons Inspired By My Enemy (1);;;;;;;;;;;;;;x
+lessons_taught_to_me_by_rival_2;Lessons Taught Me By My Enemy (2);;;;;;;;;;;;;;x
+lessons_taught_to_me_by_rival_3;Lessons Taught Me By My Enemy, by [From.OriginalOwner.GetTitledFirstName] (3);;;;;;;;;;;;;;x
+the_wisdom_of_the_heavens;The Wisdom of the Heavens (2);;;;;;;;;;;;;;x
+ordinary_beasts;Ordinary Beasts and How to Avoid Them (3);;;;;;;;;;;;;;x
+the_white_animal;The White [From.OriginalOwner.GetRegionalBigAnimalCap] (3);;;;;;;;;;;;;;x
+the_bestiary;The Bestiary (4);;;;;;;;;;;;;;x
+the_book_of_shadows;The Book of Shadows (3);;;;;;;;;;;;;;x
+on_government_type_warfare;On [From.OriginalOwner.Government.GetName] Warfare (3);;;;;;;;;;;;;;x
+culinary_diary;A Culinary Diary, by [From.OriginalOwner.GetFirstName] (1);;;;;;;;;;;;;;x
+yes_I_ate_that;Yes, I Ate That (1);;;;;;;;;;;;;;x
+the_well_dressed_chef;The Well-Dressed Chef (1);;;;;;;;;;;;;;x
+big_book_of_meat;The Big Book of Meat (1);;;;;;;;;;;;;;x
+a_book_of_vegetables;A Book of Vegetables (1);;;;;;;;;;;;;;x
+fruits_the_book;Fruits - The Book (1);;;;;;;;;;;;;;x
+shoddy_recipes;Shoddy Recipe Collection, by [From.OriginalOwner.GetTitledFirstName] (1);;;;;;;;;;;;;;x
+decent_cookbook;Decent Cookbook (2);;;;;;;;;;;;;;x
+honest_recipes;Honest Recipes (2);;;;;;;;;;;;;;x
+gastronomic_tonics;Gastronomic Tonics (2);;;;;;;;;;;;;;x
+the_omnivore;The Omnivore (2);;;;;;;;;;;;;;x
+the_dynasty_cookbook;The [From.OriginalOwner.GetOnlyDynastyName] Cookbook, by [From.OriginalOwner.GetFirstName] (3);;;;;;;;;;;;;;x
+modest_measures;Modest Measures (3);;;;;;;;;;;;;;x
+good_cookbook;Feeding a Realm (3);;;;;;;;;;;;;;x
+cookbook_3_roman;Apicius (3);;;;;;;;;;;;;;x
+cookbook_3_arabic;Kitab al-Tabikh (3);;;;;;;;;;;;;;x
+cookbook_3_chinese_group;Yinshan Zhengyao (3);;;;;;;;;;;;;;x
+cookbook_3_central_german;Das Buch von guter Speise (3);;;;;;;;;;;;;;x
+bad_fishing_book;Fishing with [From.OriginalOwner.GetFirstName] (1);;;;;;;;;;;;;;x
+on_culture_architecture;On [From.OriginalOwner.Culture] Architecture (3);;;;;;;;;;;;;;x
+how_to_build_a_well;How to Build A Well (3);;;;;;;;;;;;;;x
+gardens_of_planet;Gardens of the Moon (3);;;;;;;;;;;;;;x
+treatise_on_fishing;A Treatise of Fishing with an Angle (4);;;;;;;;;;;;;;x
+in_honor_of_highgod;In Honor of [From.OriginalOwner.Religion.HighGod] (1);;;;;;;;;;;;;;x
+faith_eternal;Faith Eternal (1);;;;;;;;;;;;;;x
+what_do_monks_wear;What Do Monks Wear (2);;;;;;;;;;;;;;x
+hymns_to_highgod;Hymns to [From.OriginalOwner.Religion.HighGod] (2);;;;;;;;;;;;;;x
+choice_passages;Choice Passages, by [From.OriginalOwner.GetTitledFirstName] (2);;;;;;;;;;;;;;x
+a_history_of_churches;A History of Temples (3);;;;;;;;;;;;;;x
+how_to_worship;How to Worship [From.OriginalOwner.Religion.HighGod] (3);;;;;;;;;;;;;;x
+the_not_actual_holy_book;[From.OriginalOwner.Religion.ScriptureName] Improved (3);;;;;;;;;;;;;;x
+the_spirits;The Spirits Among Us (3);;;;;;;;;;;;;;x
+learning_languages_1;The [From.OriginalOwner.Culture] Language, Volume I (1);;;;;;;;;;;;;;x
+learning_languages_2;The [From.OriginalOwner.Culture] Language, Volume II (2);;;;;;;;;;;;;;x
+learning_languages_3;The [From.OriginalOwner.Culture] Language, Volume III  (3);;;;;;;;;;;;;;x
+learning_languages_4;The [From.OriginalOwner.Culture] Language, Volume IV (4);;;;;;;;;;;;;;x
+the_republic;The [From.OriginalOwner.Government.GetName] Realm  (3);;;;;;;;;;;;;;x
+unnatural_history;Unnatural History (2);;;;;;;;;;;;;;x
+the_confessions_of_root;The Confessions of [From.OriginalOwner.GetDynName] (3);;;;;;;;;;;;;;x
+the_book_of_healing;Kitab al-Shifa (4);;;;;;;;;;;;;;x
+human_anatomy;Human Anatomy (2);;;;;;;;;;;;;;x
+maladies_and_remedies;Common Maladies and their Remedies (2);;;;;;;;;;;;;;x
+comforting_poetry;The Comforting Boulder (3);;;;;;;;;;;;;;x
+equine_maxims;Equine Maxims (2);;;;;;;;;;;;;;x
+equine_sequins;Equine Sequins (3);;;;;;;;;;;;;;x
+court_etiquette_1;Court Etiquette - Volume 1 (1);;;;;;;;;;;;;;x
+court_etiquette_2;Court Etiquette - Volume 2 (2);;;;;;;;;;;;;;x
+court_etiquette_3;Court Etiquette - Volume 3 (3);;;;;;;;;;;;;;x
+how_to_write_a_letter;How To Compose A Letter (2);;;;;;;;;;;;;;x
+notes_from_a_kitchen;Notes From A Kitchen (2);;;;;;;;;;;;;;x
+fifty_shades_of_root;Fifty Nuances of [From.OriginalOwner.GetOnlyDynastyName] (2);;;;;;;;;;;;;;x
+kama_sutra;Kama Sutra (3);;;;;;;;;;;;;;x
+in_honor_of_roots_beloved_1;In Honor of My Beloved (1);;;;;;;;;;;;;;x
+in_honor_of_roots_beloved_2;To My Beautiful Love (2);;;;;;;;;;;;;;x
+in_honor_of_roots_beloved_3;A [From.OriginalOwner.Culture] Tale (3);;;;;;;;;;;;;;x
+how_to_make_allies;How to Make Allies and Influence Vassals (2);;;;;;;;;;;;;;x
+the_art_of_love;The Art of Love (3);;;;;;;;;;;;;;x
+the_hunchback_of_capital;The Hunchback (3);;;;;;;;;;;;;;x
+the_illiad;The [From.OriginalOwner.GetFirstName]iad (3);;;;;;;;;;;;;;x
+the_odyssey;The [From.OriginalOwner.GetFirstName]ey (4);;;;;;;;;;;;;;x
+contracts_of_the_romans;Contracts of the [From.OriginalOwner.Culture.GetName] (3);;;;;;;;;;;;;;x
+speculum_regale;Speculum Regale (4);;;;;;;;;;;;;;x
+religious_head_culture_courtesy;Book on Courtesy (4);;;;;;;;;;;;;;x
+keeping_government_court;Keeping A Court (4);;;;;;;;;;;;;;x
+to_my_descendants;To My Descendants, by [From.OriginalOwner.GetDynName] (1);;;;;;;;;;;;;;x
+records_of_roots_dynasty;Records of the [From.OriginalOwner.GetOnlyDynastyName] (2);;;;;;;;;;;;;;x
+the_legend_of_roots_ancestors_1;The [From.OriginalOwner.GetOnlyDynastyName] Records (1);;;;;;;;;;;;;;x
+the_legend_of_roots_ancestors_2;Legends of the [From.OriginalOwner.GetOnlyDynastyName] (2);;;;;;;;;;;;;;x
+the_legend_of_roots_ancestors_3;The Legendary [From.OriginalOwner.GetOnlyDynastyName] (3);;;;;;;;;;;;;;x
+the_annals_of_roots_dynasty;The Annals of [From.OriginalOwner.GetOnlyDynastyName] (4);;;;;;;;;;;;;;x
+the_legendary_dynasty_warrior;The Legendary [From.OriginalOwner.GetOnlyDynastyName] [From.OriginalOwner.GetWarriorRoleCap] (4);;;;;;;;;;;;;;x
+the_saintly_relative;The Virtues of [saintly_relative.GetFirstName] (4);;;;;;;;;;;;;;x
+a_story_about_my_aunt;A Story About My Aunt (3);;;;;;;;;;;;;;x
+the_secret_history_of_culture;The Secret History of the [From.OriginalOwner.Culture] (4);;;;;;;;;;;;;;x
+crown_hre;Reichskrone (5);;;;;;;;;;;;;;x
+crown_byzantine;Imperial Diadem (5);;;;;;;;;;;;;;x
+crown_pahlavi;[pahlavi_creator.GetOnlyDynastyName] Crown (5);;;;;;;;;;;;;;x
+crown_crusader_king;Sacred War Crown (3);;;;;;;;;;;;;;x
+crown_winged_helmet;[Root.GetDynName] Crest (2);;;;;;;;;;;;;;x
+crown_wrapped_helmet;Shrouded Helmet (2);;;;;;;;;;;;;;x
+crown_african_mask_1;Spirit-Mask of Bravery (3);;;;;;;;;;;;;;x
+crown_african_mask_2;Spirit-Mask of Terror (3);;;;;;;;;;;;;;x
+crown_african_mask_3;Spirit-Mask of Determination (2);;;;;;;;;;;;;;x
+crown_african_mask_4;Spirit-Mask of Ruthlessness (2);;;;;;;;;;;;;;x
+crown_african_mask_5;Spirit-Mask of Trickery (2);;;;;;;;;;;;;;x
+crown_african_mask_6;Spirit-Mask of Anger (1);;;;;;;;;;;;;;x
+crown_african_mask_7;Spirit-Mask of Staunchness (1);;;;;;;;;;;;;;x
+crown_african_mask_8;Spirit-Mask of Flight (1);;;;;;;;;;;;;;x
+scepter_african_1;Carved Totem (2);;;;;;;;;;;;;;x
+scepter_african_2;Ivory Idol (2);;;;;;;;;;;;;;x
+scepter_african_3;Rainstick (1);;;;;;;;;;;;;;x
+sword_1_battlefield;Knife of the [battlefield_location.GetTerrainCap] (1);;;;;;;;;;;;;;x
+sword_1_battlefield_upgraded;[target_artifact.GetName] II (1);;;;;;;;;;;;;;x
+sword_2_battlefield;Heavy [battlefield_location.GetGroundDescCap]-Blade (2);;;;;;;;;;;;;;x
+sword_2_battlefield_upgraded;[target_artifact.GetName] II (2);;;;;;;;;;;;;;x
+sword_3_battlefield;Masterful Short-Sword (3);;;;;;;;;;;;;;x
+sword_3_battlefield_upgraded;[target_artifact.GetName] II (3);;;;;;;;;;;;;;x
+enemy_skull;[enemy_commander.GetFirstName]'s Skull (1);;;;;;;;;;;;;;x
+skull_cup;Skull Cup (2);;;;;;;;;;;;;;x
+sword_whispering;Whispering Sword (4);;;;;;;;;;;;;;x
+mace_whispering;Whispering Mace (4);;;;;;;;;;;;;;x
+axe_whispering;Whispering Axe (4);;;;;;;;;;;;;;x
+saintly_finger;Finger of [found_saint.GetTitledName] (1);;;;;;;;;;;;;;x
+saintly_bone;Bone of [found_saint.GetTitledName] (2);;;;;;;;;;;;;;x
+saintly_skull_tier_1;Skull of [found_saint.GetTitledName] (3);;;;;;;;;;;;;;x
+saintly_skull_tier_2;Skull of [found_saint.GetTitledName] (4);;;;;;;;;;;;;;x
+saintly_tongue;Tongue of [found_saint.GetTitledName] (4);;;;;;;;;;;;;;x
+crown_fylkir;Fylkirian Crown (4);;;;;;;;;;;;;;x
+crown_tengri_fylkir;Tengrikutan Crown (4);;;;;;;;;;;;;;x
+crown_finnish_fylkir;Tietajan Crown (4);;;;;;;;;;;;;;x
+crown_west_african_fylkir;Whispering Crown (4);;;;;;;;;;;;;;x
+crown_zun_fylkir;Solar Crown (4);;;;;;;;;;;;;;x
+crown_slavic_fylkir;Ancient Crown (4);;;;;;;;;;;;;;x
+crown_romuva_fylkir;Mystic Crown (4);;;;;;;;;;;;;;x
+crown_aztec_fylkir;Tlatoanic Crown (4);;;;;;;;;;;;;;x
+scepter_bon_fylkir;Scepter of Tranquility (4);;;;;;;;;;;;;;x
+scepter_hellenic_fylkir;Pontifical Scepter (4);;;;;;;;;;;;;;x
+sword_great_conqueror;Sword of [great_conqueror.GetFullName] (4);;;;;;;;;;;;;;x
+crown_unicorn_helmet;Unicorn Flair (4);;;;;;;;;;;;;;x
+random_world_sword;Sword of [GetRandomPlanetName] (4);;;;;;;;;;;;;;x
+random_world_armor;Armor of [GetRandomPlanetName] (3);;;;;;;;;;;;;;x
+random_world_mythological_heart_1;Heart of a [GetRandomMythologicalCreature] (3);;;;;;;;;;;;;;x
+random_world_mythological_blood;Blood of a [GetRandomMythologicalCreature] (3);;;;;;;;;;;;;;x
+random_world_mythological_eye;Eye of a [GetRandomMythologicalCreature] (3);;;;;;;;;;;;;;x
+random_world_book_of_dev;Book of CK2 Devs (3);;;;;;;;;;;;;;x
+antiquity_book_poetry;Lost Poetry Masterpiece (3);;;;;;;;;;;;;;x
+antiquity_book_play;Lost Play (3);;;;;;;;;;;;;;x
+antiquity_book_medicine;Lost Book of Medicine (3);;;;;;;;;;;;;;x
+antiquity_book_philosophy;Lost Philosophy Book (3);;;;;;;;;;;;;;x
+antiquity_book_architecture;Lost Architecture Book (3);;;;;;;;;;;;;;x
+antiquity_book_history;Book on Ancient History (1);;;;;;;;;;;;;;x
+antiquity_book_astronomy;Lost Astronomy Book (3);;;;;;;;;;;;;;x
+antiquity_book_fake;Clever Forgery (1);;;;;;;;;;;;;;x
+zweihander_sword;Zweihander (2);;;;;;;;;;;;;;x
+wonder_artifact_bells;Bells (3);;;;;;;;;;;;;;x
+sword_from_heaven;Sword from Heaven (3);;;;;;;;;;;;;;x
+hezekiahs_hammer;Hezekiah's Hammer (5+);;;;;;;;;;;;;;x
+menorah;The Menorah (4+);;;;;;;;;;;;;;x
+maccabean_shield;Maccabean Shield (4+);;;;;;;;;;;;;;x
+himyarite_mask;Himyarite Mask (4+);;;;;;;;;;;;;;x
+priestly_breastplate;Priestly Breastplate (3+);;;;;;;;;;;;;;x
+brass_snake;Brass Snake (2+);;;;;;;;;;;;;;x
+gungnir;Gungnir (5+);;;;;;;;;;;;;;x
+odins_eye;Odin's Eye (5+);;;;;;;;;;;;;;x
+gleipnir;Gleipnir (5+);;;;;;;;;;;;;;x
+jarngreipr;Jarngreipr (4+);;;;;;;;;;;;;;x
+fafnirs_scale;Fafnir's Scale (4+);;;;;;;;;;;;;;x
+braggis_harp;Braggi's Harp (4+);;;;;;;;;;;;;;x
+brisingamen;Brisingamen (3+);;;;;;;;;;;;;;x
+tarnkappe;Tarnkappe (3+);;;;;;;;;;;;;;x
+huginns_feather;Huginn's Feather (3+);;;;;;;;;;;;;;x
+muninns_feather;Muninn's Feather (3+);;;;;;;;;;;;;;x
+slayers_skull;[From.OriginalOwner.GetTitledFirstName]'s Skull (1+);;;;;;;;;;;;;;x
+jaguar_spear;Ritual Hunting Spear (5+);;;;;;;;;;;;;;x
+djembe;Djembe (4+);;;;;;;;;;;;;;x
+dan_mask;Dan Mask (4+);;;;;;;;;;;;;;x
+ashanti_doll;Ashanti Doll (4+);;;;;;;;;;;;;;x
+herbal_medicine;Herbal Medicine (3+);;;;;;;;;;;;;;x
+ukonvasara;Ukonvasara (5+);;;;;;;;;;;;;;x
+sampo_fragment;Sampo fragment (5+);;;;;;;;;;;;;;x
+vipunens_magic_scroll;Vipunen's Magic Scroll (4+);;;;;;;;;;;;;;x
+vainamoinens_harp;Vainamoinen's Harp (4+);;;;;;;;;;;;;;x
+kalevanmiekka;Kalevanmiekka (4+);;;;;;;;;;;;;;x
+beard_of_moss;Beard of Moss (3+);;;;;;;;;;;;;;x
+axe_pendant;Axe Pendant (2+);;;;;;;;;;;;;;x
+svarogs_hammer;Svarog's Hammer (5+);;;;;;;;;;;;;;x
+kladenets;Kladenets (4+);;;;;;;;;;;;;;x
+raskovnik;Raskovnik (4+);;;;;;;;;;;;;;x
+fern_flower;Fern Flower (3+);;;;;;;;;;;;;;x
+peruns_stones;Perun's Stones (3+);;;;;;;;;;;;;;x
+world_tree_branch;Branch of the World Tree (5+);;;;;;;;;;;;;;x
+velnias_bow;Velnias's Bow (4+);;;;;;;;;;;;;;x
+laimas_scales;Laima's Scales (4+);;;;;;;;;;;;;;x
+evening_star_mark;Mark of the Evening Star (3+);;;;;;;;;;;;;;x
+morning_star_mark;Mark of the Morning Star (3+);;;;;;;;;;;;;;x
+aram;Aram (5+);;;;;;;;;;;;;;x
+skai_unav;Skai Unav (5+);;;;;;;;;;;;;;x
+asenas_paw;Asena's Paw (4+);;;;;;;;;;;;;;x
+alpamyshs_chain;Alpamysh's Chains (3+);;;;;;;;;;;;;;x
+tengris_favor;Tengri's Favor (2+);;;;;;;;;;;;;;x
+meteorite;Meteorite (5+);;;;;;;;;;;;;;x
+blazing_crown;The Blazing Crown (5+);;;;;;;;;;;;;;x
+ashrune;Ashrune (5+);;;;;;;;;;;;;;x
+sun_scepter;Scepter of the Sun (4+);;;;;;;;;;;;;;x
+mask_of_terror;Mask of Terror (4+);;;;;;;;;;;;;;x
+cylinder_of_secrets;Cylinder of Secrets (4+);;;;;;;;;;;;;;x
+sunlight_medallion;Sunlight Medallion (3+);;;;;;;;;;;;;;x
+pandoras_box;Pandora's Box (5+);;;;;;;;;;;;;;x
+trident_of_poseidon;Trident of [From.Owner.GetNeptuneName] (5+);;;;;;;;;;;;;;x
+bow_of_artemis;[From.Owner.GetDianaName]'s Bow (4+);;;;;;;;;;;;;;x
+girdle_of_aphrodite;Girdle of [From.GetAphroditeVenusName] (4+);;;;;;;;;;;;;;x
+sandals_of_hermes;Talaria (4+);;;;;;;;;;;;;;x
+armor_of_achilles;Armor of Achilles (4+);;;;;;;;;;;;;;x
+shield_of_achilles;Shield of Achilles (4+);;;;;;;;;;;;;;x
+pelt_of_the_nemean_lion;Pelt of the Nemean Lion (5+);;;;;;;;;;;;;;x
+alberichs_ring;Alberich's Ring (4+);;;;;;;;;;;;;;x
+nagelring;Nagelring (5+);;;;;;;;;;;;;;x
+brionac;Brionac (5+);;;;;;;;;;;;;;x
+curtana;Curtana (4+);;;;;;;;;;;;;;x
+durandal;Durandal (5+);;;;;;;;;;;;;;x
+joyeuse;Joyeuse (5+);;;;;;;;;;;;;;x
+joyeuse_ceromonial;Joyeuse (5+);;;;;;;;;;;;;;x
