@@ -54,10 +54,7 @@ decisions = {
 			}
 			NOT = {
 				ROOT = {
-					trait = strong
-					trait = fair
-					trait = genius
-					trait = born_in_the_purple
+					trait = yat_trait
 				}
 			}
 		}

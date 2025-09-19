@@ -49,10 +49,7 @@ character_event = {
 
     option = { #it's their duty
         name = Gimme
-        add_trait = genius
-		add_trait = strong
-		add_trait = fair
-		add_trait = born_in_the_purple
+        add_trait = yam_trait
 		remove_trait = inbred
     }
 }
