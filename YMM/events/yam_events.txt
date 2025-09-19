@@ -15,6 +15,18 @@ character_event = {
 		create_bloodline = {
 			type = yam_bloodline
 		}
+		create_bloodline = {
+			type = hybrid_murder_builder_bloodline_01
+		}
+		create_bloodline = {
+			type = hybrid_peace_architect_bloodline_01
+		}
+		create_bloodline = {
+			type = hybrid_peace_castellan_bloodline_01
+		}
+		create_bloodline = {
+			type = hybrid_peace_monumental_bloodline_01
+		}
 		ai_chance = { 
 			factor = 100
 		}
