@@ -12,23 +12,45 @@ character_event = {
 	
 	option = { #Gain yan bloodline
 		name = Gimme
-		create_bloodline = {
-			type = yam_bloodline
+		if = { 
+			limit = { is_female = no }
+			create_bloodline = {
+				type = yam_bloodline
+			}		
+			create_bloodline = {
+				type = hybrid_murder_builder_bloodline_01
+			}
+			create_bloodline = {
+				type = hybrid_peace_castellan_bloodline_01
+			}
+			create_bloodline = {
+				type = hybrid_peace_architect_bloodline_01
+			}
+			create_bloodline = {
+				type = hybrid_peace_monumental_bloodline_01
+			}
 		}
-		create_bloodline = {
-			type = hybrid_murder_builder_bloodline_01
-		}
-		create_bloodline = {
-			type = hybrid_peace_architect_bloodline_01
-		}
-		create_bloodline = {
-			type = hybrid_peace_castellan_bloodline_01
-		}
-		create_bloodline = {
-			type = hybrid_peace_monumental_bloodline_01
-		}
-		ai_chance = { 
-			factor = 100
+		if = { 
+			limit = { is_female = yes }
+			create_bloodline = {
+				type = yam_bloodline
+			}		
+			create_bloodline = {
+				type = hybrid_murder_builder_bloodline_01
+				inheritance = matrilineal
+			}
+			create_bloodline = {
+				type = hybrid_peace_castellan_bloodline_01
+				inheritance = matrilineal
+			}
+			create_bloodline = {
+				type = hybrid_peace_architect_bloodline_01
+				inheritance = matrilineal
+			}
+			create_bloodline = {
+				type = hybrid_peace_monumental_bloodline_01
+				inheritance = matrilineal
+			}
 		}
 	}
 }
