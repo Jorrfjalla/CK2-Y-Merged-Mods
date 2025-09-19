@@ -145,7 +145,7 @@ character_event = {
 
 character_event = {
 	id = yam.6
-	desc = meowmeowmeow
+	desc = yam_6desc
 	picture = GFX_evt_beatification
 	is_triggered_only = yes
 
