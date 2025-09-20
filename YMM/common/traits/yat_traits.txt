@@ -1,6 +1,6 @@
 yat_trait = {
-	customizer = no
-	random = no
+	customizer = no #No ruler customiser
+	random = no #Never randomly generated
 	diplomacy = 7
 	martial = 7
 	stewardship = 5
@@ -13,5 +13,5 @@ yat_trait = {
 	vassal_opinion = 15
 	tribal_opinion = 10
 	sex_appeal_opinion = 40
-	inherit_chance = 100
+	inherit_chance = 100 #Guaranteed inheritance to go along with the bloodlines
 }

@@ -1,52 +1,78 @@
 gender_laws = {
-	enatic_succession = {
+	enatic_succession = { #Women inheit only
 		male_dynasty_opinion = -10
 		female_dynasty_opinion = 10
 		
-		potential = {
+		potential = { #Always show when gamerule is enabled
 			always = yes
 			has_game_rule = {
 				name = y_succ_laws
 				value = enabled
 			}
 		}
-		allow = {
+		allow = { #Always allow
+			always = yes
 		}
-		effect = {
+		effect = { #Set succession to enatic
 			gender_succ = enatic
 		}
 		revoke_allowed = {
 			always = no
 		}
-		default_selection = {
+		default_selection = { #ai only section
 			factor = 1
-			
+
+			modifier = { #Removes ai chance to accept if they do not have relevant bloodline
+				factor = 0
+				NOT = {
+					holder_scope = {
+						OR = {
+							has_religion_feature = religion_matriarchal
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_enatic_cognatic
+							}
+						}
+					}
+				}
+			}
+
+			modifier = { #Increases ai chance to accept if they have enatic clan religion
+				factor = 105
+				holder_scope = {
+					OR = {
+						has_religion_feature = religion_matriarchal
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_enatic_cognatic 
+						}
+					}
+			}
 		}
 	}
 	
-	enatic_cognatic_succession = {
+	enatic_cognatic_succession = { #Women inherit first
 		male_dynasty_opinion = -5
 		female_dynasty_opinion = 5
 		
-		potential = {
+		potential = { #Always show when gamerule is enabled
 			always = yes
 			has_game_rule = {
 				name = y_succ_laws
 				value = enabled
 			}
 		}
-		allow = {
+		allow = { #Always allow
+			always = yes
 		}
-		effect = {
+		effect = { #Set succession to enatic_cognatic
 			gender_succ = enatic_cognatic
 		}
 		revoke_allowed = {
 			always = no
 		}	
-		default_selection = {
+		default_selection = { #ai selection factor
 			factor = 1
 			
-			modifier = {
+			modifier = { #Removes ai chance to accept if they do not have relevant bloodline
 				factor = 0
 				NOT = {
 					holder_scope = {
@@ -60,8 +86,8 @@ gender_laws = {
 				}
 			}
 			
-			modifier = {
-				factor = 100
+			modifier = { #Increases ai chance to accept if they have enatic clan religion
+				factor = 110
 				holder_scope = {
 					OR = {
 						has_religion_feature = religion_matriarchal

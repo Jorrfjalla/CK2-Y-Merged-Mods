@@ -1,10 +1,10 @@
 targetted_decisions = {
-	mp_alliance = {
-		from_potential = {
+	mp_alliance = { #Create alliance
+		from_potential = { #Player only
 			is_alive = yes
 			ai = no
 		}
-		potential = {
+		potential = { #Targetted to another player only, and not already in an alliance with each other
 			is_alive = yes
 			ai = no
 			has_game_rule = {
@@ -22,7 +22,7 @@ targetted_decisions = {
 				}
 			}
 		}
-		allow = {
+		allow = { #2nd check to make sure not in alliance together already
 			NOT = {
 				AND = {
 					ROOT = {
@@ -34,7 +34,7 @@ targetted_decisions = {
 				}
 			}
 		}
-		effect = {
+		effect = { #Adds mp_alliance flag to both parties, also creates 1000 year alliance, this is overkill, but with the flag system, each individual character can only do this once
 			FROM = { 
 				add_alliance = { 
 				who = ROOT 
@@ -50,18 +50,18 @@ targetted_decisions = {
 				set_character_flag = mp_alliance
 			}
 		}
-		revoke_allowed = {
+		revoke_allowed = { #Unsure what this does, since you can still break the alliance manually
 			always = no
 		}
 	}
 
-	mp_friend = {
-		from_potential = {
+	mp_friend = { #Add mutual friendsip
+		from_potential = { #Player only
 			is_alive = yes
 			ai = no
 			NOT = { is_friend = FROM }
 		}
-		potential = {
+		potential = { #Targetted to player only, who is not already a friend
 			is_alive = yes
 			ai = no
 			has_game_rule = {
@@ -70,25 +70,25 @@ targetted_decisions = {
 			}
 			NOT = { is_friend = FROM }
 		}
-		allow = {
+		allow = { #Another check if friends or not
 			NOT = { is_friend = FROM }
 		}
-		effect = {
+		effect = { #Add friend status
 			FROM = { 
 				add_friend = ROOT
 			}
 		}
-		revoke_allowed = {
+		revoke_allowed = { #Unsure what this does
 			always = no
 		}
 	}
 
-	mp_cash_100 = {
-		from_potential = {
+	mp_cash_100 = { #Player to player, 100 gold transfer
+		from_potential = { #Player only
 			is_alive = yes
 			ai = no
 		}
-		potential = {
+		potential = { #Targetted to player only, also check if source has >= 100 gold to give
 			is_alive = yes
 			ai = no
 			has_game_rule = {
@@ -99,12 +99,12 @@ targetted_decisions = {
 				wealth >= 100
 			}
 		}
-		allow = {
+		allow = { #Additional check to ensure enough gold
 			FROM = {
 				wealth >= 100
 			}
 		}
-		effect = {
+		effect = { #Give 100 gold to target, take away 100 gold from source
 			FROM = { wealth = -100 }
 			ROOT = { wealth = 100 }
 		}
@@ -113,7 +113,7 @@ targetted_decisions = {
 		}
 	}
 
-	mp_cash_500 = {
+	mp_cash_500 = { #500 gold transfer, see above for breakdown
 		from_potential = {
 			is_alive = yes
 			ai = no
@@ -143,7 +143,7 @@ targetted_decisions = {
 		}
 	}
 	
-	mp_cash_1000 = {
+	mp_cash_1000 = { #1000 gold transfer, see above for breakdown
 		from_potential = {
 			is_alive = yes
 			ai = no
@@ -173,7 +173,7 @@ targetted_decisions = {
 		}
 	}
 	
-	mp_cash_5000 = {
+	mp_cash_5000 = { #5000 gold transfer, see above for breakdown
 		from_potential = {
 			is_alive = yes
 			ai = no

@@ -21,14 +21,14 @@ targetted_decisions = {
                 ROOT = {
                     opinion = {
                     who = FROM
-                    value >= 95
+                    value >= 95 #Basic chance, since this is quite powerful
                     }
                 }
                 AND = {
                     ROOT = {
                         opinion = {
                         who = FROM
-                        value >= 80
+                        value >= 80 #Easier when sharing a culture
                         }
                         culture = FROM
                     }
@@ -37,7 +37,7 @@ targetted_decisions = {
                     ROOT = {
                         opinion = {
                         who = FROM
-                        value >= 80
+                        value >= 80 #Easier when sharing a religion
                         }
                         religion = FROM
                     }
@@ -46,7 +46,7 @@ targetted_decisions = {
                     ROOT = {
                         opinion = {
                         who = FROM
-                        value >= 70
+                        value >= 70 #Easier still when sharing both culture and religion
                         }
                         religion = FROM
                         culture = FROM
@@ -55,7 +55,7 @@ targetted_decisions = {
             }
             
         }
-        effect = {
+        effect = { #Adds NAP for 50 years with each other
             opinion = {
                 modifier = in_non_aggression_pact
                 years = 50

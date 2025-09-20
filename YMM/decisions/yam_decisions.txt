@@ -2,7 +2,7 @@ decisions = {
 
 	yam_bloodline_create = {
 		is_high_prio = yes
-		potential = {
+		potential = { #Player only and doesn't have existing bloodline already
 			ai = no
 			has_game_rule = {
 				name = artifact_mod
@@ -14,17 +14,17 @@ decisions = {
 				}
 			}
 		}
-		effect = {
+		effect = { #Call linked event that actually gives the bloodline
 			character_event = { id = yam.1 days = 0 }
 		}
-		ai_will_do = {
+		ai_will_do = { #Unneeded
 			factor = 0
 		}
 	}
 	
 	yam_artifacts_create = {
 		is_high_prio = yes
-		potential = {
+		potential = { #Player only
 			ai = no
 			has_game_rule = {
 				name = artifact_mod
@@ -36,17 +36,17 @@ decisions = {
 				}
 			}
 		}
-		effect = {
+		effect = { #Call linked event that actually gives the artifacts
 			character_event = { id = yam.2 days = 0 }
 		}
-		ai_will_do = {
+		ai_will_do = { #Unneeded
 			factor = 0
 		}
 	}
 	
 	yam_traits_fix = {
 		is_high_prio = yes
-		potential = {
+		potential = { #Player only and doesn't already have cheat trait
 			ai = no
 			has_game_rule = {
 				name = artifact_mod
@@ -58,7 +58,7 @@ decisions = {
 				}
 			}
 		}
-		effect = {
+		effect = { #Calls linked event that actually gives the trait
 			character_event = { id = yam.3 days = 0 }
 		}
 		ai_will_do = {
@@ -68,7 +68,7 @@ decisions = {
 
 	yam_educate_me = {
 		is_high_prio = yes
-		potential = {
+		potential = { #Player only and doesn't already have all max educations
 			ai = no
 			has_game_rule = {
 				name = artifact_mod
@@ -86,7 +86,7 @@ decisions = {
 				}
 			}
 		}
-		effect = {
+		effect = { #Calls linked event that actually gives all the educations
 			character_event = { id = yam.6 days = 0 }
 		}
 		ai_will_do = {

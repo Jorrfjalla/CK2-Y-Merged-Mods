@@ -1,14 +1,14 @@
 yam_bloodline = {
-	bloodline_effect_murder_stalk = 1
-	bloodline_effect_loyal_councilors = 1
-	bloodline_effect_artisan_craftsmen = 1
-	bloodline_effect_battle_bards = 1
-	bloodline_effect_fearsome = 1
-	bloodline_effect_reaver = 1
-	bloodline_effect_ambition = 1
-	bloodline_effect_duel = 1
-	bloodline_effect_bloodline_mercenary_traditions = 1
-	bloodline_effect_always_viking = 1
+	bloodline_effect_murder_stalk = 1 #Personally pursue murders
+	bloodline_effect_loyal_councilors = 1 #Councilors tend to be loyal
+	bloodline_effect_artisan_craftsmen = 1 #Better quality from craftsmen
+	bloodline_effect_battle_bards = 1 #'Unique' battlefield tactics
+	bloodline_effect_fearsome = 1 #Increases enemy commander capture rate
+	bloodline_effect_reaver = 1 #Increases artifact steal chance
+	bloodline_effect_ambition = 1 #Tends to become ambitious
+	bloodline_effect_duel = 1 #Allows dueling
+	bloodline_effect_bloodline_mercenary_traditions = 1 #Kids can go off to prove themselves as mercenaries
+	bloodline_effect_always_viking = 1 #Allows gaining pirate traits from raiding
 	plot_power_modifier = 0.1
 	combat_rating = 10
 	monthly_character_prestige = 1
@@ -16,7 +16,7 @@ yam_bloodline = {
 	inheritance = all_descendants
 	allow_bastards = yes
 	picture = "GFX_bloodlines_symbol_tengri_eagle"
-	flags = { 
+	flags = { #custom bloodline flag for command checking
 		bloodline_mythic
 	}
 	active = {

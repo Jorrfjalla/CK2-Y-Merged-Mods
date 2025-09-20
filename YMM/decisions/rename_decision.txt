@@ -1,12 +1,12 @@
 targetted_decisions = {
 
     rename_on = {
-		filter = all
+		filter = all #Allows targetting everyone
 		
-		from_potential = {
+		from_potential = { #Player only
 			ai = no
 		}
-		potential = {
+		potential = { #Non-player, same dynasty as player
 			ai = yes
 			dynasty = FROM
 			has_game_rule = {
@@ -14,10 +14,10 @@ targetted_decisions = {
 				value = enabled
 			}
 		}
-		allow = {
+		allow = { #Additional check for same dynasty as player
 			dynasty = FROM
 		}
-		effect = {
+		effect = { #Create rename message, taken straight from 'Rename anyone'
 	        ROOT = {
 		        prompt_name = { player = from type = RENAME_CHARACTER_MESSAGE }
 	        }
@@ -25,24 +25,24 @@ targetted_decisions = {
 	}
 
 
-    rename_self = {
-		filter = self
+    rename_self = { #2nd command for renaming self to allow localisation changes
+		filter = self #Self only
 		
-		from_potential = {
+		from_potential = { #Player Only
 			ai = no
 		}
-		potential = {
+		potential = { #Just check if alive
 			is_alive = yes
 			has_game_rule = {
 				name = rename_family
 				value = enabled
 			}
 		}
-		allow = {
+		allow = { #Always allowed
 	        always = yes
 		}
 		effect = {
-	        ROOT = {
+	        ROOT = { #Rename message
 		        prompt_name = { player = from type = RENAME_CHARACTER_MESSAGE }
 	        }
 		}
