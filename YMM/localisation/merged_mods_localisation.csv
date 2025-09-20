@@ -17,7 +17,7 @@ RULE_ARTIFACT_MOD_DISABLED;Disabled;;;;;;;;;;;;;x;
 RULE_ARTIFACT_MOD_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;
 RULE_NON_AGGRESSION_PACT_DECISION;§RYMM§!:Non Aggression Pact Decision;;;;;;;;;;;;;x;
 RULE_NON_AGGRESSION_PACT_DECISION_ENABLED;Enabled;;;;;;;;;;;;;x;
-RULE_NON_AGGRESSION_PACT_DECISION_ENABLED_DESC;Targetted decision with high enough opinion to form a NAP;;;;;;;;;;;;;x;
+RULE_NON_AGGRESSION_PACT_DECISION_ENABLED_DESC;Targeted decision with high enough opinion to form a NAP;;;;;;;;;;;;;x;
 RULE_NON_AGGRESSION_PACT_DECISION_DISABLED;Disabled;;;;;;;;;;;;;x;
 RULE_NON_AGGRESSION_PACT_DECISION_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;
 RULE_MULTIPLAYER_COMMANDS;§RYMM§!:Multiplayer Commands;;;;;;;;;;;;;x;
