@@ -1,0 +1,117 @@
+castle = {
+    ca_checkpoint_1 = {
+		desc = ca_checkpoint_1_desc
+        potential = {
+            FROM = {
+                has_bloodline_flag = bloodline_yan
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		gold_cost = 200
+		build_time = 365
+		fort_level = 2.0
+		levy_size = 0.1
+		tax_income = 0.5
+        garrison_size = 0.25
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 8.0
+	}
+	ca_checkpoint_2 = {
+		desc = ca_checkpoint_2_desc
+        potential = {
+            FROM = {
+                has_bloodline_flag = bloodline_yan
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ca_checkpoint_1
+		gold_cost = 300
+		build_time = 365
+		fort_level = 4.0
+		levy_size = 0.2
+		tax_income = 1.0
+        garrison_size = 0.5
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 8.0
+	}
+}
+city = {
+    ct_checkpoint_1 = {
+		desc = ct_checkpoint_1_desc
+        potential = {
+            FROM = {
+                has_bloodline_flag = bloodline_yan
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		gold_cost = 200
+		build_time = 365
+		fort_level = 2.0
+		levy_size = 0.1
+		tax_income = 0.5
+        garrison_size = 0.25
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 8.0
+	}
+	ct_checkpoint_2 = {
+		desc = ct_checkpoint_2_desc
+        potential = {
+            FROM = {
+                has_bloodline_flag = bloodline_yan
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ct_checkpoint_1
+		gold_cost = 300
+		build_time = 365
+		fort_level = 4.0
+		levy_size = 0.2
+		tax_income = 1.0
+        garrison_size = 0.5
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 8.0
+	}
+}
+temple = {
+    tp_checkpoint_1 = {
+		desc = tp_checkpoint_1_desc
+        potential = {
+            FROM = {
+                has_bloodline_flag = bloodline_yan
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		gold_cost = 200
+		build_time = 365
+		fort_level = 2.0
+		levy_size = 0.1
+		tax_income = 0.5
+        garrison_size = 0.25
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 8.0
+	}
+	tp_checkpoint_2 = {
+		desc = tp_checkpoint_2_desc
+        potential = {
+            FROM = {
+                has_bloodline_flag = bloodline_yan
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = tp_checkpoint_1
+		gold_cost = 300
+		build_time = 365
+		fort_level = 4.0
+		levy_size = 0.2
+		tax_income = 1.0
+        garrison_size = 0.5
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 8.0
+	}
+}
