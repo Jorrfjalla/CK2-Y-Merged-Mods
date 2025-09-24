@@ -1,3 +1,35 @@
+targetted_decisions = {
+	prune_family_tree = {
+		ai= no
+		from_potential = {
+			is_alive = yes
+			ai = no
+		}
+		potential = {
+			is_alive = yes
+			has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				any_dynasty_member_even_if_dead = {
+					limit = {
+						is_alive = no
+						has_children = no
+					}
+					set_mother = 0
+					set_father = 0
+					dynasty = none
+				}
+			}
+		}
+	}
+}
 decisions = {
     lf_b_remove_parentage = {
 		ai = no
