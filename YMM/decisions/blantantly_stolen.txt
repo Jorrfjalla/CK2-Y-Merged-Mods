@@ -2,6 +2,10 @@ decisions = {
     lf_b_remove_parentage = {
 		ai = no
 		potential = {
+            has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
 			any_child_even_if_dead = {
 				is_alive = no
 				has_children = no
@@ -29,6 +33,10 @@ decisions = {
             ai = no
         }
         potential = {
+            has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
             any_bloodline_member_including_dead = {
                 is_alive = no
                 has_children = no

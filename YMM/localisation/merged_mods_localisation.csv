@@ -20,3 +20,8 @@ RULE_MULTIPLAYER_COMMANDS_ENABLED;Enabled;;;;;;;;;;;;;x;
 RULE_MULTIPLAYER_COMMANDS_ENABLED_DESC;Extra player only commands added;;;;;;;;;;;;;x;
 RULE_MULTIPLAYER_COMMANDS_DISABLED;Disabled;;;;;;;;;;;;;x;
 RULE_MULTIPLAYER_COMMANDS_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;
+RULE_TREE_PRUNING;§RYMM§!:Family tree pruning;;;;;;;;;;;;;x;
+RULE_TREE_PRUNING_ENABLED;Enabled;;;;;;;;;;;;;x;
+RULE_TREE_PRUNING_ENABLED_DESC;2 intrigue decisions to help prune dead, childless people off the family tree;;;;;;;;;;;;;x;
+RULE_TREE_PRUNING_DISABLED;Disabled;;;;;;;;;;;;;x;
+RULE_TREE_PRUNING_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;

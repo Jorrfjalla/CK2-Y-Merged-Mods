@@ -54,3 +54,17 @@ multiplayer_commands = {
 		desc = "RULE_MULTIPLAYER_COMMANDS_DISABLED_DESC"
 	}
 }
+tree_pruning = {
+	name = "RULE_TREE_PRUNING"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = enabled
+		text = "RULE_TREE_PRUNING_ENABLED"
+		desc = "RULE_TREE_PRUNING_ENABLED_DESC"
+	}
+	option = {
+		name = disabled
+		text = "RULE_TREE_PRUNING_DISABLED"
+		desc = "RULE_TREE_PRUNING_DISABLED_DESC"
+	}
+}
