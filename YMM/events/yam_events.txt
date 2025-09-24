@@ -159,6 +159,21 @@ character_event = {
 		add_trait = midas_touched
 		add_trait = elusive_shadow
 		add_trait = mastermind_theologian
+		remove_trait = naive_appeaser
+		remove_trait = underhanded_rogue
+		remove_trait = charismatic_negotiator
+		remove_trait = misguided_warrior
+		remove_trait = tough_soldier
+		remove_trait = skilled_tactician
+		remove_trait = indulgent_wastrel
+		remove_trait = thrifty_clerk
+		remove_trait = fortune_builder
+		remove_trait = amateurish_plotter
+		remove_trait = flamboyant_schemer
+		remove_trait = intricate_webweaver
+		remove_trait = detached_priest
+		remove_trait = martial_cleric
+		remove_trait = scholarly_theologian
 	}
 }
 
