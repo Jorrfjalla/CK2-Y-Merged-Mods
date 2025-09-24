@@ -102,13 +102,13 @@ decisions = {
 	}
 	
 	yam_bloodline_destroy = {
-		potential = { #Player only and has corresponding bloodline
+		potential = { #Player only and corresponding bloodline exists ingame
 			ai = no
 			has_game_rule = {
 				name = artifact_mod
 				value = enabled
 			}
-			any_owned_bloodline = {
+			any_bloodline = {
 				has_bloodline_flag = bloodline_yan
 			}
 		}
