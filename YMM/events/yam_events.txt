@@ -161,3 +161,17 @@ character_event = {
 		add_trait = mastermind_theologian
 	}
 }
+
+character_event = {
+	id = yam.7
+	desc = Nuke
+	is_triggered_only = yes
+
+	option = {
+		name = Bomba
+		any_bloodline = {
+			has_bloodline_flag = bloodline_yan
+		}
+		destroy_bloodline = yes
+	}
+}

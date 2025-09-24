@@ -10,7 +10,7 @@ decisions = {
 			}
 			NOT = {
 				any_owned_bloodline = {
-					has_bloodline_flag = bloodline_mythic
+					has_bloodline_flag = bloodline_yan
 				}
 			}
 		}
@@ -97,6 +97,25 @@ decisions = {
 			character_event = { id = yam.6 days = 0 }
 		}
 		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	yam_bloodline_destroy = {
+		potential = { #Player only and has corresponding bloodline
+			ai = no
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_yan
+			}
+		}
+		effect = { #Call linked event that destroys the bloodline
+			character_event = { id = yam.7 days = 0 }
+		}
+		ai_will_do = { #Unneeded
 			factor = 0
 		}
 	}
