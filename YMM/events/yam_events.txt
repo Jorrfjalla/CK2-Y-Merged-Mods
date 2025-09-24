@@ -64,6 +64,16 @@ character_event = {
         name = Gimme
         add_trait = yat_trait
 		remove_trait = inbred
+		remove_trait = clubfooted
+		remove_trait = harelip
+		remove_trait = hunchback
+		remove_trait = imbecile
+		remove_trait = inbred
+		remove_trait = lisp
+		remove_trait = slow
+		remove_trait = stutter
+		remove_trait = ugly
+		remove_trait = weak
     }
 }
 

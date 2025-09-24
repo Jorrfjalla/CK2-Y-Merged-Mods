@@ -1,17 +1,3 @@
-y_succ_laws = {
-	name = "RULE_Y_SUCC_LAWS"
-	group = "RULE_GROUP_Y"
-	option = {
-		name = disabled
-		text = "RULE_Y_SUCC_LAWS_DISABLED"
-		desc = "RULE_Y_SUCC_LAWS_DISABLED_DESC"
-	}
-	option = {
-		name = enabled
-		text = "RULE_Y_SUCC_LAWS_ENABLED"
-		desc = "RULE_Y_SUCC_LAWS_ENABLED_DESC"
-	}
-}
 rename_family = {
 	name = "RULE_RENAME_FAMILY"
 	group = "RULE_GROUP_Y"

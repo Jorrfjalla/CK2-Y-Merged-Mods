@@ -52,11 +52,26 @@ decisions = {
 				name = artifact_mod
 				value = enabled
 			}
-			NOT = {
+			OR = {
 				ROOT = {
+					trait = clubfooted
+					trait = harelip
+					trait = hunchback
+					trait = imbecile
+					trait = inbred
+					trait = lisp
+					trait = slow
+					trait = stutter
+					trait = ugly
+					trait = weak
+				}
+				NOT = {
+					ROOT = {
 					trait = yat_trait
+					}
 				}
 			}
+			
 		}
 		effect = { #Calls linked event that actually gives the trait
 			character_event = { id = yam.3 days = 0 }
