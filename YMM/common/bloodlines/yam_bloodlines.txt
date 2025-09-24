@@ -1,23 +1,40 @@
 yam_bloodline = {
-	bloodline_effect_murder_stalk = 1 #Personally pursue murders
-	bloodline_effect_loyal_councilors = 1 #Councilors tend to be loyal
 	bloodline_effect_artisan_craftsmen = 1 #Better quality from craftsmen
-	bloodline_effect_battle_bards = 1 #'Unique' battlefield tactics
-	bloodline_effect_fearsome = 1 #Increases enemy commander capture rate
-	bloodline_effect_reaver = 1 #Increases artifact steal chance
 	bloodline_effect_ambition = 1 #Tends to become ambitious
-	bloodline_effect_duel = 1 #Allows dueling
-	bloodline_effect_bloodline_mercenary_traditions = 1 #Kids can go off to prove themselves as mercenaries
-	bloodline_effect_always_viking = 1 #Allows gaining pirate traits from raiding
 	plot_power_modifier = 0.1
 	combat_rating = 10
 	monthly_character_prestige = 1
 	monthly_character_piety = 1
-	inheritance = all_descendants
-	allow_bastards = yes
+	inheritance = all_descendants #Inherits through both male and female line
+	allow_bastards = yes #Even bastards can get in on the bloodline, keep an eye out for illegitimate children from ai though 
 	picture = "GFX_bloodlines_symbol_tengri_eagle"
-	flags = { #custom bloodline flag for command checking
-		bloodline_mythic
+	flags = { #Most important section, this enables all the special game interactions, above is just flavour text, also has custom tag for location of this exact bloodline
+		bloodline_yan 
+		bloodline_castellan 
+		bloodline_blood_building 
+		bloodline_architect 
+		bloodline_monumental 
+		bloodline_reaver 
+		bloodline_fearsome 
+		bloodline_inspire_commanders 
+		bloodline_loyalist 
+		bloodline_artisan_craftsmen
+		bloodline_battle_bards
+		bloodline_pet_eagle
+		bloodline_ambition
+		duelist_bloodline
+		battle_survivor_bloodline
+		grand_crusader_bloodline
+		bloodline_murder_stalk
+		bloodline_revocation_plot
+		monastic_saintly_bloodline
+		cultural_saintly_bloodline
+		inquisitional_saintly_bloodline
+		bloodline_mercenary_traditions
+		bloodline_viking
+		bloodline_enatic_cognatic
+		bloodline_princely_elective_bonus
+		
 	}
 	active = {
 		has_game_rule = {
