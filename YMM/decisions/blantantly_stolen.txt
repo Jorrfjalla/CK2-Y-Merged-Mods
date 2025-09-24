@@ -65,38 +65,4 @@ decisions = {
 			}
 		}
 	}
-	hide_pruning = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = tree_pruning
-				value = enabled
-			}
-			NOT = {
-				has_character_flag = hidden_pruning
-			}
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			set_character_flag = hidden_pruning
-		}
-	}
-	show_pruning = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = tree_pruning
-				value = enabled
-			}
-			has_character_flag = hidden_pruning
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			clr_character_flag = hidden_pruning
-		}
-	}
 }

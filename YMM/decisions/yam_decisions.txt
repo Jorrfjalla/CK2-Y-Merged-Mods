@@ -134,38 +134,4 @@ decisions = {
 			factor = 0
 		}
 	}
-	hide_yam = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = artifact_mod
-				value = enabled
-			}
-			NOT = {
-				has_character_flag = hidden_yam
-			}
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			set_character_flag = hidden_yam
-		}
-	}
-	show_yam = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = artifact_mod
-				value = enabled
-			}
-			has_character_flag = hidden_yam
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			clr_character_flag = hidden_yam
-		}
-	}
 }

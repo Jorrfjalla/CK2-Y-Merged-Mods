@@ -221,39 +221,3 @@ targetted_decisions = {
 		}
 	}
 }
-decisions = {
-	hide_mp_commands = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = multiplayer_commands
-				value = enabled
-			}
-			NOT = {
-				has_character_flag = hidden_mp_commands
-			}
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			set_character_flag = hidden_mp_commands
-		}
-	}
-	show_mp_commands = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = multiplayer_commands
-				value = enabled
-			}
-			has_character_flag = hidden_mp_commands
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			clr_character_flag = hidden_mp_commands
-		}
-	}
-}

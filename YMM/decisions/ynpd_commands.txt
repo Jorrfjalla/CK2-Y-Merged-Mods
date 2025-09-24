@@ -67,39 +67,3 @@ targetted_decisions = {
         }
     }
 }
-decisions = {
-	hide_nap = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = non_aggression_pact_decision
-				value = enabled
-			}
-			NOT = {
-				has_character_flag = hidden_nap
-			}
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			set_character_flag = hidden_nap
-		}
-	}
-	show_nap = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = non_aggression_pact_decision
-				value = enabled
-			}
-			has_character_flag = hidden_nap
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			clr_character_flag = hidden_nap
-		}
-	}
-}

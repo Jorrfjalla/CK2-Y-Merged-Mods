@@ -54,39 +54,3 @@ targetted_decisions = {
 		}
 	}
 }
-decisions = {
-	hide_renaming = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = rename_family
-				value = enabled
-			}
-			NOT = {
-				has_character_flag = hidden_renaming
-			}
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			set_character_flag = hidden_renaming
-		}
-	}
-	show_renaming = {
-		ai= no
-		potential = {
-			has_game_rule = {
-				name = rename_family
-				value = enabled
-			}
-			has_character_flag = hidden_renaming
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			clr_character_flag = hidden_renaming
-		}
-	}
-}

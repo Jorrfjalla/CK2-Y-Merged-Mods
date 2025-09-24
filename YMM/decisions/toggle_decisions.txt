@@ -1,0 +1,172 @@
+toggle_decisions = {
+    hide_pruning = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_pruning
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_pruning
+		}
+	}
+	show_pruning = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
+			has_character_flag = hidden_pruning
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_pruning
+		}
+	}
+    hide_mp_commands = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_mp_commands
+		}
+	}
+	show_mp_commands = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			has_character_flag = hidden_mp_commands
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_mp_commands
+		}
+	}
+    hide_renaming = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = rename_family
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_renaming
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_renaming
+		}
+	}
+	show_renaming = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = rename_family
+				value = enabled
+			}
+			has_character_flag = hidden_renaming
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_renaming
+		}
+	}
+    hide_yam = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_yam
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_yam
+		}
+	}
+	show_yam = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			has_character_flag = hidden_yam
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_yam
+		}
+	}
+    hide_nap = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = non_aggression_pact_decision
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_nap
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_nap
+		}
+	}
+	show_nap = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = non_aggression_pact_decision
+				value = enabled
+			}
+			has_character_flag = hidden_nap
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_nap
+		}
+	}
+}
