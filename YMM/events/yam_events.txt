@@ -177,22 +177,3 @@ character_event = {
 		}
 	}
 }
-
-character_event = {
-	id = yam.8
-	desc = Nuke
-	is_triggered_only = yes
-
-	option = {
-		name = Bomba
-		any_bloodline = {
-			limit = {
-				OR = {
-					has_bloodline_flag = bloodline_mythic
-					has_bloodline_flag = created_bloodline
-				}
-			}
-			destroy_bloodline = yes
-		}
-	}
-}
