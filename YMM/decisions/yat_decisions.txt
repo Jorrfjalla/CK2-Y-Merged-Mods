@@ -1,17 +1,17 @@
-decisions = {
-    purge_cheat_trait = {
-        ai = no
-        potential = {
-            has_trait = yat_trait
-            ai = no
-        }
-        effect = {
-            any_character = {
-                limit = {
-                    has_trait = yat_trait
-                }
-            remove_trait = yat_trait
-            }
-        }   
-    }
-}
+#decisions = {
+#    purge_cheat_trait = {
+#        ai = no
+#        potential = {
+#            has_trait = yat_trait
+#            ai = no
+#        }
+#        effect = {
+#            any_character = {
+#                limit = {
+#                    has_trait = yat_trait
+#                }
+#            remove_trait = yat_trait
+#            }
+#        }   
+#    }
+#}
