@@ -170,8 +170,29 @@ character_event = {
 	option = {
 		name = Bomba
 		any_bloodline = {
-			has_bloodline_flag = bloodline_yan
+			limit = {
+				has_bloodline_flag = bloodline_yan
+			}
+			destroy_bloodline = yes
 		}
-		destroy_bloodline = yes
+	}
+}
+
+character_event = {
+	id = yam.8
+	desc = Nuke
+	is_triggered_only = yes
+
+	option = {
+		name = Bomba
+		any_bloodline = {
+			limit = {
+				OR = {
+					has_bloodline_flag = bloodline_mythic
+					has_bloodline_flag = created_bloodline
+				}
+			}
+			destroy_bloodline = yes
+		}
 	}
 }
