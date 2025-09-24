@@ -4,6 +4,9 @@ targetted_decisions = {
 		from_potential = {
 			is_alive = yes
 			ai = no
+			NOT = {
+				has_character_flag = hidden_pruning
+			}
 		}
 		potential = {
 			is_alive = yes
@@ -57,6 +60,40 @@ decisions = {
 				set_father = 0
 				dynasty = none
 			}
+		}
+	}
+	hide_pruning = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_pruning
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_pruning
+		}
+	}
+	show_pruning = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
+			has_character_flag = hidden_pruning
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_pruning
 		}
 	}
 }
