@@ -1,0 +1,5 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
+lf_b_remove_parentage;Remove dead children;;;;;;;;;;;;;x
+lf_b_remove_parentage_desc;Remove dead, childless children;;;;;;;;;;;;;x
+prune_family_tree;Remove family dead;;;;;;;;;;;;;x
+prune_family_tree_desc;Remove dead, childless family members;;;;;;;;;;;;;x

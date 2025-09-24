@@ -1,0 +1,54 @@
+decisions = {
+    lf_b_remove_parentage = {
+		ai = no
+		potential = {
+			any_child_even_if_dead = {
+				is_alive = no
+				has_children = no
+			}
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			any_child_even_if_dead = {
+				limit = {
+					is_alive = no
+					has_children = no
+				}
+				set_mother = 0
+				set_father = 0
+				dynasty = none
+			}
+		}
+	}
+    prune_family_tree = {
+        ai = no
+        from_potential = {
+            ai = no
+        }
+        potential = {
+            any_bloodline_member_including_dead = {
+                is_alive = no
+                has_children = no
+            }
+            ai=no
+        }
+        allow = {
+            always = yes
+            ai = no
+        }
+        effect = {
+            any_bloodline_member_including_dead = {
+                limit = {
+                    is_alive = no
+                    has_children = no
+                }
+                set_mother = 0
+                set_father = 0
+                dynasty = none
+            }
+        }
+    }
+}
