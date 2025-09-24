@@ -1,5 +1,5 @@
 yam_bloodline = {
-	bloodline_effect_ambition = 1 #Tends to become ambitious text
+	bloodline_effect_ambition = 1 #Tends to become ambitious text, does nothing on it's own
 	health = 1
 	fertility = 0.1
 	plot_power_modifier = 0.1

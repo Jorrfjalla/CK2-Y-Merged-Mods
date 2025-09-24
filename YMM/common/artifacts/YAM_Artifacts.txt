@@ -124,10 +124,10 @@ yam_yan = {
 }
 
 yam_knowledge = {
-	tech_growth_modifier = 1000
-	tech_growth_modifier_economy = 1000
-	tech_growth_modifier_culture = 1000
-	tech_growth_modifier_military = 1000
+	tech_growth_modifier = 100 #Internal tech spread speed modifier, this is 100%
+	tech_growth_modifier_economy = 100 #Unnecessary, just here for redundancy
+	tech_growth_modifier_culture = 100 #Unnecessary, just here for redundancy
+	tech_growth_modifier_military = 100 #Unnecessary, just here for redundancy
 	quality = 5
 	stacking = no
 	flags = {

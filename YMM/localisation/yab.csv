@@ -11,3 +11,7 @@ tp_checkpoint_1;Checkpoint;;;;;;;;;;;;;x
 tp_checkpoint_1_desc;Controlled entry point with additional stationing of helpers and soldiers;;;;;;;;;;;;;x
 tp_checkpoint_2;Reinforced Checkpoint;;;;;;;;;;;;;x
 tp_checkpoint_2_desc;Further reinforcement on entry point, with larger quarters for helpers and soldiers;;;;;;;;;;;;;x
+tb_checkpoint_1;Patrolled Roads;;;;;;;;;;;;;x
+tb_checkpoint_1_desc;Patrols deployed along key roads around our settlement, providing safety and security to merchants and commoners;;;;;;;;;;;;;x
+tb_checkpoint_2;Guard Booths;;;;;;;;;;;;;x
+tb_checkpoint_2_desc;Makeshift booths stationed around critical junctions on our road network;;;;;;;;;;;;;x
