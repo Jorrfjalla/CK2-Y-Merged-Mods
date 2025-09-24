@@ -8,4 +8,8 @@ spriteTypes = {
 		name = "GFX_yam_yan_pic_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\yam_yan_pic_small.dds"
 	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_yam_bloodline"
+		texturefile = "gfx\\interface\\bloodlines\\yam_bloodline.dds"
+	}
 }

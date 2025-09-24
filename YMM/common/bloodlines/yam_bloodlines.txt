@@ -9,7 +9,7 @@ yam_bloodline = {
 	sex_appeal_opinion = 10
 	inheritance = all_descendants #Inherits through both male and female line
 	allow_bastards = yes #Even bastards can get in on the bloodline, keep an eye out for illegitimate children from ai though 
-	picture = "GFX_bloodlines_symbol_tengri_eagle"
+	picture = "GFX_bloodlines_symbol_yam_bloodline"
 	flags = { #Most important section, this enables all the special game interactions, above is just flavour text, also has custom tag for location of this exact bloodline
 		bloodline_yan 
 		bloodline_castellan 
@@ -36,7 +36,6 @@ yam_bloodline = {
 		bloodline_viking
 		bloodline_enatic_cognatic
 		bloodline_princely_elective_bonus
-
 	}
 	active = {
 		has_game_rule = {
