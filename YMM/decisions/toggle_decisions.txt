@@ -1,4 +1,4 @@
-toggle_decisions = {
+society_decisions = {
     hide_pruning = {
 		ai= no
 		potential = {
