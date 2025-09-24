@@ -1,0 +1,21 @@
+#CODE;ENGLISH;;;;;;;;;;;;;x
+hide_pruning;Hide pruning Module
+hide_pruning_desc;Toggles off all decisions, targetted and intrigue for the pruning module
+show_pruning;Show pruning Module
+show_pruning_desc;Toggles on all decisions, targetted and intrigue for the pruning module
+hide_mp_commands;Hide MP Commands Module
+hide_mp_commands_desc;Toggles off all decisions, targetted and intrigue for the MP Commands module
+show_mp_commands;Show MP Commands Module
+show_mp_commands_desc;Toggles on all decisions, targetted and intrigue for the MP Commands module
+hide_renaming;Hide Renaming Module
+hide_renaming_desc;Toggles off all decisions, targetted and intrigue for the renaming module
+show_renaming;Show Renaming Module
+show_renaming_desc;Toggles on all decisions, targetted and intrigue for the renaming module
+hide_yam;Hide YAM Module
+hide_yam_desc;Toggles off all decisions, targetted and intrigue for the Artifact Mod module
+show_yam;Show YAM Module
+show_yam_desc;Toggles on all decisions, targetted and intrigue for the Artifact Mod module
+hide_nap;Hide NAPD Module
+hide_nap_desc;Toggles off all decisions, targetted and intrigue for the NAP Decision module
+show_nap;Show NAPD Module
+show_nap_desc;Toggles on all decisions, targetted and intrigue for the NAP Decision module
