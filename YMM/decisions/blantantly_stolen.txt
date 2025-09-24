@@ -45,6 +45,9 @@ decisions = {
 				is_alive = no
 				has_children = no
 			}
+			NOT = {
+				has_character_flag = hidden_pruning
+			}
 			ai = no
 		}
 		allow = {

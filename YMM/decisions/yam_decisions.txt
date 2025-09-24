@@ -13,6 +13,9 @@ decisions = {
 					has_bloodline_flag = bloodline_yan
 				}
 			}
+			NOT = {
+				has_character_flag = hidden_yam
+			}
 		}
 		effect = { #Call linked event that actually gives the bloodline
 			character_event = { id = yam.1 days = 0 }
@@ -34,6 +37,9 @@ decisions = {
 				ROOT = {
 					has_artifact = yam_yan
 				}
+			}
+			NOT = {
+				has_character_flag = hidden_yam
 			}
 		}
 		effect = { #Call linked event that actually gives the artifacts
@@ -64,6 +70,9 @@ decisions = {
 				trait = ugly
 				trait = weak
 			}
+			NOT = {
+				has_character_flag = hidden_yam
+			}
 		}
 		effect = { #Calls linked event that actually gives the trait
 			character_event = { id = yam.3 days = 0 }
@@ -92,6 +101,9 @@ decisions = {
 					}
 				}
 			}
+			NOT = {
+				has_character_flag = hidden_yam
+			}
 		}
 		effect = { #Calls linked event that actually gives all the educations
 			character_event = { id = yam.6 days = 0 }
@@ -111,12 +123,49 @@ decisions = {
 			any_bloodline = {
 				has_bloodline_flag = bloodline_yan
 			}
+			NOT = {
+				has_character_flag = hidden_yam
+			}
 		}
 		effect = { #Call linked event that destroys the bloodline
 			character_event = { id = yam.7 days = 0 }
 		}
 		ai_will_do = { #Unneeded
 			factor = 0
+		}
+	}
+	hide_yam = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_yam
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_yam
+		}
+	}
+	show_yam = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			has_character_flag = hidden_yam
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_yam
 		}
 	}
 }

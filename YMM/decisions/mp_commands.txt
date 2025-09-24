@@ -3,6 +3,9 @@ targetted_decisions = {
 		from_potential = { #Player only
 			is_alive = yes
 			ai = no
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
 		}
 		potential = { #Targeted to another player only, and not already in an alliance with each other
 			is_alive = yes
@@ -60,6 +63,9 @@ targetted_decisions = {
 			is_alive = yes
 			ai = no
 			NOT = { is_friend = FROM }
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
 		}
 		potential = { #Targeted to player only, who is not already a friend
 			is_alive = yes
@@ -87,6 +93,9 @@ targetted_decisions = {
 		from_potential = { #Player only
 			is_alive = yes
 			ai = no
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
 		}
 		potential = { #Targeted to player only, also check if source has >= 100 gold to give
 			is_alive = yes
@@ -117,6 +126,9 @@ targetted_decisions = {
 		from_potential = {
 			is_alive = yes
 			ai = no
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
 		}
 		potential = {
 			is_alive = yes
@@ -147,6 +159,9 @@ targetted_decisions = {
 		from_potential = {
 			is_alive = yes
 			ai = no
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
 		}
 		potential = {
 			is_alive = yes
@@ -177,6 +192,9 @@ targetted_decisions = {
 		from_potential = {
 			is_alive = yes
 			ai = no
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
 		}
 		potential = {
 			is_alive = yes
@@ -200,6 +218,42 @@ targetted_decisions = {
 		}
 		revoke_allowed = {
 			always = no
+		}
+	}
+}
+decisions = {
+	hide_mp_commands = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_mp_commands
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_mp_commands
+		}
+	}
+	show_mp_commands = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = multiplayer_commands
+				value = enabled
+			}
+			has_character_flag = hidden_mp_commands
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_mp_commands
 		}
 	}
 }

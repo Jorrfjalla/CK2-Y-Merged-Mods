@@ -5,6 +5,9 @@ targetted_decisions = {
 		
 		from_potential = { #Player only
 			ai = no
+			NOT = {
+				has_character_flag = hidden_renaming
+			}
 		}
 		potential = { #Non-player, same dynasty as player
 			ai = yes
@@ -30,6 +33,9 @@ targetted_decisions = {
 		
 		from_potential = { #Player Only
 			ai = no
+			NOT = {
+				has_character_flag = hidden_renaming
+			}
 		}
 		potential = { #Just check if alive
 			is_alive = yes
@@ -45,6 +51,42 @@ targetted_decisions = {
 	        ROOT = { #Rename message
 		        prompt_name = { player = from type = RENAME_CHARACTER_MESSAGE }
 	        }
+		}
+	}
+}
+decisions = {
+	hide_renaming = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = rename_family
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_renaming
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_renaming
+		}
+	}
+	show_renaming = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = rename_family
+				value = enabled
+			}
+			has_character_flag = hidden_renaming
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_renaming
 		}
 	}
 }
