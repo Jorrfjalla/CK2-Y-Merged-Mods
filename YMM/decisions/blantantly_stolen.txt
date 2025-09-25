@@ -1,5 +1,6 @@
 targetted_decisions = {
 	prune_family_tree = {
+		filter = all_including_me
 		ai= no
 		from_potential = {
 			is_alive = yes
