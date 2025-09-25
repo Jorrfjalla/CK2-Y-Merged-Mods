@@ -1,0 +1,88 @@
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_hide_pruning"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_show_pruning"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+    spriteType = {
+    name = "GFX_hide_mp_commands"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_show_mp_commands"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+    spriteType = {
+    name = "GFX_hide_renaming"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_show_renaming"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+    spriteType = {
+    name = "GFX_hide_yam"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_show_yam"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+    spriteType = {
+    name = "GFX_hide_nap"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_show_nap"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+    spriteType = {
+    name = "GFX_prune_family_tree"
+    texturefile = "gfx\\interface\\decisions\\prune.dds"
+  }
+
+    spriteType = {
+    name = "GFX_lf_b_remove_parentage"
+    texturefile = "gfx\\interface\\decisions\\prune.dds"
+  }
+
+    spriteType = {
+    name = "GFX_yam_bloodline_create"
+    texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  }
+
+    spriteType = {
+    name = "GFX_yam_artifacts_create"
+    texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  }
+
+    spriteType = {
+    name = "GFX_yam_traits_fix"
+    texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  }
+
+    spriteType = {
+    name = "GFX_yam_educate_me"
+    texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  }
+
+    spriteType = {
+    name = "GFX_yam_bloodline_destroy"
+    texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  }
+
+}
