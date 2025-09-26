@@ -52,7 +52,7 @@ spriteTypes = {
 
     spriteType = {
     name = "GFX_prune_family_tree"
-    texturefile = "gfx\\interface\\decisions\\prune.dds"
+    texturefile = "gfx\\interface\\decisions\\prune_light.dds"
   }
 
     spriteType = {
