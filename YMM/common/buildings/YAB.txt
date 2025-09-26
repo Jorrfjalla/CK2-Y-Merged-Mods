@@ -1,23 +1,23 @@
 castle = {
     ca_checkpoint_1 = {
 		desc = ca_checkpoint_1_desc
-        potential = {
+        potential = { #Hides when not with cheat bloodline, hence no need for gamerule intervention, only for direct owner as well, no liege checking here
             FROM = {
 				any_owned_bloodline {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 } #Shows, but blocks construction until tech requirement is met
 		gold_cost = 200
-		build_time = 365
+		build_time = 365 #Time in days
 		fort_level = 2.0
 		levy_size = 0.1
 		tax_income = 0.5
         garrison_size = 0.25
-		ai_creation_factor = 0
+		ai_creation_factor = 0 #We don't want the AI making this, even if they have the bloodline
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0 #Should prevent it spawning naturally since nowhere has 10 construction research at the beginning of the game
 	}
 	ca_checkpoint_2 = {
 		desc = ca_checkpoint_2_desc
@@ -29,7 +29,7 @@ castle = {
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
-		upgrades_from = ca_checkpoint_1
+		upgrades_from = ca_checkpoint_1 #Tells the game this is an upgrade from the previous tier
 		gold_cost = 300
 		build_time = 365
 		fort_level = 4.0
@@ -38,7 +38,7 @@ castle = {
         garrison_size = 0.5
 		ai_creation_factor = 0
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0
 	}
 }
 city = {
@@ -60,7 +60,7 @@ city = {
         garrison_size = 0.25
 		ai_creation_factor = 0
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0
 	}
 	ct_checkpoint_2 = {
 		desc = ct_checkpoint_2_desc
@@ -81,7 +81,7 @@ city = {
         garrison_size = 0.5
 		ai_creation_factor = 0
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0
 	}
 }
 temple = {
@@ -103,7 +103,7 @@ temple = {
         garrison_size = 0.25
 		ai_creation_factor = 0
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0
 	}
 	tp_checkpoint_2 = {
 		desc = tp_checkpoint_2_desc
@@ -124,7 +124,7 @@ temple = {
         garrison_size = 0.5
 		ai_creation_factor = 0
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0
 	}
 }
 tribal = {
@@ -149,7 +149,7 @@ tribal = {
 		convert_to_city = ct_checkpoint_1
 		convert_to_castle = ca_checkpoint_1
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0
 	}
 	tb_checkpoint_2 = {
 		desc = ca_checkpoint_2_desc
@@ -173,6 +173,6 @@ tribal = {
 		convert_to_city = ct_checkpoint_2
 		convert_to_castle = ca_checkpoint_2
 		
-		extra_tech_building_start = 8.0
+		extra_tech_building_start = 10.0
 	}
 }

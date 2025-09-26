@@ -26,7 +26,7 @@ character_event = {
 
     is_triggered_only = yes
 
-    option = { #it's their duty
+    option = { #Gives all artifacts
         name = Gimme
         add_artifact = yam_book
 		add_artifact = yam_spear
@@ -44,7 +44,7 @@ character_event = {
 
     is_triggered_only = yes
 
-    option = { #it's their duty
+    option = { #Clears all negative congenital traits
         name = Gimme
 		remove_trait = inbred
 		remove_trait = clubfooted
@@ -60,9 +60,9 @@ character_event = {
     }
 }
 
-character_event = {
+character_event = { #Manual firing only, this is just here to save me time to not save edit
     id = yam.4
-    desc = trexheresy.4.de
+    desc = trexheresy.4.de #Straight from the custom heresy mod, except slightly rewritten, kept the original description localisation so I know to credit my source
 	picture = GFX_evt_beatification
 	is_triggered_only = yes
 	
@@ -149,10 +149,10 @@ character_event = {
 character_event = {
 	id = yam.6
 	desc = yam_6desc
-	picture = GFX_evt_beatification
+	picture = GFX_evt_beatification #Placeholder picture
 	is_triggered_only = yes
 
-	option = {
+	option = { #Only option, removes all lower educations and adds top tier ones
 		name = meowmeowmeow
 		add_trait = grey_eminence
 		add_trait = brilliant_strategist
@@ -177,18 +177,18 @@ character_event = {
 	}
 }
 
-character_event = {
+character_event = {#Destroys bloodline
 	id = yam.7
 	desc = Nuke
-	is_triggered_only = yes
+	is_triggered_only = yes #Tells game this can only be called, not pushed
 
 	option = {
-		name = Bomba
-		any_bloodline = {
+		name = Bomba #Localisation tag, except I'm not doing that
+		any_bloodline = { #Since it's scoped to the player already, you can just check any of their bloodlines for our custom tag
 			limit = {
-				has_bloodline_flag = bloodline_yan
+				has_bloodline_flag = bloodline_yan #This scopes to only the custom cheat bloodline
 			}
-			destroy_bloodline = yes
+			destroy_bloodline = yes #Destroys the scoped bloodline, this being to the limited one, aka yan line
 		}
 	}
 }

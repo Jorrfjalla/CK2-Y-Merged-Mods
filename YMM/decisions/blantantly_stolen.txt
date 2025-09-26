@@ -1,17 +1,17 @@
 targetted_decisions = {
 	prune_family_tree = {
-		filter = all_including_me
-		ai= no
-		from_potential = {
+		filter = all_including_me #Has what it says on the tin, can target anyone
+		ai= no #Don't allow ai to do it
+		from_potential = { #Human player check
 			is_alive = yes
 			ai = no
-			NOT = {
+			NOT = { #Hides decision when intrigue toggle is used
 				has_character_flag = hidden_pruning
 			}
 		}
-		potential = {
+		potential = { #Anyone can be targetted, as long as they are alive
 			is_alive = yes
-			has_game_rule = {
+			has_game_rule = { #When gamerule is disabled, it won't even appear as an option
 				name = tree_pruning
 				value = enabled
 			}
@@ -21,14 +21,14 @@ targetted_decisions = {
 		}
 		effect = {
 			ROOT = {
-				any_dynasty_member_even_if_dead = {
-					limit = {
+				any_dynasty_member_even_if_dead = { #Scope to the entire dynasty
+					limit = { #Dead and childless only
 						is_alive = no
 						has_children = no
 					}
-					set_mother = 0
-					set_father = 0
-					dynasty = none
+					set_mother = 0 #Remove mother
+					set_father = 0 #Remove father
+					dynasty = none #Make lowborn
 				}
 			}
 		}

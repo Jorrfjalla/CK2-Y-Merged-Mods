@@ -1,7 +1,7 @@
 rename_family = {
 	name = "RULE_RENAME_FAMILY"
 	group = "RULE_GROUP_Y"
-	option = {
+	option = { #First option is the default! For not so cheaty, it's enabled, for cheat it's disabled
 		name = enabled
 		text = "RULE_RENAME_FAMILY_ENABLED"
 		desc = "RULE_RENAME_FAMILY_ENABLED_DESC"

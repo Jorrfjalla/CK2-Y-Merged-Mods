@@ -1,20 +1,20 @@
 decisions = {
-    hide_pruning = {
-		ai= no
-		potential = {
+    hide_pruning = { #Toggles pruning decisions, targetted and otherwise
+		ai= no #Human only
+		potential = { #Hides if module disabled in game rules, so they are still master toggles, for multiplayer regards
 			has_game_rule = {
 				name = tree_pruning
 				value = enabled
 			}
-			NOT = {
-				has_character_flag = hidden_pruning
+			NOT = { #Doesn't have the flag already, this makes it a toggle rather than a clicky thing
+				has_character_flag = hidden_pruning #Flags are completely custom, character based means it's multiplayer compatible too, does mean you need to retoggle when your character dies though, not too big an issue though.
 			}
 		}
 		allow = {
 			ai = no
 		}
 		effect = {
-			set_character_flag = hidden_pruning
+			set_character_flag = hidden_pruning #Sets flag
 		}
 	}
 	show_pruning = {
@@ -24,13 +24,13 @@ decisions = {
 				name = tree_pruning
 				value = enabled
 			}
-			has_character_flag = hidden_pruning
+			has_character_flag = hidden_pruning #Makes this decision only appear when the toggle off flag is enabled
 		}
 		allow = {
 			ai = no
 		}
 		effect = {
-			clr_character_flag = hidden_pruning
+			clr_character_flag = hidden_pruning #Gets rid of flag, no need for shown_pruning flag because you can check for the absence of hidden, less flags, the better.
 		}
 	}
     hide_mp_commands = {
