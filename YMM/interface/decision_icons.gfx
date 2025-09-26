@@ -85,4 +85,9 @@ spriteTypes = {
     texturefile = "gfx\\interface\\decisions\\sheep.dds"
   }
 
+    spriteType = {
+    name = "GFX_rename"
+    texturefile = "gfx\\interface\\decisions\\rename.dds"
+  }
+
 }

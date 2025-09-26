@@ -1,6 +1,7 @@
 targetted_decisions = {
 
     rename_on = {
+		diplomacy_icon = GFX_rename
 		filter = all #Allows targetting everyone
 		
 		from_potential = { #Player only
@@ -29,6 +30,7 @@ targetted_decisions = {
 
 
     rename_self = { #2nd command for renaming self to allow localisation changes
+		diplomacy_icon = GFX_rename
 		filter = self #Self only
 		
 		from_potential = { #Player Only

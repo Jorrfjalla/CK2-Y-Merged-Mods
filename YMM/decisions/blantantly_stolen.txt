@@ -1,5 +1,6 @@
 targetted_decisions = {
 	prune_family_tree = {
+		diplomacy_icon = GFX_prune_family_tree
 		filter = all_including_me #Has what it says on the tin, can target anyone
 		ai= no #Don't allow ai to do it
 		from_potential = { #Human player check
