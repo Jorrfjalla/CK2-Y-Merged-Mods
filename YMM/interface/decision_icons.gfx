@@ -90,4 +90,13 @@ spriteTypes = {
     texturefile = "gfx\\interface\\decisions\\rename.dds"
   }
 
+    spriteType = {
+    name = "GFX_hide_ystt"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_show_ystt"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
 }

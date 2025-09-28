@@ -11,10 +11,10 @@ hide_renaming;Hide Renaming Module;;;;;;;;;;;;;x
 hide_renaming_desc;Toggles off all decisions, targetted and intrigue for the renaming module;;;;;;;;;;;;;x
 show_renaming;Show Renaming Module;;;;;;;;;;;;;x
 show_renaming_desc;Toggles on all decisions, targetted and intrigue for the renaming module;;;;;;;;;;;;;x
-hide_yam;Hide YAM Module;;;;;;;;;;;;;x
-hide_yam_desc;Toggles off all decisions, targetted and intrigue for the Artifact Mod module;;;;;;;;;;;;;x
-show_yam;Show YAM Module;;;;;;;;;;;;;x
-show_yam_desc;Toggles on all decisions, targetted and intrigue for the Artifact Mod module;;;;;;;;;;;;;x
+hide_yam;Hide Cheat Module;;;;;;;;;;;;;x
+hide_yam_desc;Toggles off all decisions, targetted and intrigue for the Cheat Mod module;;;;;;;;;;;;;x
+show_yam;Show Cheat Module;;;;;;;;;;;;;x
+show_yam_desc;Toggles on all decisions, targetted and intrigue for the Cheat Mod module;;;;;;;;;;;;;x
 hide_nap;Hide NAPD Module;;;;;;;;;;;;;x
 hide_nap_desc;Toggles off all decisions, targetted and intrigue for the NAP Decision module;;;;;;;;;;;;;x
 show_nap;Show NAPD Module;;;;;;;;;;;;;x

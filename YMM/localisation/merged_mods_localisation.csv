@@ -5,7 +5,7 @@ RULE_RENAME_FAMILY_ENABLED;Enabled;;;;;;;;;;;;;x;
 RULE_RENAME_FAMILY_ENABLED_DESC;Rename dynasty members and self infinitely;;;;;;;;;;;;;x;
 RULE_RENAME_FAMILY_DISABLED;Disabled;;;;;;;;;;;;;x;
 RULE_RENAME_FAMILY_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;
-RULE_ARTIFACT_MOD;§RYMM§!:Artifact Mod;;;;;;;;;;;;;x;
+RULE_ARTIFACT_MOD;§RYMM§!:Cheat Mod;;;;;;;;;;;;;x;
 RULE_ARTIFACT_MOD_ENABLED;Enabled;;;;;;;;;;;;;x;
 RULE_ARTIFACT_MOD_ENABLED_DESC;Very cheaty, mainly here for fun <insert spinning cat gif>;;;;;;;;;;;;;x;
 RULE_ARTIFACT_MOD_DISABLED;Disabled;;;;;;;;;;;;;x;

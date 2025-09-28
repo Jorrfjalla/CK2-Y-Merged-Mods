@@ -1,0 +1,29 @@
+targetted_decisions = {
+	sex_flip = {
+		diplomacy_icon = GFX_trait_has_bubonic_plague
+		filter = all_including_me #Has what it says on the tin, can target anyone
+		ai= no #Don't allow ai to do it
+		from_potential = { #Human player check
+			is_alive = yes
+			ai = no
+			NOT = { #Hides decision when intrigue toggle is used
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = { #Anyone can be targetted, as long as they are alive
+			is_alive = yes
+			has_game_rule = { #When gamerule is disabled, it won't even appear as an option
+				name = artifact_mod
+				value = enabled
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				set_gender = opposite
+			}
+		}
+	}
+}
