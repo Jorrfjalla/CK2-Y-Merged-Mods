@@ -13,7 +13,7 @@ targetted_decisions = {
 		potential = { #Anyone can be targetted, as long as they are alive
 			is_alive = yes
 			has_game_rule = { #When gamerule is disabled, it won't even appear as an option
-				name = artifact_mod
+				name = sex_change
 				value = enabled
 			}
 		}

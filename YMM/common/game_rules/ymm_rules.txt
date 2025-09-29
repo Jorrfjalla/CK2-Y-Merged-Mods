@@ -68,3 +68,17 @@ tree_pruning = {
 		desc = "RULE_TREE_PRUNING_DISABLED_DESC"
 	}
 }
+sex_change = {
+	name = "RULE_SEX_CHANGE"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = enabled
+		text = "RULE_SEX_CHANGE_ENABLED"
+		desc = "RULE_SEX_CHANGE_ENABLED_DESC"
+	}
+	option = {
+		name = disabled
+		text = "RULE_SEX_CHANGE_DISABLED"
+		desc = "RULE_SEX_CHANGE_DISABLED_DESC"
+	}
+}

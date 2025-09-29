@@ -169,11 +169,11 @@ decisions = {
 			clr_character_flag = hidden_nap
 		}
 	}
-	hide_ystt = { #Toggles pruning decisions, targetted and otherwise
+	hide_ystt = {
 		ai= no #Human only
 		potential = { #Hides if module disabled in game rules, so they are still master toggles, for multiplayer regards
 			has_game_rule = {
-				name = artifact_mod
+				name = sex_change
 				value = enabled
 			}
 			NOT = { #Doesn't have the flag already, this makes it a toggle rather than a clicky thing
@@ -191,7 +191,7 @@ decisions = {
 		ai= no
 		potential = {
 			has_game_rule = {
-				name = artifact_mod
+				name = sex_change
 				value = enabled
 			}
 			has_character_flag = hidden_ystt #Makes this decision only appear when the toggle off flag is enabled

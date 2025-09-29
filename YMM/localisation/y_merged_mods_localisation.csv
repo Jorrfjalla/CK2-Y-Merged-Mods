@@ -25,3 +25,8 @@ RULE_TREE_PRUNING_ENABLED;Enabled;;;;;;;;;;;;;x;
 RULE_TREE_PRUNING_ENABLED_DESC;Targeted intrigue decision to help prune dead, childless people off the family tree;;;;;;;;;;;;;x;
 RULE_TREE_PRUNING_DISABLED;Disabled;;;;;;;;;;;;;x;
 RULE_TREE_PRUNING_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;
+RULE_SEX_CHANGE;§RYGC§!:Targeted Gender Change;;;;;;;;;;;;;x;
+RULE_SEX_CHANGE_ENABLED;Enabled;;;;;;;;;;;;;x;
+RULE_SEX_CHANGE_ENABLED_DESC;Targeted intrigue decision to swap targeted character's gender, good for setting up custom scenarios or whatever you want to use it for;;;;;;;;;;;;;x;
+RULE_SEX_CHANGE_DISABLED;Disabled;;;;;;;;;;;;;x;
+RULE_SEX_CHANGE_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;
