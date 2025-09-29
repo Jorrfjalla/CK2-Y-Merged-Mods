@@ -32,38 +32,29 @@ targetted_decisions = {
 					dynasty = none #Make lowborn
 				}
 			}
-		}
-	}
-}
-decisions = {
-    lf_b_remove_parentage = {
-		ai = no
-		potential = {
-            has_game_rule = {
-				name = tree_pruning
-				value = enabled
-			}
-			any_child_even_if_dead = {
-				is_alive = no
-				has_children = no
-			}
-			NOT = {
-				has_character_flag = hidden_pruning
-			}
-			ai = no
-		}
-		allow = {
-			ai = no
-		}
-		effect = {
-			any_child_even_if_dead = {
-				limit = {
-					is_alive = no
-					has_children = no
+			ROOT = {
+				any_child_even_if_dead = {
+					limit = {
+						is_alive = no
+						has_children = no
+					}
+					set_mother = 0
+					set_father = 0
+					dynasty = none
 				}
-				set_mother = 0
-				set_father = 0
-				dynasty = none
+			}
+			ROOT = {
+				any_dynasty_member_even_if_dead = {
+					any_child_even_if_dead = {
+						limit = {
+							is_alive = no
+							has_children = no
+						}
+						set_mother = 0
+						set_father = 0
+						dynasty = none
+					}
+				}
 			}
 		}
 	}

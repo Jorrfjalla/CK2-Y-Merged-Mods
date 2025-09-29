@@ -1,6 +1,6 @@
 targetted_decisions = {
 
-    rename_on = {
+    yrf_rename_family = {
 		diplomacy_icon = GFX_rename
 		ai = no
 		filter = dynasty #Performance tweak, instead of checking every character, now just checks dynasty members
@@ -30,7 +30,7 @@ targetted_decisions = {
 	}
 
 
-    rename_self = { #2nd command for renaming self to allow localisation changes
+    yrf_rename_self = { #2nd command for renaming self to allow localisation changes
 		diplomacy_icon = GFX_rename
 		filter = self #Self only
 		ai = no

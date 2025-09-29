@@ -1,67 +1,7 @@
 namespace = yam
-#Yan makes the yan bloodline
-character_event = {
-	id = yam.1
-	title = EVTTITLEHF24041
-	desc = EVTDESCHF24041
-	picture = GFX_evt_jugglers
-	border = GFX_event_narrative_frame_diplomacy
-	sound = bloodline_added
-	
-	is_triggered_only = yes
-	
-	option = { #Gain yan bloodline
-		name = Gimme
-		create_bloodline = {
-			type = yam_bloodline
-		}
-	}
-}
-
-character_event = {
-    id = yam.2
-    desc = EVTDESC_MNM_9837
-    picture = GFX_evt_relic_box
-    border = GFX_event_normal_frame_religion
-
-    is_triggered_only = yes
-
-    option = { #Gives all artifacts
-        name = Gimme
-        add_artifact = yam_book
-		add_artifact = yam_spear
-		add_artifact = yam_harp
-		add_artifact = yam_yan
-		add_artifact = yam_knowledge
-    }
-}
-
-character_event = {
-    id = yam.3
-    desc = EVTDESC_MNM_9837
-    picture = GFX_evt_relic_box
-    border = GFX_event_normal_frame_religion
-
-    is_triggered_only = yes
-
-    option = { #Clears all negative congenital traits
-        name = Gimme
-		remove_trait = inbred
-		remove_trait = clubfooted
-		remove_trait = harelip
-		remove_trait = hunchback
-		remove_trait = imbecile
-		remove_trait = inbred
-		remove_trait = lisp
-		remove_trait = slow
-		remove_trait = stutter
-		remove_trait = ugly
-		remove_trait = weak
-    }
-}
 
 character_event = { #Manual firing only, this is just here to save me time to not save edit
-    id = yam.4
+    id = yam.1
     desc = trexheresy.4.de #Straight from the custom heresy mod, except slightly rewritten, kept the original description localisation so I know to credit my source
 	picture = GFX_evt_beatification
 	is_triggered_only = yes
@@ -122,7 +62,7 @@ character_event = { #Manual firing only, this is just here to save me time to no
 }
 
 character_event = {
-    id = yam.5
+    id = yam.2
     desc = trexheresy.4.de
 	picture = GFX_evt_beatification
 	is_triggered_only = yes
@@ -144,51 +84,4 @@ character_event = {
 			remove_holy_site = norse_pagan
 		}
     }
-}
-
-character_event = {
-	id = yam.6
-	desc = yam_6desc
-	picture = GFX_evt_beatification #Placeholder picture
-	is_triggered_only = yes
-
-	option = { #Only option, removes all lower educations and adds top tier ones
-		name = meowmeowmeow
-		add_trait = grey_eminence
-		add_trait = brilliant_strategist
-		add_trait = midas_touched
-		add_trait = elusive_shadow
-		add_trait = mastermind_theologian
-		remove_trait = naive_appeaser
-		remove_trait = underhanded_rogue
-		remove_trait = charismatic_negotiator
-		remove_trait = misguided_warrior
-		remove_trait = tough_soldier
-		remove_trait = skilled_tactician
-		remove_trait = indulgent_wastrel
-		remove_trait = thrifty_clerk
-		remove_trait = fortune_builder
-		remove_trait = amateurish_plotter
-		remove_trait = flamboyant_schemer
-		remove_trait = intricate_webweaver
-		remove_trait = detached_priest
-		remove_trait = martial_cleric
-		remove_trait = scholarly_theologian
-	}
-}
-
-character_event = {#Destroys bloodline
-	id = yam.7
-	desc = Nuke
-	is_triggered_only = yes #Tells game this can only be called, not pushed
-
-	option = {
-		name = Bomba #Localisation tag, except I'm not doing that
-		any_bloodline = { #Since it's scoped to the player already, you can just check any of their bloodlines for our custom tag
-			limit = {
-				has_bloodline_flag = bloodline_yan #This scopes to only the custom cheat bloodline
-			}
-			destroy_bloodline = yes #Destroys the scoped bloodline, this being to the limited one, aka yan line
-		}
-	}
 }

@@ -56,11 +56,6 @@ spriteTypes = {
   }
 
     spriteType = {
-    name = "GFX_lf_b_remove_parentage"
-    texturefile = "gfx\\interface\\decisions\\prune.dds"
-  }
-
-    spriteType = {
     name = "GFX_yam_bloodline_create"
     texturefile = "gfx\\interface\\decisions\\sheep.dds"
   }

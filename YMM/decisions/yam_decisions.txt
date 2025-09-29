@@ -18,7 +18,10 @@ decisions = {
 			}
 		}
 		effect = { #Call linked event that actually gives the bloodline
-			character_event = { id = yam.1 days = 0 }
+			#character_event = { id = yam.1 days = 0 }
+			create_bloodline = {
+				type = yam_bloodline
+			}
 		}
 		ai_will_do = { #Unneeded
 			factor = 0
@@ -43,7 +46,12 @@ decisions = {
 			}
 		}
 		effect = { #Call linked event that actually gives the artifacts
-			character_event = { id = yam.2 days = 0 }
+			#character_event = { id = yam.2 days = 0 }
+			add_artifact = yam_book
+			add_artifact = yam_spear
+			add_artifact = yam_harp
+			add_artifact = yam_yan
+			add_artifact = yam_knowledge
 		}
 		ai_will_do = { #Unneeded
 			factor = 0
@@ -75,7 +83,18 @@ decisions = {
 			}
 		}
 		effect = { #Calls linked event that actually gives the trait
-			character_event = { id = yam.3 days = 0 }
+			#character_event = { id = yam.3 days = 0 }
+			remove_trait = inbred
+			remove_trait = clubfooted
+			remove_trait = harelip
+			remove_trait = hunchback
+			remove_trait = imbecile
+			remove_trait = inbred
+			remove_trait = lisp
+			remove_trait = slow
+			remove_trait = stutter
+			remove_trait = ugly
+			remove_trait = weak
 		}
 		ai_will_do = {
 			factor = 0
@@ -106,7 +125,27 @@ decisions = {
 			}
 		}
 		effect = { #Calls linked event that actually gives all the educations
-			character_event = { id = yam.6 days = 0 }
+			#character_event = { id = yam.6 days = 0 }
+			add_trait = grey_eminence
+			add_trait = brilliant_strategist
+			add_trait = midas_touched
+			add_trait = elusive_shadow
+			add_trait = mastermind_theologian
+			remove_trait = naive_appeaser
+			remove_trait = underhanded_rogue
+			remove_trait = charismatic_negotiator
+			remove_trait = misguided_warrior
+			remove_trait = tough_soldier
+			remove_trait = skilled_tactician
+			remove_trait = indulgent_wastrel
+			remove_trait = thrifty_clerk
+			remove_trait = fortune_builder
+			remove_trait = amateurish_plotter
+			remove_trait = flamboyant_schemer
+			remove_trait = intricate_webweaver
+			remove_trait = detached_priest
+			remove_trait = martial_cleric
+			remove_trait = scholarly_theologian
 		}
 		ai_will_do = {
 			factor = 0
@@ -128,7 +167,13 @@ decisions = {
 			}
 		}
 		effect = { #Call linked event that destroys the bloodline
-			character_event = { id = yam.7 days = 0 }
+			#character_event = { id = yam.7 days = 0 }
+			any_bloodline = { #Since it's scoped to the player already, you can just check any of their bloodlines for our custom tag
+				limit = {
+					has_bloodline_flag = bloodline_yan #This scopes to only the custom cheat bloodline
+				}
+				destroy_bloodline = yes #Destroys the scoped bloodline, this being to the limited one, aka yan line
+			}
 		}
 		ai_will_do = { #Unneeded
 			factor = 0

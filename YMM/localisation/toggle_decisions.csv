@@ -19,3 +19,7 @@ hide_nap;Hide NAPD Module;;;;;;;;;;;;;x
 hide_nap_desc;Toggles off all decisions, targetted and intrigue for the NAP Decision module;;;;;;;;;;;;;x
 show_nap;Show NAPD Module;;;;;;;;;;;;;x
 show_nap_desc;Toggles on all decisions, targetted and intrigue for the NAP Decision module;;;;;;;;;;;;;x
+hide_ystt;Hide FS Module;;;;;;;;;;;;;x
+hide_ystt_desc;Toggles off all decisions, targetted and intrigue for the targeted sex change module;;;;;;;;;;;;;x
+show_ystt;Show FS Module;;;;;;;;;;;;;x
+show_ystt_desc;Toggles on all decisions, targetted and intrigue for the targeted sex change module;;;;;;;;;;;;;x
