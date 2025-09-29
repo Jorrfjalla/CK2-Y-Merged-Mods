@@ -1,5 +1,6 @@
 targetted_decisions = {
     pact_suggest = {
+        ai = no
         from_potential = { #Players only
             is_alive = yes
             ai = no

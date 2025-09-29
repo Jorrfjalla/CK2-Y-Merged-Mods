@@ -1,5 +1,6 @@
 targetted_decisions = {
 	mp_alliance = { #Create alliance
+		ai = no
 		from_potential = { #Player only
 			is_alive = yes
 			ai = no
@@ -58,7 +59,8 @@ targetted_decisions = {
 		}
 	}
 
-	mp_friend = { #Add mutual friendsip
+	mp_friend = { #Add mutual friendship
+		ai = no
 		from_potential = { #Player only
 			is_alive = yes
 			ai = no
@@ -90,6 +92,7 @@ targetted_decisions = {
 	}
 
 	mp_cash_100 = { #Player to player, 100 gold transfer
+		ai = no
 		from_potential = { #Player only
 			is_alive = yes
 			ai = no
@@ -123,6 +126,7 @@ targetted_decisions = {
 	}
 
 	mp_cash_500 = { #500 gold transfer, see above for breakdown
+		ai = no
 		from_potential = {
 			is_alive = yes
 			ai = no
@@ -156,6 +160,7 @@ targetted_decisions = {
 	}
 	
 	mp_cash_1000 = { #1000 gold transfer, see above for breakdown
+		ai = no
 		from_potential = {
 			is_alive = yes
 			ai = no
@@ -189,6 +194,7 @@ targetted_decisions = {
 	}
 	
 	mp_cash_5000 = { #5000 gold transfer, see above for breakdown
+		ai = no
 		from_potential = {
 			is_alive = yes
 			ai = no
