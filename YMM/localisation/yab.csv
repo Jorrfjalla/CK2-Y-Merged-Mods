@@ -23,27 +23,27 @@ tp_checkpoint_3;Fortress Checkpoint;;;;;;;;;;;;;x
 tp_checkpoint_3_desc;Remodelling and planning has made this checkpoint nearly impregnable, as well as near indestructible;;;;;;;;;;;;;x
 tb_checkpoint_3;Rudimentary Checkpoint;;;;;;;;;;;;;x
 tb_checkpoint_3_desc;Lightly controlled entry point with additional soldiers stationed at the gates;;;;;;;;;;;;;x
-ca_knowledge_1;Small Library;;;;;;;;;;;;;x
-ct_knowledge_1;Small Library;;;;;;;;;;;;;x
-tp_knowledge_1;Small Library;;;;;;;;;;;;;x
-tb_knowledge_1;Small Library;;;;;;;;;;;;;x
-ca_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
-ct_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
-tp_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
-tb_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
-ca_knowledge_2;Big Library;;;;;;;;;;;;;x
-ct_knowledge_2;Big Library;;;;;;;;;;;;;x
-tp_knowledge_2;Big Library;;;;;;;;;;;;;x
-tb_knowledge_2;Big Library;;;;;;;;;;;;;x
-ca_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
-ct_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
-tp_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
-tb_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
-ca_knowledge_3;Grand Library;;;;;;;;;;;;;x
-ca_knowledge_3;Grand Library;;;;;;;;;;;;;x
-ca_knowledge_3;Grand Library;;;;;;;;;;;;;x
-ca_knowledge_3;Grand Library;;;;;;;;;;;;;x
-ca_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
-ct_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
-tp_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
-tb_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
+#ca_knowledge_1;Small Library;;;;;;;;;;;;;x
+#ct_knowledge_1;Small Library;;;;;;;;;;;;;x
+#tp_knowledge_1;Small Library;;;;;;;;;;;;;x
+#tb_knowledge_1;Small Library;;;;;;;;;;;;;x
+#ca_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
+#ct_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
+#tp_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
+#tb_knowledge_1_desc;Small Library filled with an expansive collection of books bought, bribed and stolen from across the realm. Open to commoners and courtiers alike, improving knowledge and so increasing profits from superior craftsmanship;;;;;;;;;;;;;x
+#ca_knowledge_2;Big Library;;;;;;;;;;;;;x
+#ct_knowledge_2;Big Library;;;;;;;;;;;;;x
+#tp_knowledge_2;Big Library;;;;;;;;;;;;;x
+#tb_knowledge_2;Big Library;;;;;;;;;;;;;x
+#ca_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
+#ct_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
+#tp_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
+#tb_knowledge_2_desc;Further books have been purchased, more shelves made and additional seating added, with secret collections added with esoteric, forbidden knowledge.;;;;;;;;;;;;;x
+#ca_knowledge_3;Grand Library;;;;;;;;;;;;;x
+#ct_knowledge_3;Grand Library;;;;;;;;;;;;;x
+#tp_knowledge_3;Grand Library;;;;;;;;;;;;;x
+#tb_knowledge_3;Grand Library;;;;;;;;;;;;;x
+#ca_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
+#ct_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
+#tp_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
+#tb_knowledge_3_desc;A structure putting even the fabled Sunken Library of Athena to shame, your collection of books range from the beginning of recorded time to the present, some books hidden deep within are even said to have been printed in the future...;;;;;;;;;;;;;x
