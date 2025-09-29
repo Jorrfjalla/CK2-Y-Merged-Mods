@@ -3,12 +3,19 @@ castle = {
 		desc = ca_checkpoint_1_desc
         potential = { #Hides when not with cheat bloodline, hence no need for gamerule intervention, only for direct owner as well, no liege checking here
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 } #Shows, but blocks construction until tech requirement is met
+		is_active_trigger = { #Disables building when holder no longer has cheat bloodline
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		gold_cost = 200
 		build_time = 365 #Time in days
 		fort_level = 2.0
@@ -23,12 +30,19 @@ castle = {
 		desc = ca_checkpoint_2_desc
         potential = {
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		upgrades_from = ca_checkpoint_1 #Tells the game this is an upgrade from the previous tier
 		gold_cost = 300
 		build_time = 365
@@ -40,18 +54,152 @@ castle = {
 		
 		extra_tech_building_start = 10.0
 	}
+	ca_checkpoint_3 = {
+		desc = ca_checkpoint_3_desc
+        potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = ca_checkpoint_2 #Tells the game this is an upgrade from the previous tier
+		gold_cost = 400
+		build_time = 365
+		fort_level = 6.0
+		levy_size = 0.3
+		tax_income = 1.5
+        garrison_size = 0.75
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 10.0
+	}
+	ca_knowledge_1 = {
+		desc = ca_knowledge_1_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes #Only buildable in the capital
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		#upgrades_from = 
+		gold_cost = 400
+		build_time = 365
+		tax_income = 1.0
+		diplomacy = 2
+		martial = 2
+		stewardship = 2
+		intrigue = 2
+		learning = 2
+		combat_rating = 5
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	ca_knowledge_2 = {
+		desc = ca_knowledge_2_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = ca_knowledge_1
+		gold_cost = 600
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 3
+		martial = 3
+		stewardship = 3
+		intrigue = 3
+		learning = 3
+		combat_rating = 10
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	ca_knowledge_3 = {
+		desc = ca_knowledge_3_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = ca_knowledge_2
+		gold_cost = 800
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 5
+		martial = 5
+		stewardship = 5
+		intrigue = 5
+		learning = 5
+		combat_rating = 15
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
 }
 city = {
     ct_checkpoint_1 = {
 		desc = ct_checkpoint_1_desc
         potential = {
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		gold_cost = 200
 		build_time = 365
 		fort_level = 2.0
@@ -66,12 +214,19 @@ city = {
 		desc = ct_checkpoint_2_desc
         potential = {
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		upgrades_from = ct_checkpoint_1
 		gold_cost = 300
 		build_time = 365
@@ -83,18 +238,152 @@ city = {
 		
 		extra_tech_building_start = 10.0
 	}
+	ct_checkpoint_3 = {
+		desc = ct_checkpoint_3_desc
+        potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = ct_checkpoint_2 #Tells the game this is an upgrade from the previous tier
+		gold_cost = 400
+		build_time = 365
+		fort_level = 6.0
+		levy_size = 0.3
+		tax_income = 1.5
+        garrison_size = 0.75
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 10.0
+	}
+	ct_knowledge_1 = {
+		desc = ct_knowledge_1_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes #Only buildable in the capital
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		#upgrades_from = 
+		gold_cost = 400
+		build_time = 365
+		tax_income = 1.0
+		diplomacy = 2
+		martial = 2
+		stewardship = 2
+		intrigue = 2
+		learning = 2
+		combat_rating = 5
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	ct_knowledge_2 = {
+		desc = ct_knowledge_2_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = ct_knowledge_1
+		gold_cost = 600
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 3
+		martial = 3
+		stewardship = 3
+		intrigue = 3
+		learning = 3
+		combat_rating = 10
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	ct_knowledge_3 = {
+		desc = ct_knowledge_3_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = ct_knowledge_2
+		gold_cost = 800
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 5
+		martial = 5
+		stewardship = 5
+		intrigue = 5
+		learning = 5
+		combat_rating = 15
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
 }
 temple = {
     tp_checkpoint_1 = {
 		desc = tp_checkpoint_1_desc
         potential = {
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		gold_cost = 200
 		build_time = 365
 		fort_level = 2.0
@@ -109,12 +398,19 @@ temple = {
 		desc = tp_checkpoint_2_desc
         potential = {
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		upgrades_from = tp_checkpoint_1
 		gold_cost = 300
 		build_time = 365
@@ -126,18 +422,152 @@ temple = {
 		
 		extra_tech_building_start = 10.0
 	}
+	tp_checkpoint_3 = {
+		desc = tp_checkpoint_3_desc
+        potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = tp_checkpoint_2 #Tells the game this is an upgrade from the previous tier
+		gold_cost = 400
+		build_time = 365
+		fort_level = 6.0
+		levy_size = 0.3
+		tax_income = 1.5
+        garrison_size = 0.75
+		ai_creation_factor = 0
+		
+		extra_tech_building_start = 10.0
+	}
+	tp_knowledge_1 = {
+		desc = tp_knowledge_1_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes #Only buildable in the capital
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		#upgrades_from = 
+		gold_cost = 400
+		build_time = 365
+		tax_income = 1.0
+		diplomacy = 2
+		martial = 2
+		stewardship = 2
+		intrigue = 2
+		learning = 2
+		combat_rating = 5
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	tp_knowledge_2 = {
+		desc = tp_knowledge_2_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = tp_knowledge_1
+		gold_cost = 600
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 3
+		martial = 3
+		stewardship = 3
+		intrigue = 3
+		learning = 3
+		combat_rating = 10
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	tp_knowledge_3 = {
+		desc = tp_knowledge_3_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = tp_knowledge_2
+		gold_cost = 800
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 5
+		martial = 5
+		stewardship = 5
+		intrigue = 5
+		learning = 5
+		combat_rating = 15
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
 }
 tribal = {
     tb_checkpoint_1 = {
 		desc = ca_checkpoint_1_desc
         potential = {
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		gold_cost = 200
 		build_time = 365
 		fort_level = 2.0
@@ -155,12 +585,19 @@ tribal = {
 		desc = ca_checkpoint_2_desc
         potential = {
             FROM = {
-				any_owned_bloodline {
+				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_yan
 				}
             }
         }
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
 		upgrades_from = tb_checkpoint_1
 		gold_cost = 300
 		build_time = 365
@@ -173,6 +610,136 @@ tribal = {
 		convert_to_city = ct_checkpoint_2
 		convert_to_castle = ca_checkpoint_2
 		
+		extra_tech_building_start = 10.0
+	}
+	tb_checkpoint_3 = {
+		desc = tb_checkpoint_3_desc
+        potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = tb_checkpoint_2 #Tells the game this is an upgrade from the previous tier
+		gold_cost = 400
+		build_time = 365
+		fort_level = 6.0
+		levy_size = 0.3
+		tax_income = 1.5
+        garrison_size = 0.75
+		ai_creation_factor = 0
+
+		convert_to_city = ct_checkpoint_3
+		convert_to_castle = ca_checkpoint_3
+		
+		extra_tech_building_start = 10.0
+	}
+	tb_knowledge_1 = {
+		desc = tb_knowledge_1_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes #Only buildable in the capital
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		#upgrades_from = 
+		gold_cost = 400
+		build_time = 365
+		tax_income = 1.0
+		diplomacy = 2
+		martial = 2
+		stewardship = 2
+		intrigue = 2
+		learning = 2
+		combat_rating = 5
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	tb_knowledge_2 = {
+		desc = tb_knowledge_2_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = tb_knowledge_1
+		gold_cost = 600
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 3
+		martial = 3
+		stewardship = 3
+		intrigue = 3
+		learning = 3
+		combat_rating = 10
+		ai_creation_factor = 0
+
+		extra_tech_building_start = 10.0
+	}
+	tb_knowledge_3 = {
+		desc = tb_knowledge_3_desc
+		potential = {
+            FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+            }
+        }
+		trigger = {
+			is_capital = yes 
+		}
+		is_active_trigger = {
+			FROM = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_yan
+				}
+			}
+		}
+		upgrades_from = tb_knowledge_2
+		gold_cost = 800
+		build_time = 365
+		tax_income = 2.0
+		diplomacy = 5
+		martial = 5
+		stewardship = 5
+		intrigue = 5
+		learning = 5
+		combat_rating = 15
+		ai_creation_factor = 0
+
 		extra_tech_building_start = 10.0
 	}
 }
