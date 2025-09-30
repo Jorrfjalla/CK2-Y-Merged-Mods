@@ -1,3 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
 sex_flip;Flip sex;;;;;;;;;;;;;x
 sex_flip_desc;I mean what else is there to say?;;;;;;;;;;;;;x
+ystt_set_mother;Make target Mother;;;;;;;;;;;;;x
+ystt_set_mother_desc;Also syncs bloodlines;;;;;;;;;;;;;x
+ystt_set_father;Make target Father;;;;;;;;;;;;;x
+ystt_set_father_desc;Also syncs bloodlines;;;;;;;;;;;;;x

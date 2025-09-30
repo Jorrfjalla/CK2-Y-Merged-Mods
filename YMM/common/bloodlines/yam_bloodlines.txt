@@ -11,27 +11,47 @@ yam_bloodline = {
 	allow_bastards = yes #Even bastards can get in on the bloodline, keep an eye out for illegitimate children from ai though 
 	picture = "GFX_bloodlines_symbol_yam_bloodline"
 	flags = { #Most important section, this enables all the special game interactions, above is just flavour text, also has custom tag for location of this exact bloodline
-		bloodline_yan 
-		bloodline_castellan 
-		bloodline_blood_building 
-		bloodline_architect 
-		bloodline_monumental 
-		bloodline_reaver 
-		bloodline_fearsome 
-		bloodline_inspire_commanders 
-		bloodline_loyalist 
+		bloodline_yan
+		bloodline_castellan
+		bloodline_blood_building
+		bloodline_architect
+		bloodline_monumental
+		bloodline_reaver
+		bloodline_fearsome
+		bloodline_inspire_commanders
+		bloodline_loyalist
 		bloodline_artisan_craftsmen
 		bloodline_battle_bards
+		bloodline_pet_dog
+		bloodline_murder_child
 		bloodline_pet_eagle
+		bloodline_knights
+		bloodline_prestige_sacrifice
 		bloodline_ambition
+		bloodline_faster_claims
+		bloodline_legitimize
+		bloodline_sky_burial
+		bloodline_heroes
+		bloodline_murder_deflection
+		bloodline_faster_dissent
+		jewish_saintly_bloodline
 		duelist_bloodline
+		theologian_saintly_bloodline
+		bloodline_better_inquisition
 		battle_survivor_bloodline
+		jewish_loans
 		grand_crusader_bloodline
+		bloodline_more_philosophers
 		bloodline_murder_stalk
+		bloodline_qarmatian_leader
+		bloodline_shiite_leader
+		bloodline_wandering_artists
 		bloodline_revocation_plot
 		monastic_saintly_bloodline
+		bloodline_tanistry
 		cultural_saintly_bloodline
 		inquisitional_saintly_bloodline
+		bloodline_peace_prosperity
 		bloodline_mercenary_traditions
 		bloodline_viking
 		bloodline_enatic_cognatic
