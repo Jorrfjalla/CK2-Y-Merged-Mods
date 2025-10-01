@@ -12,4 +12,8 @@ spriteTypes = {
 		name = "GFX_bloodlines_symbol_yam_bloodline"
 		texturefile = "gfx\\interface\\bloodlines\\yam_bloodline.dds"
 	}
+	spriteType = {
+		name = "GFX_yam_smarts"
+		texturefile = "gfx\\interface\\decisions\\yam_smarts.dds"
+	}
 }

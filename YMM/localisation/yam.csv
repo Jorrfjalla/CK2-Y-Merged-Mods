@@ -19,3 +19,11 @@ yam_traits_fix;Purge bad traits;;;;;;;;;;;;;x
 yam_traits_fix_desc;Removes all but tall and dwarf because those are mildly special;;;;;;;;;;;;;x
 yam_bloodline_destroy;Destroy Yan Bloodline;;;;;;;;;;;;;x
 yam_bloodline_destroy_desc;Completely eradicate it from the game;;;;;;;;;;;;;x
+yam_plus_5_smarts;+5 Base Stats;;;;;;;;;;;;;x
+yam_plus_10_smarts;+10 Base Stats;;;;;;;;;;;;;x
+yam_minus_5_smarts;-5 Base Stats;;;;;;;;;;;;;x
+yam_minus_10_smarts;-10 Base Stats;;;;;;;;;;;;;x
+yam_plus_5_smarts_desc;Add 5 to all stats;;;;;;;;;;;;;x
+yam_plus_10_smarts_desc;Add 10 to all stats;;;;;;;;;;;;;x
+yam_minus_5_smarts_desc;Take away 5 from all stats;;;;;;;;;;;;;x
+yam_minus_10_smarts_desc;Take 10 away from all stats;;;;;;;;;;;;;x

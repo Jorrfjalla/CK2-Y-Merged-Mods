@@ -81,6 +81,11 @@ decisions = {
 			NOT = {
 				has_character_flag = hidden_yam
 			}
+			NOT = {
+				ROOT = {
+					trait = yat_trait
+				}
+			}
 		}
 		effect = { #Calls linked event that actually gives the trait
 			#character_event = { id = yam.3 days = 0 }
@@ -95,6 +100,7 @@ decisions = {
 			remove_trait = stutter
 			remove_trait = ugly
 			remove_trait = weak
+			add_trait = yat_trait
 		}
 		ai_will_do = {
 			factor = 0
@@ -177,6 +183,120 @@ decisions = {
 		}
 		ai_will_do = { #Unneeded
 			factor = 0
+		}
+	}
+}
+targetted_decisions = {
+	yam_plus_5_smarts = {
+		ai = no
+		diplomacy_icon = GFX_yam_artifacts_create
+		filter = all_including_me
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_yam
+			}
+		}
+		potential = {
+			is_alive = yes
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+		}
+		effect = {
+			ROOT = {
+				change_diplomacy = 5
+				change_martial = 5
+				change_stewardship = 5
+				change_intrigue = 5
+				change_learning = 5
+			}
+		}
+	}
+	yam_plus_10_smarts = {
+		ai = no
+		diplomacy_icon = GFX_yam_artifacts_create
+		filter = all_including_me
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_yam
+			}
+		}
+		potential = {
+			is_alive = yes
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+		}
+		effect = {
+			ROOT = {
+				change_diplomacy = 10
+				change_martial = 10
+				change_stewardship = 10
+				change_intrigue = 10
+				change_learning = 10
+			}
+		}
+	}
+	yam_minus_5_smarts = {
+		ai = no
+		diplomacy_icon = GFX_yam_artifacts_create
+		filter = all_including_me
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_yam
+			}
+		}
+		potential = {
+			is_alive = yes
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+		}
+		effect = {
+			ROOT = {
+				change_diplomacy = -5
+				change_martial = -5
+				change_stewardship = -5
+				change_intrigue = -5
+				change_learning = -5
+			}
+		}
+	}
+	yam_minus_10_smarts = {
+		ai = no
+		diplomacy_icon = GFX_yam_artifacts_create
+		filter = all_including_me
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_yam
+			}
+		}
+		potential = {
+			is_alive = yes
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+		}
+		effect = {
+			ROOT = {
+				change_diplomacy = -10
+				change_martial = -10
+				change_stewardship = -10
+				change_intrigue = -10
+				change_learning = -10
+			}
 		}
 	}
 }
