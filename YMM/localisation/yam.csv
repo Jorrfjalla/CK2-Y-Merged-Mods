@@ -27,3 +27,5 @@ yam_plus_5_smarts_desc;Add 5 to all stats;;;;;;;;;;;;;x
 yam_plus_10_smarts_desc;Add 10 to all stats;;;;;;;;;;;;;x
 yam_minus_5_smarts_desc;Take away 5 from all stats;;;;;;;;;;;;;x
 yam_minus_10_smarts_desc;Take away 10 from all stats;;;;;;;;;;;;;x
+yam_abdicate;Abdicate to heir;;;;;;;;;;;;;x
+yam_abdicate_desc;No protections, might break some titles, use with care;;;;;;;;;;;;;x

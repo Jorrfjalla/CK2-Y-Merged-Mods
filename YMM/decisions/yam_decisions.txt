@@ -299,4 +299,31 @@ targetted_decisions = {
 			}
 		}
 	}
+	yam_abdicate = {
+		filter = all_including_me
+		ai = no
+		from_potential = {
+			ai = no
+			is_alive = yes
+			NOT = {
+				has_character_flag = hidden_yam
+			}
+		}
+		potential = {
+			is_alive = yes
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			is_ruler = yes
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				abdicate = yes
+			}
+		}
+	}
 }
