@@ -1,0 +1,21 @@
+decisions = {
+    ydv_crusade_trigger = {
+        ai = no
+        potential = {
+            has_game_rule = {
+                name = artifact_mod
+                value = enabled
+            }
+            NOT = {
+				has_character_flag = hidden_yam
+                has_global_flag = ydv_crusade_begun
+			}
+        }
+        effect = {
+            narrative_event = {
+                id = 39662
+            }
+            set_global_flag = ydv_crusade_begun
+        }
+    }
+}
