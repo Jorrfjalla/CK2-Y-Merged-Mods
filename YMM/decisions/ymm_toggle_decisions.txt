@@ -1,4 +1,30 @@
 decisions = {
+	hide_toggles = {
+		ai = no
+		potential = {
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_toggles
+		}
+	}
+	show_toggles = {
+		ai = no
+		potential = {
+			has_character_flag = hidden_toggles
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_toggles
+		}
+	}
     hide_pruning = { #Toggles pruning decisions, targetted and otherwise
 		ai= no #Human only
 		potential = { #Hides if module disabled in game rules, so they are still master toggles, for multiplayer regards
@@ -6,8 +32,9 @@ decisions = {
 				name = tree_pruning
 				value = enabled
 			}
-			NOT = { #Doesn't have the flag already, this makes it a toggle rather than a clicky thing
+			NOR = { #Doesn't have the flag already, this makes it a toggle rather than a clicky thing
 				has_character_flag = hidden_pruning #Flags are completely custom, character based means it's multiplayer compatible too, does mean you need to retoggle when your character dies though, not too big an issue though.
+				has_character_flag = hidden_toggles
 			}
 		}
 		allow = {
@@ -25,6 +52,9 @@ decisions = {
 				value = enabled
 			}
 			has_character_flag = hidden_pruning #Makes this decision only appear when the toggle off flag is enabled
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
 		}
 		allow = {
 			ai = no
@@ -40,8 +70,9 @@ decisions = {
 				name = multiplayer_commands
 				value = enabled
 			}
-			NOT = {
+			NOR = {
 				has_character_flag = hidden_mp_commands
+				has_character_flag = hidden_toggles
 			}
 		}
 		allow = {
@@ -59,6 +90,9 @@ decisions = {
 				value = enabled
 			}
 			has_character_flag = hidden_mp_commands
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
 		}
 		allow = {
 			ai = no
@@ -74,8 +108,9 @@ decisions = {
 				name = rename_family
 				value = enabled
 			}
-			NOT = {
+			NOR = {
 				has_character_flag = hidden_renaming
+				has_character_flag = hidden_toggles
 			}
 		}
 		allow = {
@@ -93,6 +128,9 @@ decisions = {
 				value = enabled
 			}
 			has_character_flag = hidden_renaming
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
 		}
 		allow = {
 			ai = no
@@ -108,8 +146,9 @@ decisions = {
 				name = artifact_mod
 				value = enabled
 			}
-			NOT = {
+			NOR = {
 				has_character_flag = hidden_yam
+				has_character_flag = hidden_toggles
 			}
 		}
 		allow = {
@@ -127,6 +166,9 @@ decisions = {
 				value = enabled
 			}
 			has_character_flag = hidden_yam
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
 		}
 		allow = {
 			ai = no
@@ -142,8 +184,9 @@ decisions = {
 				name = non_aggression_pact_decision
 				value = enabled
 			}
-			NOT = {
+			NOR = {
 				has_character_flag = hidden_nap
+				has_character_flag = hidden_toggles
 			}
 		}
 		allow = {
@@ -161,6 +204,9 @@ decisions = {
 				value = enabled
 			}
 			has_character_flag = hidden_nap
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
 		}
 		allow = {
 			ai = no
@@ -170,14 +216,15 @@ decisions = {
 		}
 	}
 	hide_ystt = {
-		ai= no #Human only
-		potential = { #Hides if module disabled in game rules, so they are still master toggles, for multiplayer regards
+		ai= no
+		potential = {
 			has_game_rule = {
 				name = sex_change
 				value = enabled
 			}
-			NOT = { #Doesn't have the flag already, this makes it a toggle rather than a clicky thing
-				has_character_flag = hidden_ystt #Flags are completely custom, character based means it's multiplayer compatible too, does mean you need to retoggle when your character dies though, not too big an issue though.
+			NOR = {
+				has_character_flag = hidden_ystt
+				has_character_flag = hidden_toggles
 			}
 		}
 		allow = {
@@ -195,6 +242,9 @@ decisions = {
 				value = enabled
 			}
 			has_character_flag = hidden_ystt #Makes this decision only appear when the toggle off flag is enabled
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
 		}
 		allow = {
 			ai = no

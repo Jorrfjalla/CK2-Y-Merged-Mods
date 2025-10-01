@@ -94,4 +94,14 @@ spriteTypes = {
     name = "GFX_show_ystt"
     texturefile = "gfx\\interface\\decisions\\cross.dds"
   }
+  
+  spriteType = {
+    name = "GFX_hide_toggles"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_show_toggles"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
 }

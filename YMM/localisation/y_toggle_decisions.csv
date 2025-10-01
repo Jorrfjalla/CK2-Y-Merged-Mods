@@ -1,7 +1,7 @@
 #CODE;ENGLISH;;;;;;;;;;;;;x
-hide_pruning;Hide pruning Module;;;;;;;;;;;;;x
+hide_pruning;Hide Pruning Module;;;;;;;;;;;;;x
 hide_pruning_desc;Toggles off all decisions, targetted and intrigue for the pruning module;;;;;;;;;;;;;x
-show_pruning;Show pruning Module;;;;;;;;;;;;;x
+show_pruning;Show Pruning Module;;;;;;;;;;;;;x
 show_pruning_desc;Toggles on all decisions, targetted and intrigue for the pruning module;;;;;;;;;;;;;x
 hide_mp_commands;Hide MP Commands Module;;;;;;;;;;;;;x
 hide_mp_commands_desc;Toggles off all decisions, targetted and intrigue for the MP Commands module;;;;;;;;;;;;;x
@@ -23,3 +23,7 @@ hide_ystt;Hide FS Module;;;;;;;;;;;;;x
 hide_ystt_desc;Toggles off all decisions, targetted and intrigue for the targeted sex change module;;;;;;;;;;;;;x
 show_ystt;Show FS Module;;;;;;;;;;;;;x
 show_ystt_desc;Toggles on all decisions, targetted and intrigue for the targeted sex change module;;;;;;;;;;;;;x
+hide_toggles;Hide all toggles;;;;;;;;;;;;;x
+hide_toggles_desc;Hides all module toggle decisions;;;;;;;;;;;;;x
+show_toggles;Show all toggles;;;;;;;;;;;;;x
+show_toggles_desc;Shows all module toggle decisions;;;;;;;;;;;;;x

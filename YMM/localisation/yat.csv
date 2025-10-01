@@ -1,4 +1,4 @@
-#yat_trait;Player-Linked;;;;;;;;;;;;;;x
-#yat_trait_desc;Inherited from the origin;;;;;;;;;;;;;;x
-#purge_cheat_trait;Purge Cheat Trait;;;;;;;;;;;;;x
-#purge_cheat_trait_desc;Remove Player-Linked from all living people;;;;;;;;;;;;;x
+yat_trait;Player-Linked;;;;;;;;;;;;;;x
+yat_trait_desc;Path of the player;;;;;;;;;;;;;;x
+purge_cheat_trait;Purge Cheat Trait;;;;;;;;;;;;;x
+purge_cheat_trait_desc;Remove Player-Linked from all living people;;;;;;;;;;;;;x
