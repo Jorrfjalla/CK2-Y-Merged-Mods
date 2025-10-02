@@ -301,6 +301,7 @@ targetted_decisions = {
 	}
 	yam_abdicate = {
 		filter = all_including_me
+		diplomacy_icon = GFX_yam_artifacts_create
 		ai = no
 		from_potential = {
 			ai = no

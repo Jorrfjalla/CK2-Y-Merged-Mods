@@ -80,4 +80,56 @@ targetted_decisions = {
 			}
 		}
 	}
+	ystt_remove_mother = {
+		diplomacy_icon = GFX_trait_has_bubonic_plague
+		filter = all
+		ai = no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				set_mother = 0
+			}
+		}
+	}
+	ystt_remove_father = {
+		diplomacy_icon = GFX_trait_has_bubonic_plague
+		filter = all
+		ai = no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				set_father = 0
+			}
+		}
+	}
 }
