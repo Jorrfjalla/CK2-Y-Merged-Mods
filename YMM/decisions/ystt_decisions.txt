@@ -82,7 +82,7 @@ targetted_decisions = {
 	}
 	ystt_remove_mother = {
 		diplomacy_icon = GFX_trait_has_bubonic_plague
-		filter = all
+		filter = all_including_me
 		ai = no
 		from_potential = {
 			is_alive = yes
@@ -108,7 +108,7 @@ targetted_decisions = {
 	}
 	ystt_remove_father = {
 		diplomacy_icon = GFX_trait_has_bubonic_plague
-		filter = all
+		filter = all_including_me
 		ai = no
 		from_potential = {
 			is_alive = yes
