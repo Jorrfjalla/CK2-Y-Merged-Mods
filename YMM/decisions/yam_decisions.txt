@@ -187,7 +187,7 @@ decisions = {
 targetted_decisions = {
 	yam_plus_5_smarts = {
 		ai = no
-		diplomacy_icon = GFX_yam_artifacts_create
+		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
 			is_alive = yes
@@ -215,7 +215,7 @@ targetted_decisions = {
 	}
 	yam_plus_10_smarts = {
 		ai = no
-		diplomacy_icon = GFX_yam_artifacts_create
+		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
 			is_alive = yes
@@ -243,7 +243,7 @@ targetted_decisions = {
 	}
 	yam_minus_5_smarts = {
 		ai = no
-		diplomacy_icon = GFX_yam_artifacts_create
+		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
 			is_alive = yes
@@ -271,7 +271,7 @@ targetted_decisions = {
 	}
 	yam_minus_10_smarts = {
 		ai = no
-		diplomacy_icon = GFX_yam_artifacts_create
+		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
 			is_alive = yes

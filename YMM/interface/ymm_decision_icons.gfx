@@ -104,4 +104,14 @@ spriteTypes = {
     name = "GFX_show_toggles"
     texturefile = "gfx\\interface\\decisions\\cross.dds"
   }
+
+    spriteType = {
+    name = "GFX_tick"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+    spriteType = {
+    name = "GFX_cross"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
 }
