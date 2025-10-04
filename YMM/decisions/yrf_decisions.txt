@@ -24,7 +24,10 @@ targetted_decisions = {
 		}
 		effect = { #Create rename message, taken straight from 'Rename anyone'
 	        ROOT = {
-		        prompt_name = { player = from type = RENAME_CHARACTER_MESSAGE }
+		        prompt_name = {
+					player = from
+					type = RENAME_CHARACTER_MESSAGE
+				}
 	        }
 		}
 	}
@@ -53,7 +56,10 @@ targetted_decisions = {
 		}
 		effect = {
 	        ROOT = { #Rename message
-		        prompt_name = { player = from type = RENAME_CHARACTER_MESSAGE }
+		        prompt_name = {
+					player = from
+					type = RENAME_CHARACTER_MESSAGE
+				}
 	        }
 		}
 	}

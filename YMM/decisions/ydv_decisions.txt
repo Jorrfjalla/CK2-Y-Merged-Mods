@@ -8,14 +8,13 @@ decisions = {
             }
             NOT = {
 				has_character_flag = hidden_yam
-                has_global_flag = ydv_crusade_begun
+                has_global_flag = christian_crusades_unlocked
 			}
         }
         effect = {
             narrative_event = {
                 id = 39662
             }
-            set_global_flag = ydv_crusade_begun
         }
     }
 }

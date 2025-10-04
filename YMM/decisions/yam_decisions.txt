@@ -77,14 +77,12 @@ decisions = {
 				trait = stutter
 				trait = ugly
 				trait = weak
+				NOT = {
+					trait = yat_trait
+				}
 			}
 			NOT = {
 				has_character_flag = hidden_yam
-			}
-			NOT = {
-				ROOT = {
-					trait = yat_trait
-				}
 			}
 		}
 		effect = { #Calls linked event that actually gives the trait

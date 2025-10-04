@@ -1,13 +1,15 @@
 #CODE;ENGLISH;;;;;;;;;;;;;x
 mp_alliance;Create Alliance;;;;;;;;;;;;;x
-mp_alliance_desc;I have this working finally, yippee;;;;;;;;;;;;;x
+mp_alliance_desc;Turns out getting a load more experience CK2 modding makes this easier to implement, nice x3;;;;;;;;;;;;;x
 mp_friend;Add Friend;;;;;;;;;;;;;x
-mp_friend_desc;Add target as friend;;;;;;;;;;;;;x
+mp_friend_desc;Add mutual friendship;;;;;;;;;;;;;x
 mp_cash_100;Give 100 Gold;;;;;;;;;;;;;x
-mp_cash_100_desc;Meowmeowmeow;;;;;;;;;;;;;x
+mp_cash_100_desc;Throw some coppers at the pauper;;;;;;;;;;;;;x
 mp_cash_500;Give 500 Gold;;;;;;;;;;;;;x
-mp_cash_500_desc;Meowmeowmeow;;;;;;;;;;;;;x
+mp_cash_500_desc;Donate some silvers to the needy;;;;;;;;;;;;;x
 mp_cash_1000;Give 1000 Gold;;;;;;;;;;;;;x
-mp_cash_1000_desc;Meowmeowmeow;;;;;;;;;;;;;x
+mp_cash_1000_desc;Charitably give away some gold coins to the less fortunate;;;;;;;;;;;;;x
 mp_cash_5000;Give 5000 Gold;;;;;;;;;;;;;x
-mp_cash_5000_desc;Meowmeowmeow;;;;;;;;;;;;;x
+mp_cash_5000_desc;Be a shining beacon of the charitable, donating resplendent platinum coins, each one with the brilliance of the sun, and the coolness of the moon. Truly, a feat worthy of multiple lines of text!;;;;;;;;;;;;;x
+mp_cash_10000;Give 10,000 Gold;;;;;;;;;;;;;x
+mp_cash_10000_desc;Impressive that you can even see this button, nice one x3;;;;;;;;;;;;;x

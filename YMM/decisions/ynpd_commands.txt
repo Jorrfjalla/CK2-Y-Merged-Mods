@@ -24,15 +24,15 @@ targetted_decisions = {
             OR = {
                 ROOT = {
                     opinion = {
-                    who = FROM
-                    value >= 95 #Basic chance, since this is quite powerful
+                        who = FROM
+                        value >= 95 #Basic chance, since this is quite powerful
                     }
                 }
                 AND = {
                     ROOT = {
                         opinion = {
-                        who = FROM
-                        value >= 80 #Easier when sharing a culture
+                            who = FROM
+                            value >= 80 #Easier when sharing a culture
                         }
                         culture = FROM
                     }
@@ -40,8 +40,8 @@ targetted_decisions = {
                 AND = {
                     ROOT = {
                         opinion = {
-                        who = FROM
-                        value >= 80 #Easier when sharing a religion
+                            who = FROM
+                            value >= 80 #Easier when sharing a religion
                         }
                         religion = FROM
                     }
@@ -49,8 +49,8 @@ targetted_decisions = {
                 AND = {
                     ROOT = {
                         opinion = {
-                        who = FROM
-                        value >= 70 #Easier still when sharing both culture and religion
+                            who = FROM
+                            value >= 70 #Easier still when sharing both culture and religion
                         }
                         religion = FROM
                         culture = FROM
