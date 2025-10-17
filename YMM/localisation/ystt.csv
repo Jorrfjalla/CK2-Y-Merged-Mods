@@ -5,7 +5,7 @@ ystt_set_mother;Make target Mother;;;;;;;;;;;;;x
 ystt_set_mother_desc;Also syncs bloodlines;;;;;;;;;;;;;x
 ystt_set_father;Make target Father;;;;;;;;;;;;;x
 ystt_set_father_desc;Also syncs bloodlines;;;;;;;;;;;;;x
-ystt_remove_mother;Removes Mother;;;;;;;;;;;;;x
-ystt_remove_mother_desc;Set to no mother;;;;;;;;;;;;;x
-ystt_remove_father;Removes Father;;;;;;;;;;;;;x
-ystt_remove_father_desc;Set to no father;;;;;;;;;;;;;x
+ystt_remove_mother;Remove Mother;;;;;;;;;;;;;x
+ystt_remove_mother_desc;Removes target's mother connection;;;;;;;;;;;;;x
+ystt_remove_father;Remove Father;;;;;;;;;;;;;x
+ystt_remove_father_desc;Removes target's father connection;;;;;;;;;;;;;x
