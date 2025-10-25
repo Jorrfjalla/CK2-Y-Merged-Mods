@@ -299,7 +299,7 @@ targetted_decisions = {
 	}
 	yam_abdicate = {
 		filter = all_including_me
-		diplomacy_icon = GFX_yam_artifacts_create
+		diplomacy_icon = GFX_evil_sheep
 		ai = no
 		from_potential = {
 			ai = no
