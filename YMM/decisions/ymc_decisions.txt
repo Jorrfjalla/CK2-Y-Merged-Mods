@@ -28,7 +28,7 @@ targetted_decisions = {
 				}
 			}
 		}
-		effect = { #Adds mp_alliance flag to both parties, also creates 1000 year alliance, this is overkill
+		effect = { #Creates 1000 year alliance, this is overkill
 			FROM = { 
 				add_alliance = { 
 					who = ROOT

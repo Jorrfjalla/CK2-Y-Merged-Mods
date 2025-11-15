@@ -1,6 +1,6 @@
-yat_trait = {
-	customizer = no #No ruler customiser
-	random = no #Never randomly generated
-	learning = 1
-	inherit_chance = 0 #Never inherit
-}
+#yat_trait = {
+#	customizer = no #No ruler customiser
+#	random = no #Never randomly generated
+#	learning = 1
+#	inherit_chance = 0 #Never inherit
+#}

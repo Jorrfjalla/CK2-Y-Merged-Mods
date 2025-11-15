@@ -4,6 +4,10 @@
 #        potential = {
 #            has_trait = yat_trait
 #            ai = no
+#            has_game_rule = {
+#				name = artifact_mod
+#				value = enabled
+#			}
 #        }
 #        effect = {
 #            any_character = {

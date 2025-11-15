@@ -77,9 +77,9 @@ decisions = {
 				trait = stutter
 				trait = ugly
 				trait = weak
-				NOT = {
-					trait = yat_trait
-				}
+#				NOT = {
+#					trait = yat_trait
+#				}
 			}
 			NOT = {
 				has_character_flag = hidden_yam
@@ -98,7 +98,7 @@ decisions = {
 			remove_trait = stutter
 			remove_trait = ugly
 			remove_trait = weak
-			add_trait = yat_trait
+#			add_trait = yat_trait
 		}
 		ai_will_do = {
 			factor = 0
