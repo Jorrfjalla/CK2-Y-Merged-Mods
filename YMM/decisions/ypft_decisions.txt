@@ -23,9 +23,10 @@ targetted_decisions = {
 		effect = {
 			ROOT = {
 				any_dynasty_member_even_if_dead = { #Scope to the entire dynasty
-					limit = { #Dead and childless only
+					limit = { #Dead, childless and non-ruler, for dynasty prestige reasons, only
 						is_alive = no
 						has_children = no
+						is_ruler = no
 					}
 					set_mother = 0 #Remove mother
 					set_father = 0 #Remove father
@@ -33,10 +34,11 @@ targetted_decisions = {
 				}
 			}
 			ROOT = {
-				any_child_even_if_dead = {
+				any_child_even_if_dead = { #Personal bastard removal, only really relevant for females
 					limit = {
 						is_alive = no
 						has_children = no
+						is_ruler = no
 					}
 					set_mother = 0
 					set_father = 0
@@ -44,11 +46,12 @@ targetted_decisions = {
 				}
 			}
 			ROOT = {
-				any_dynasty_member_even_if_dead = {
+				any_dynasty_member_even_if_dead = { #Dynasty-wide bastard removal
 					any_child_even_if_dead = {
 						limit = {
 							is_alive = no
 							has_children = no
+							is_ruler = no
 						}
 						set_mother = 0
 						set_father = 0

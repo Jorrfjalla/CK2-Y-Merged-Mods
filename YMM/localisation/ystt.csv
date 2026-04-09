@@ -9,3 +9,4 @@ ystt_remove_mother;Remove Mother;;;;;;;;;;;;;x
 ystt_remove_mother_desc;Removes target's mother connection;;;;;;;;;;;;;x
 ystt_remove_father;Remove Father;;;;;;;;;;;;;x
 ystt_remove_father_desc;Removes target's father connection;;;;;;;;;;;;;x
+ystt_remove_dynasty;Removes target's dynasty;;;;;;;;;;;;;x
