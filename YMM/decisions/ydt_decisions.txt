@@ -1,0 +1,110 @@
+decisions = {
+
+    ydt_destroy_empires = { #Destroys every onmap empire, transplanted and adjusted from R1D2s DM mod
+        is_high_prio = yes
+        potential = { #Player only, correct gamerule and decision enabled
+            ai = no
+            has_game_rule = {
+                name = artifact_mod
+                value = enabled
+            }
+            NOT = {
+                has_character_flag = hidden_ydt
+            }
+        }
+        effect = {
+            any_landed_title = {
+                limit = {
+                    tier = EMPEROR #Empire level only
+                    is_title_active = THIS
+                    NOT = {
+                        mercenary = yes
+                    }
+                    holder_scope = {
+                        NOR = { #Keeps offmap powers safe, and religious heads
+                            is_offmap_ruler = yes
+                            is_offmap_governor = yes
+                            can_change_religion = no
+                        }
+                    }
+                }
+                unsafe_destroy_landed_title = THIS
+            }
+        }
+        ai_will_do = { #Unneeded, but here for safety
+            factor = 0
+        }
+    }
+
+    ydt_destroy_kingdoms = { #Destroys every onmap kingdom, transplanted and adjusted from R1D2s DM mod
+        is_high_prio = yes
+        potential = { #Player only, correct gamerule and decision enabled
+            ai = no
+            has_game_rule = {
+                name = artifact_mod
+                value = enabled
+            }
+            NOT = {
+                has_character_flag = hidden_ydt
+            }
+        }
+        effect = {
+            any_landed_title = {
+                limit = {
+                    tier = KING #Kingdom level only
+                    is_title_active = THIS
+                    NOT = {
+                        mercenary = yes
+                    }
+                    holder_scope = {
+                        NOR = { #Keeps offmap powers safe, and religious heads
+                            is_offmap_ruler = yes
+                            is_offmap_governor = yes
+                            can_change_religion = no
+                        }
+                    }
+                }
+                unsafe_destroy_landed_title = THIS
+            }
+        }
+        ai_will_do = { #Unneeded, but here for safety
+            factor = 0
+        }
+    }
+
+    ydt_destroy_duchies = { #Destroys every onmap duchy, transplanted and adjusted from R1D2s DM mod
+        is_high_prio = yes
+        potential = { #Player only, correct gamerule and decision enabled
+            ai = no
+            has_game_rule = {
+                name = artifact_mod
+                value = enabled
+            }
+            NOT = {
+                has_character_flag = hidden_ydt
+            }
+        }
+        effect = {
+            any_landed_title = {
+                limit = {
+                    tier = DUKE #Kingdom level only
+                    is_title_active = THIS
+                    NOT = {
+                        mercenary = yes
+                    }
+                    holder_scope = {
+                        NOR = { #Keeps offmap powers safe, and religious heads
+                            is_offmap_ruler = yes
+                            is_offmap_governor = yes
+                            can_change_religion = no
+                        }
+                    }
+                }
+                unsafe_destroy_landed_title = THIS
+            }
+        }
+        ai_will_do = { #Unneeded, but here for safety
+            factor = 0
+        }
+    }
+}

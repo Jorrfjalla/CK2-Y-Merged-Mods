@@ -1,0 +1,82 @@
+spriteTypes = {
+
+  spriteType = {
+    name = "GFX_hide_pruning"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_pruning"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+  spriteType = {
+    name = "GFX_hide_mp_commands"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_mp_commands"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+  spriteType = {
+    name = "GFX_hide_renaming"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_renaming"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+  spriteType = {
+    name = "GFX_hide_yam"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_yam"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+  spriteType = {
+    name = "GFX_hide_nap"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_nap"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+
+  spriteType = {
+    name = "GFX_hide_ystt"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_ystt"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_hide_ydt"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_ydt"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+  
+  spriteType = {
+    name = "GFX_hide_toggles"
+    texturefile = "gfx\\interface\\decisions\\tick.dds"
+  }
+
+  spriteType = {
+    name = "GFX_show_toggles"
+    texturefile = "gfx\\interface\\decisions\\cross.dds"
+  }
+}

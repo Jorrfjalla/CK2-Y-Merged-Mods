@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_ydt_destroy_empires"
+        texturefile = "gfx\\interface\\decisions\\destroy_empires.dds"
+    }
+    spriteType = {
+        name = "GFX_ydt_destroy_kingdoms"
+        texturefile = "gfx\\interface\\decisions\\destroy_kingdoms.dds"
+    }
+    spriteType = {
+        name = "GFX_ydt_destroy_duchies"
+        texturefile = "gfx\\interface\\decisions\\destroy_duchies.dds"
+    }
+}

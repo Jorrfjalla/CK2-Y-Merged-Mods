@@ -253,4 +253,42 @@ decisions = {
 			clr_character_flag = hidden_ystt #Gets rid of flag, no need for shown_pruning flag because you can check for the absence of hidden, less flags, the better.
 		}
 	}
+	hide_ydt = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			NOR = {
+				has_character_flag = hidden_ydt
+				has_character_flag = hidden_toggles
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_ydt #Sets flag
+		}
+	}
+	show_ydt = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = artifact_mod
+				value = enabled
+			}
+			has_character_flag = hidden_ydt #Makes this decision only appear when the toggle off flag is enabled
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_ydt #Gets rid of flag, no need for shown_pruning flag because you can check for the absence of hidden, less flags, the better.
+		}
+	}
 }

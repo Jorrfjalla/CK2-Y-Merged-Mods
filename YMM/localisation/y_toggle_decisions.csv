@@ -1,16 +1,16 @@
 #CODE;ENGLISH;;;;;;;;;;;;;x
 hide_pruning;Hide Pruning Module;;;;;;;;;;;;;x
-hide_pruning_desc;Toggles off all decisions, targetted and intrigue for the pruning module;;;;;;;;;;;;;x
+hide_pruning_desc;Toggles off all decisions, targetted and intrigue for the Prune Family Tree module;;;;;;;;;;;;;x
 show_pruning;Show Pruning Module;;;;;;;;;;;;;x
-show_pruning_desc;Toggles on all decisions, targetted and intrigue for the pruning module;;;;;;;;;;;;;x
+show_pruning_desc;Toggles on all decisions, targetted and intrigue for the Prune Family Tree module;;;;;;;;;;;;;x
 hide_mp_commands;Hide MP Commands Module;;;;;;;;;;;;;x
 hide_mp_commands_desc;Toggles off all decisions, targetted and intrigue for the MP Commands module;;;;;;;;;;;;;x
 show_mp_commands;Show MP Commands Module;;;;;;;;;;;;;x
 show_mp_commands_desc;Toggles on all decisions, targetted and intrigue for the MP Commands module;;;;;;;;;;;;;x
 hide_renaming;Hide Renaming Module;;;;;;;;;;;;;x
-hide_renaming_desc;Toggles off all decisions, targetted and intrigue for the renaming module;;;;;;;;;;;;;x
+hide_renaming_desc;Toggles off all decisions, targetted and intrigue for the Renaming module;;;;;;;;;;;;;x
 show_renaming;Show Renaming Module;;;;;;;;;;;;;x
-show_renaming_desc;Toggles on all decisions, targetted and intrigue for the renaming module;;;;;;;;;;;;;x
+show_renaming_desc;Toggles on all decisions, targetted and intrigue for the Renaming module;;;;;;;;;;;;;x
 hide_yam;Hide Cheat Module;;;;;;;;;;;;;x
 hide_yam_desc;Toggles off all decisions, targetted and intrigue for the Cheat Mod module;;;;;;;;;;;;;x
 show_yam;Show Cheat Module;;;;;;;;;;;;;x
@@ -20,9 +20,13 @@ hide_nap_desc;Toggles off all decisions, targetted and intrigue for the NAP Deci
 show_nap;Show NAPD Module;;;;;;;;;;;;;x
 show_nap_desc;Toggles on all decisions, targetted and intrigue for the NAP Decision module;;;;;;;;;;;;;x
 hide_ystt;Hide FS Module;;;;;;;;;;;;;x
-hide_ystt_desc;Toggles off all decisions, targetted and intrigue for the targeted sex change module;;;;;;;;;;;;;x
+hide_ystt_desc;Toggles off all decisions, targetted and intrigue for the Targeted Sex Change module;;;;;;;;;;;;;x
 show_ystt;Show FS Module;;;;;;;;;;;;;x
-show_ystt_desc;Toggles on all decisions, targetted and intrigue for the targeted sex change module;;;;;;;;;;;;;x
+show_ystt_desc;Toggles on all decisions, targetted and intrigue for the Targeted Sex Change module;;;;;;;;;;;;;x
+hide_ydt;Hide DT Module;;;;;;;;;;;;;x
+hide_ydt_desc;Toggles off all decisions, targetted and intrigue for the Destroy Title module;;;;;;;;;;;;;x
+show_ydt;Show DT Module;;;;;;;;;;;;;x
+show_ydt_desc;Toggles on all decisions, targetted and intrigue for the Destroy Title module;;;;;;;;;;;;;x
 hide_toggles;Hide all toggles;;;;;;;;;;;;;x
 hide_toggles_desc;Hides all module toggle decisions;;;;;;;;;;;;;x
 show_toggles;Show all toggles;;;;;;;;;;;;;x

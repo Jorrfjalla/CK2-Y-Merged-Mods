@@ -16,4 +16,29 @@ spriteTypes = {
 		name = "GFX_yam_smarts"
 		texturefile = "gfx\\interface\\decisions\\yam_smarts.dds"
 	}
+	spriteType = {
+    	name = "GFX_yam_bloodline_create"
+    	texturefile = "gfx\\interface\\decisions\\sheep.dds"
+	}
+
+	spriteType = {
+    	name = "GFX_yam_artifacts_create"
+    	texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  	}
+
+  	spriteType = {
+    	name = "GFX_yam_traits_fix"
+    	texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  	}
+
+  	spriteType = {
+    	name = "GFX_yam_educate_me"
+    	texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  	}
+
+  	spriteType = {
+    	name = "GFX_yam_bloodline_destroy"
+    	texturefile = "gfx\\interface\\decisions\\sheep.dds"
+  	}
+ 
 }
