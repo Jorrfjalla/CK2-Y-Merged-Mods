@@ -1,0 +1,21 @@
+#namespace = yan
+#
+#character_event = { #Wrote this as a meme for discord, the mtth is very bad as it is, although it does work as planned, also no localisation or gfx done yet
+#  id = yan.1
+#  desc = yannie.1
+#  picture = "GFX_yan_pic"
+#  trigger = {
+#    AND = {
+#      month_of_birth = 8
+#      day_of_birth = 12
+#    }
+#    always = yes
+#  }
+#  mean_time_to_happen = {
+#    days = 1
+#  }
+#  option = {
+#    name = yannie.1.thanks
+#    wealth = 2
+#  }
+#}
