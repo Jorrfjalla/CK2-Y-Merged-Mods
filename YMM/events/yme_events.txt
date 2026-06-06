@@ -1,0 +1,23 @@
+#namespace = yme
+#character_event = {
+#    id = yme.1
+#    desc = yme_event_purge_world
+#    hide_window = yes #Game crashes if option shown, therefore hide window
+#    picture = GFX_evt_beatification
+#    is_triggered_only = yes
+#    immediate = { #Cannot be option due to game crash, this causes it immediately
+#        any_character = {
+#            limit = {
+#                NOR = {
+#                    ai = no #Is not a player
+#                    is_ruler = yes #Is not a ruler
+#                    is_offmap_ruler = yes #Is not an offmap power holder
+#                    is_offmap_governor = yes #Ditto
+#                }
+#            }
+#            death = {
+#                death_reason = death_platypus
+#            }
+#        }
+#    }
+#}

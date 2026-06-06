@@ -1,0 +1,36 @@
+decisions = {
+    yme_purge_world = { #Worldwide, kills everyone who isn't landed or a player
+        is_high_prio = yes
+        potential = {
+            ai = no
+            has_game_rule = {
+                name = mass_extinction
+                value = enabled
+            }
+            NOT = {
+                has_character_flag = hidden_yme
+            }
+        }
+        effect = { #Needs to call an event due to game crash loading results
+#            character_event = {
+#                id = yme.1
+#                days = 0
+#            }
+            hidden_tooltip = { #Got around game crash by hiding the tooltip, event still works so remains as a resource
+                any_character = {
+                    limit = {
+                        NOR = {
+                            ai = no #Is not a player
+                            is_ruler = yes #Is not a ruler
+                            is_offmap_ruler = yes #Is not an offmap power holder
+                            is_offmap_governor = yes #Ditto
+                        }
+                    }
+                    death = {
+                        death_reason = death_platypus
+                    }
+                }
+            }
+        }  
+    }
+}
