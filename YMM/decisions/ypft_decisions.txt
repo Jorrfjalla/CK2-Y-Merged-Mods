@@ -2,7 +2,7 @@ targetted_decisions = {
 	prune_family_tree = {
 		diplomacy_icon = GFX_prune_family_tree #Adds icon to targetted decisions
 		filter = all_including_me #Has what it says on the tin, can target anyone
-		ai= no #Don't allow ai to do it
+		ai = no #Don't allow ai to do it
 		from_potential = { #Human player check
 			is_alive = yes
 			ai = no
@@ -61,4 +61,66 @@ targetted_decisions = {
 			}
 		}
 	}
+}
+decisions = {
+	prune_worldwide = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_game_rule = {
+				name = tree_pruning
+				value = enabled
+			}
+			NOT = {
+				has_character_flag = hidden_pruning
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				any_character = {
+					any_dynasty_member_even_if_dead = { #Scope to the entire dynasty
+						limit = { #Dead, childless and non-ruler, for dynasty prestige reasons, only
+							is_alive = no
+							has_children = no
+							is_ruler = no
+						}
+						set_mother = 0 #Remove mother
+						set_father = 0 #Remove father
+						dynasty = none #Make lowborn
+					}
+				}
+			}
+			hidden_tooltip = {
+				any_character = {
+					any_child_even_if_dead = { #Personal bastard removal, only really relevant for females
+						limit = {
+							is_alive = no
+							has_children = no
+							is_ruler = no
+						}
+						set_mother = 0
+						set_father = 0
+						dynasty = none
+					}
+				}
+			}
+			hidden_tooltip = {
+				any_character = {
+					any_dynasty_member_even_if_dead = { #Dynasty-wide bastard removal
+						any_child_even_if_dead = {
+							limit = {
+								is_alive = no
+								has_children = no
+								is_ruler = no
+							}
+							set_mother = 0
+							set_father = 0
+							dynasty = none
+						}
+					}
+				}
+			}
+		}
+	}
+
 }

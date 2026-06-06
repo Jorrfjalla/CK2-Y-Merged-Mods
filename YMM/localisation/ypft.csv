@@ -1,3 +1,5 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
 prune_family_tree;Prune target family tree;;;;;;;;;;;;;x
 prune_family_tree_desc;Remove dead and childless- dynasty members and children, who are not contributing to dynasty prestige score;;;;;;;;;;;;;x
+prune_worldwide;Prune Worldwide;;;;;;;;;;;;;x
+prune_worldwide_desc;Remove dead and childless- characters and children, who are not contributing to dynasty prestige score globally;;;;;;;;;;;;;x
