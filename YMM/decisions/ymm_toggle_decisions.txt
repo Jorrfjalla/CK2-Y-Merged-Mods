@@ -288,7 +288,45 @@ decisions = {
 			ai = no
 		}
 		effect = {
-			clr_character_flag = hidden_ydt #Gets rid of flag, no need for shown_pruning flag because you can check for the absence of hidden, less flags, the better.
+			clr_character_flag = hidden_ydt #Gets rid of flag, no need for shown_destroy_titles flag because you can check for the absence of hidden, less flags, the better.
+		}
+	}
+	hide_yme = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = mass_extinction
+				value = enabled
+			}
+			NOR = {
+				has_character_flag = hidden_yme
+				has_character_flag = hidden_toggles
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_character_flag = hidden_yme #Sets flag
+		}
+	}
+	show_yme = {
+		ai= no
+		potential = {
+			has_game_rule = {
+				name = mass_extinction
+				value = enabled
+			}
+			has_character_flag = hidden_yme #Makes this decision only appear when the toggle off flag is enabled
+			NOT = {
+				has_character_flag = hidden_toggles
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_character_flag = hidden_yme #Gets rid of flag, no need for shown_mass_extinction flag because you can check for the absence of hidden, less flags, the better.
 		}
 	}
 }

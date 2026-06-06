@@ -1,4 +1,4 @@
-#CODE;ENGLISH;;;;;;;;;;;;;x
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
 hide_pruning;Hide Pruning Module;;;;;;;;;;;;;x
 hide_pruning_desc;Toggles off all decisions, targetted and intrigue for the Prune Family Tree module;;;;;;;;;;;;;x
 show_pruning;Show Pruning Module;;;;;;;;;;;;;x
@@ -31,3 +31,7 @@ hide_toggles;Hide all toggles;;;;;;;;;;;;;x
 hide_toggles_desc;Hides all module toggle decisions;;;;;;;;;;;;;x
 show_toggles;Show all toggles;;;;;;;;;;;;;x
 show_toggles_desc;Shows all module toggle decisions;;;;;;;;;;;;;x
+hide_yme;Hide ME Module;;;;;;;;;;;;;x
+hide_yme_desc;Toggles off all decisions, targetted and intrigue for the Mass Extinction module;;;;;;;;;;;;;x
+show_yme;Show ME Module;;;;;;;;;;;;;x
+show_yme_desc;Toggles on all decisions, targetted and intrigue for the Mass Extinction module;;;;;;;;;;;;;x

@@ -82,3 +82,17 @@ sex_change = {
 		desc = "RULE_SEX_CHANGE_ENABLED_DESC"
 	}
 }
+mass_extinction = {
+	name = "RULE_MASS_EXTINCTION"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = disabled
+		text = "RULE_MASS_EXTINCTION_DISABLED"
+		desc = "RULE_MASS_EXTINCTION_DISABLED_DESC"
+	}
+	option = {
+		name = enabled
+		text = "RULE_MASS_EXTINCTION_ENABLED"
+		desc = "RULE_MASS_EXTINCTION_ENABLED_DESC"
+	}
+}
