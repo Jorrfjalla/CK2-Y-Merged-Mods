@@ -58,52 +58,51 @@ decisions = {
 		}
 	}
 	
-	yam_traits_fix = {
-		is_high_prio = yes
-		potential = { #Player only and doesn't already have cheat trait
-			ai = no
-			has_game_rule = {
-				name = artifact_mod
-				value = enabled
-			}
-			ROOT = {
-				trait = clubfooted
-				trait = harelip
-				trait = hunchback
-				trait = imbecile
-				trait = inbred
-				trait = lisp
-				trait = slow
-				trait = stutter
-				trait = ugly
-				trait = weak
+#	yam_traits_fix = {
+#		is_high_prio = yes
+#		potential = { #Player only and doesn't already have cheat trait
+#			ai = no
+#			has_game_rule = {
+#				name = artifact_mod
+#				value = enabled
+#			}
+#			ROOT = {
+#				trait = clubfooted
+#				trait = harelip
+#				trait = hunchback
+#				trait = imbecile
+#				trait = inbred
+#				trait = lisp
+#				trait = slow
+#				trait = stutter
+#				trait = ugly
+#				trait = weak
 #				NOT = {
 #					trait = yat_trait
 #				}
-			}
-			NOT = {
-				has_character_flag = hidden_yam
-			}
-		}
-		effect = { #Calls linked event that actually gives the trait
-			#character_event = { id = yam.3 days = 0 }
-			remove_trait = inbred
-			remove_trait = clubfooted
-			remove_trait = harelip
-			remove_trait = hunchback
-			remove_trait = imbecile
-			remove_trait = inbred
-			remove_trait = lisp
-			remove_trait = slow
-			remove_trait = stutter
-			remove_trait = ugly
-			remove_trait = weak
+#			}
+#			NOT = {
+#				has_character_flag = hidden_yam
+#			}
+#		}
+#		effect = { #Calls linked event that actually gives the trait
+#			#character_event = { id = yam.3 days = 0 }
+#			remove_trait = inbred
+#			remove_trait = clubfooted
+#			remove_trait = harelip
+#			remove_trait = hunchback
+#			remove_trait = imbecile
+#			remove_trait = lisp
+#			remove_trait = slow
+#			remove_trait = stutter
+#			remove_trait = ugly
+#			remove_trait = weak
 #			add_trait = yat_trait
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+#		}
+#		ai_will_do = {
+#			factor = 0
+#		}
+#	}
 
 	yam_educate_me = {
 		is_high_prio = yes
@@ -114,14 +113,12 @@ decisions = {
 				value = enabled
 			}
 			NOT = {
-				AND = {
-					ROOT = {
-					trait = grey_eminence
-					trait = midas_touched
-					trait = brilliant_strategist
-					trait = elusive_shadow
-					trait = mastermind_theologian
-					}
+				ROOT = {
+				trait = grey_eminence
+				trait = midas_touched
+				trait = brilliant_strategist
+				trait = elusive_shadow
+				trait = mastermind_theologian
 				}
 			}
 			NOT = {

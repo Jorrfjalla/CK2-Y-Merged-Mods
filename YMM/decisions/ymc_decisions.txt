@@ -42,9 +42,6 @@ targetted_decisions = {
 				}
 			}
 		}
-		revoke_allowed = { #Unsure what this does, same with the wiki, it's apparently not used in vanilla
-			always = no
-		}
 	}
 
 	mp_friend = { #Add mutual friendship
@@ -77,9 +74,6 @@ targetted_decisions = {
 				add_friend = ROOT
 			}
 		}
-		revoke_allowed = { #Unsure what this does
-			always = no
-		}
 	}
 
 	mp_cash_100 = { #Player to player, 100 gold transfer
@@ -110,9 +104,6 @@ targetted_decisions = {
 		effect = { #Give 100 gold to target, take away 100 gold from source
 			FROM = { wealth = -100 } #-100 gold from source
 			ROOT = { wealth = 100 } #+100 gold to target
-		}
-		revoke_allowed = {
-			always = no
 		}
 	}
 
@@ -145,9 +136,6 @@ targetted_decisions = {
 			FROM = { wealth = -500 }
 			ROOT = { wealth = 500 }
 		}
-		revoke_allowed = {
-			always = no
-		}
 	}
 	
 	mp_cash_1000 = { #1000 gold transfer, see above for breakdown
@@ -178,9 +166,6 @@ targetted_decisions = {
 		effect = {
 			FROM = { wealth = -1000 }
 			ROOT = { wealth = 1000 }
-		}
-		revoke_allowed = {
-			always = no
 		}
 	}
 	
@@ -213,9 +198,6 @@ targetted_decisions = {
 			FROM = { wealth = -5000 }
 			ROOT = { wealth = 5000 }
 		}
-		revoke_allowed = {
-			always = no
-		}
 	}
 
 	mp_cash_10000 = { #10,000 gold transfer, see above for breakdown
@@ -246,9 +228,6 @@ targetted_decisions = {
 		effect = {
 			FROM = { wealth = -10000 }
 			ROOT = { wealth = 10000 }
-		}
-		revoke_allowed = {
-			always = no
 		}
 	}
 }

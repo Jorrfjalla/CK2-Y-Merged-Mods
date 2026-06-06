@@ -30,8 +30,8 @@ RULE_SEX_CHANGE_ENABLED;Enabled;;;;;;;;;;;;;x;
 RULE_SEX_CHANGE_ENABLED_DESC;Targeted intrigue decision to swap targeted character's gender, setting targets as mother and father, also for removing parents (watch out for breaking family trees);;;;;;;;;;;;;x;
 RULE_SEX_CHANGE_DISABLED;Disabled;;;;;;;;;;;;;x;
 RULE_SEX_CHANGE_DISABLED_DESC;Disabled;;;;;;;;;;;;;x;
-RULE_MASS_EXTINCTION;§RYMM§!:Mass Extinction
-RULE_MASS_EXTINCTION_ENABLED;Mass murder commands to attempt to help late game performance where there are too many people
-RULE_MASS_EXTINCTION_ENABLED_DESC;Enabled
-RULE_MASS_EXTINCTION_DISABLED;Disabled
-RULE_MASS_EXTINCTION_DISABLED_DESC;Disabled
+RULE_MASS_EXTINCTION;§RYMM§!:Mass Extinction;;;;;;;;;;;;;x
+RULE_MASS_EXTINCTION_ENABLED;Enabled;;;;;;;;;;;;;x
+RULE_MASS_EXTINCTION_ENABLED_DESC;Mass murder commands to attempt to help late game performance where there are too many people;;;;;;;;;;;;;x
+RULE_MASS_EXTINCTION_DISABLED;Disabled;;;;;;;;;;;;;x
+RULE_MASS_EXTINCTION_DISABLED_DESC;Disabled;;;;;;;;;;;;;x

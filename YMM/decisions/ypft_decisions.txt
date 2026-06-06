@@ -65,6 +65,7 @@ targetted_decisions = {
 decisions = {
 	prune_worldwide = {
 		is_high_prio = yes
+		diplomacy_icon = GFX_prune_family_tree
 		potential = {
 			ai = no
 			has_game_rule = {

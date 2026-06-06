@@ -46,14 +46,12 @@ yam_spear = {
 	}
 	picture = "GFX_spear_of_destiny"
 	active = {
-		AND = {
-			martial >= 10
-			learning >= 10
-			is_ruler = yes
-			has_game_rule = {
-				name = artifact_mod
-				value = enabled
-			}
+		martial >= 10
+		learning >= 10
+		is_ruler = yes
+		has_game_rule = {
+			name = artifact_mod
+			value = enabled
 		}
 	}
 }
@@ -81,12 +79,10 @@ yam_harp = {
 	flags = { mythic }
 	picture = "GFX_king_davids_harp"
 	active = {
-		AND = {
-			learning >= 20
-			has_game_rule = {
-				name = artifact_mod
-				value = enabled
-			}
+		learning >= 20
+		has_game_rule = {
+			name = artifact_mod
+			value = enabled
 		}
 	}
 }
@@ -112,13 +108,11 @@ yam_yan = {
 	flags = { mythic }
 	picture = "GFX_yam_yan_pic"
 	active = {
-		AND = {
-			martial >= 20
-			learning >= 30
-			has_game_rule = {
-				name = artifact_mod
-				value = enabled
-			}
+		martial >= 20
+		learning >= 30
+		has_game_rule = {
+			name = artifact_mod
+			value = enabled
 		}
 	}
 }
