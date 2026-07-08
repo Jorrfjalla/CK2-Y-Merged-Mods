@@ -6,8 +6,6 @@ character_event = { #Manual firing only, this is just here to save me time to no
 	picture = GFX_evt_beatification
 	is_triggered_only = yes
 	
-	religion_group = pagan
-	
 	after = { 
 		capital_holding = {
 			set_holy_site = norse_pagan_reformed
@@ -66,8 +64,6 @@ character_event = {
     desc = trexheresy.4.de
 	picture = GFX_evt_beatification
 	is_triggered_only = yes
-	
-	religion_group = pagan
 	
 	after = { 
 		capital_holding = {
