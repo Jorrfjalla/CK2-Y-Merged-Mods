@@ -3,6 +3,13 @@ character_event = { #Core event that fires the others
     id = yti.1
     hide_window = yes
     is_triggered_only = yes
+    max_age = 1
+    trigger = { #By placing the trigger requirement here, the game only has to check once if the rule is enabled, rather than for each individual event
+        has_game_rule = {
+            name = tweaked_inheritance
+            value = enabled
+        }
+    }
     immediate = {
         character_event = { #Stength check
             id = yti.2
@@ -24,16 +31,7 @@ character_event = { # Strength check
     hide_window = yes #No window, so we can have illegal options and it won't brick player games
     is_triggered_only = yes #Performance tweak
     immediate = { #When the event happens, this has already happened
-        if = { #Initial clause to stop the event if the gamerule is disabled
-            limit = {
-                has_game_rule = {
-                    name = tweaked_inheritance
-                    value = disabled
-                }
-            }
-            break = yes
-        }
-        else_if = {
+        if = {
             limit = { #Mother and father have strong trait
                 AND = {
                     mother = {
@@ -93,19 +91,10 @@ character_event = { # Strength check
 }
 character_event = { # Beauty check
     id = yti.3
-    hide_window = no
+    hide_window = yes
     is_triggered_only = yes
     immediate = {
         if = {
-            limit = {
-                has_game_rule = {
-                    name = tweaked_inheritance
-                    value = disabled
-                }
-            }
-            break = yes
-        }
-        else_if = {
             limit = {
                 AND = {
                     mother = {
@@ -170,15 +159,6 @@ character_event = { # Quick check, this is before genius as to not overwrite it
     immediate = {
         if = {
             limit = {
-                has_game_rule = {
-                    name = tweaked_inheritance
-                    value = disabled
-                }
-            }
-            break = yes
-        }
-        else_if = {
-            limit = {
                 AND = {
                     mother = {
                         trait = quick
@@ -242,15 +222,6 @@ character_event = { # Genius check
     immediate = {
         name = meow
         if = {
-            limit = {
-                has_game_rule = {
-                    name = tweaked_inheritance
-                    value = disabled
-                }
-            }
-            break = yes
-        }
-        else_if = {
             limit = {
                 AND = {
                     mother = {
