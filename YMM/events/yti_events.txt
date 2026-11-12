@@ -1,0 +1,326 @@
+namespace = yti
+character_event = { #Core event that fires the others
+    id = yti.1
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+        character_event = { #Stength check
+            id = yti.2
+        }
+        character_event = { #Beauty check
+            id = yti.3
+        }
+        character_event = { #Quick check
+            id = yti.4
+        }
+        character_event = { #Genius check, delayed by 1 day to avoid overwriting
+            id = yti.5
+            days = 1
+        }
+    }
+}
+character_event = { # Strength check
+    id = yti.2 #Event id
+    hide_window = yes #No window, so we can have illegal options and it won't brick player games
+    is_triggered_only = yes #Performance tweak
+    immediate = { #When the event happens, this has already happened
+        if = { #Initial clause to stop the event if the gamerule is disabled
+            limit = {
+                has_game_rule = {
+                    name = tweaked_inheritance
+                    value = disabled
+                }
+            }
+            break = yes
+        }
+        else_if = {
+            limit = { #Mother and father have strong trait
+                AND = {
+                    mother = {
+                        trait = strong
+                    }
+                    true_father_even_if_dead = {
+                        trait = strong
+                    }
+                }
+            }
+            random = { #Basic 70% chance to just give strong
+                chance = 70
+                add_trait = strong
+            }
+            break = yes #This stops the event here, so it cannot continue onto the other options
+        }
+        else_if = {
+            limit = { #Either parent has strong, because this is lower down the list, it checks for both strong first
+                OR = {
+                    mother = {
+                        trait = strong
+                    }
+                    true_father_even_if_dead = {
+                        trait = strong
+                    }
+                }
+            }
+            random = { #30% chance if one parent has trait
+                chance = 30
+                add_trait = strong
+            }
+            break = yes
+        }
+        else_if = { #10% chance from the parents having the funny lifestyle earnable version
+            limit = { #Either parent has robust (brawny) trait
+                OR = {
+                    mother = {
+                        trait = robust
+                    }
+                    true_father_even_if_dead = {
+                        trait = robust
+                    }
+                }
+            }
+            random = {
+                chance = 10
+                add_trait = strong
+            }
+        }
+        else = { #Random mutation
+            random = {
+                chance = 1
+                add_trait = strong
+            }
+        }
+    }
+}
+character_event = { # Beauty check
+    id = yti.3
+    hide_window = no
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                has_game_rule = {
+                    name = tweaked_inheritance
+                    value = disabled
+                }
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                AND = {
+                    mother = {
+                        trait = fair
+                    }
+                    true_father_even_if_dead = {
+                        trait = fair
+                    }
+                }
+            }
+            random = {
+                chance = 60
+                add_trait = fair
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    mother = {
+                        trait = fair
+                    }
+                    true_father_even_if_dead = {
+                        trait = fair
+                    }
+                }
+            }
+            random = {
+                chance = 20
+                add_trait = fair
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    mother = {
+                        trait = groomed
+                    }
+                    true_father_even_if_dead = {
+                        trait = groomed
+                    }
+                }
+            }
+            random = {
+                chance = 5
+                add_trait = fair
+            }
+        }
+        else = {
+            random = {
+                chance = 1
+                add_trait = fair
+            }
+        }
+    }
+}
+character_event = { # Quick check, this is before genius as to not overwrite it
+    id = yti.4
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                has_game_rule = {
+                    name = tweaked_inheritance
+                    value = disabled
+                }
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                AND = {
+                    mother = {
+                        trait = quick
+                    }
+                    true_father_even_if_dead = {
+                        trait = quick
+                    }
+                }
+            }
+            random = {
+                chance = 50
+                add_trait = quick
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    mother = {
+                        trait = quick
+                    }
+                    true_father_even_if_dead = {
+                        trait = quick
+                    }
+                }
+            }
+            random = {
+                chance = 20
+                add_trait = quick
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    mother = {
+                        trait = shrewd
+                    }
+                    true_father_even_if_dead = {
+                        trait = shrewd
+                    }
+                }
+            }
+            random = {
+                chance = 5
+                add_trait = quick
+            }
+        }
+        else = {
+            random = {
+                chance = 1
+                add_trait = quick
+            }
+        }
+    }
+}
+character_event = { # Genius check
+    id = yti.5
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+        name = meow
+        if = {
+            limit = {
+                has_game_rule = {
+                    name = tweaked_inheritance
+                    value = disabled
+                }
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                AND = {
+                    mother = {
+                        trait = genius
+                    }
+                    true_father_even_if_dead = {
+                        trait = genius
+                    }
+                }
+            }
+            random = {
+                chance = 50
+                add_trait = genius
+            }
+            break = yes
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    mother = {
+                        trait = genius
+                    }
+                    true_father_even_if_dead = {
+                        trait = genius
+                    }
+                }
+            }
+            random = {
+                chance = 20
+                add_trait = genius
+            }
+            break = yes
+        }
+        else_if = { #Extra elseif to upgrade quick
+            limit = {
+                AND = {
+                    mother = {
+                        trait = quick
+                    }
+                    true_father_even_if_dead = {
+                        trait = quick
+                    }
+                }
+            }
+            random = {
+                chance = 15
+                add_trait = genius
+            }
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    mother = {
+                        trait = shrewd
+                    }
+                    true_father_even_if_dead = {
+                        trait = shrewd
+                    }
+                }
+            }
+            random = {
+                chance = 5
+                add_trait = genius
+            }
+        }
+        else = {
+            random = {
+                chance = 1
+                add_trait = genius
+            }
+        }
+    }
+}

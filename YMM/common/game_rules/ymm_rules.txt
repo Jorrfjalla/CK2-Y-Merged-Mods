@@ -96,3 +96,17 @@ mass_extinction = {
 		desc = "RULE_MASS_EXTINCTION_ENABLED_DESC"
 	}
 }
+tweaked_inheritance = {
+	name = "RULE_TWEAKED_INHERITANCE"
+	group = "RULE_GROUP_Y"
+	option = {
+		name = disabled
+		text = "RULE_TWEAKED_INHERITANCE_DISABLED"
+		desc = "RULE_TWEAKED_INHERITANCE_DISABLED_DESC"
+	}
+	option = {
+		name = enabled
+		text = "RULE_TWEAKED_INHERITANCE_ENABLED"
+		desc = "RULE_TWEAKED_INHERITANCE_ENABLED_DESC"
+	}
+}

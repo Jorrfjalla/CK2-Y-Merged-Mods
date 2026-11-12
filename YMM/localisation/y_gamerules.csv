@@ -35,3 +35,8 @@ RULE_MASS_EXTINCTION_ENABLED;Enabled;;;;;;;;;;;;;x
 RULE_MASS_EXTINCTION_ENABLED_DESC;Mass murder commands to attempt to help late game performance where there are too many people;;;;;;;;;;;;;x
 RULE_MASS_EXTINCTION_DISABLED;Disabled;;;;;;;;;;;;;x
 RULE_MASS_EXTINCTION_DISABLED_DESC;Disabled;;;;;;;;;;;;;x
+RULE_TWEAKED_INHERITANCE;§RYMM§!:Tweaked Inheritance;;;;;;;;;;;;;x
+RULE_TWEAKED_INHERITANCE_ENABLED;Enabled;;;;;;;;;;;;;x
+RULE_TWEAKED_INHERITANCE_ENABLED_DESC;On birth events to have a slim chance to give your child positive congenital traits, dependent on their parents;;;;;;;;;;;;;x
+RULE_TWEAKED_INHERITANCE_DISABLED;Disabled;;;;;;;;;;;;;x
+RULE_TWEAKED_INHERITANCE_DISABLED_DESC;Disabled;;;;;;;;;;;;;x

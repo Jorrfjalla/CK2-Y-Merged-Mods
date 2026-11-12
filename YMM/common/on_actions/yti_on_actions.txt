@@ -1,0 +1,5 @@
+on_birth = {
+    events = {
+        yti.1 #Core event that events the events that do stuff :3
+    }
+}
