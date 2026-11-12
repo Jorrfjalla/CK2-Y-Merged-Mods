@@ -144,6 +144,7 @@ targetted_decisions = {
 			}
 		}
 		potential = {
+			ai = yes
 			has_game_rule = {
 				name = sex_change
 				value = enabled
@@ -154,6 +155,186 @@ targetted_decisions = {
 		}
 		effect = {
 			dynasty = none
+		}
+	}
+	ystt_add_strong = {
+		diplomacy_icon = GFX_trait_strong
+		filter = all_including_me
+		ai=no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+			ROOT = {
+			 NOT = {
+				trait = strong
+			 }
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				add_trait = strong
+			}
+		}
+	}
+	ystt_remove_strong = {
+		diplomacy_icon = GFX_trait_weak
+		filter = all_including_me
+		ai=no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+			ROOT = {
+				trait = strong
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				remove_trait = strong
+			}
+		}
+	}
+	ystt_add_attractive = {
+		diplomacy_icon = GFX_trait_fair
+		filter = all_including_me
+		ai=no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+			ROOT = {
+			 NOT = {
+				trait = fair
+			 }
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				add_trait = fair
+			}
+		}
+	}
+	ystt_remove_attractive = {
+		diplomacy_icon = GFX_trait_uncouth
+		filter = all_including_me
+		ai=no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+			ROOT = {
+				trait = fair
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				remove_trait = fair
+			}
+		}
+	}
+	ystt_add_genius = {
+		diplomacy_icon = GFX_trait_genius
+		filter = all_including_me
+		ai=no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+			ROOT = {
+			 NOT = {
+				trait = genius
+			 }
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				add_trait = genius
+			}
+		}
+	}
+	ystt_remove_genius = {
+		diplomacy_icon = GFX_trait_imbecile
+		filter = all_including_me
+		ai=no
+		from_potential = {
+			is_alive = yes
+			ai = no
+			NOT = {
+				has_character_flag = hidden_ystt
+			}
+		}
+		potential = {
+			has_game_rule = {
+				name = sex_change
+				value = enabled
+			}
+			ROOT = {
+				trait = genius
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = {
+				remove_trait = genius
+			}
 		}
 	}
 }

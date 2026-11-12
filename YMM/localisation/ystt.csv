@@ -10,3 +10,16 @@ ystt_remove_mother_desc;Removes target's mother connection;;;;;;;;;;;;;x
 ystt_remove_father;Remove Father;;;;;;;;;;;;;x
 ystt_remove_father_desc;Removes target's father connection;;;;;;;;;;;;;x
 ystt_remove_dynasty;Removes target's dynasty;;;;;;;;;;;;;x
+ystt_remove_dynasty_desc;Makes target lowborn, I don't know what happens if this is done to a player, so that option is blocked!;;;;;;;;;;;;;x
+ystt_add_strong;Add Strong;;;;;;;;;;;;;x
+ystt_add_strong_desc;Adds strong trait;;;;;;;;;;;;;x
+ystt_remove_strong;Remove Strong;;;;;;;;;;;;;x
+ystt_remove_strong_desc;Removes strong trait;;;;;;;;;;;;;x
+ystt_add_attractive;Add Attractive;;;;;;;;;;;;;x
+ystt_add_attractive_desc;Adds attractive trait;;;;;;;;;;;;;x
+ystt_remove_attractive;Remove Attractive;;;;;;;;;;;;;x
+ystt_remove_attractive_desc;Removes attractive trait;;;;;;;;;;;;;x
+ystt_add_genius;Add Genius;;;;;;;;;;;;;x
+ystt_add_genius_desc;Adds genius trait;;;;;;;;;;;;;x
+ystt_remove_genius;Remove Genius;;;;;;;;;;;;;x
+ystt_remove_genius_desc;Removes genius trait;;;;;;;;;;;;;x
