@@ -1,15 +1,14 @@
 targetted_decisions = {
 	mp_alliance = { #Create alliance
 		ai = no #Stops ai even considering this, performance tweak
+		only_playable = yes
 		from_potential = { #Player only
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_mp_commands
 			}
 		}
 		potential = { #Targeted to another player only, and not already in an alliance with each other
-			is_alive = yes
 			ai = no
 			has_game_rule = {
 				name = multiplayer_commands
@@ -46,22 +45,21 @@ targetted_decisions = {
 
 	mp_friend = { #Add mutual friendship
 		ai = no
+		only_playable = yes
 		from_potential = { #Player only
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_mp_commands
 			}
 		}
 		potential = { #Targeted to player only, who is not already a friend
-			is_alive = yes
 			ai = no
+			NOT = {
+				is_friend = FROM
+			}
 			has_game_rule = {
 				name = multiplayer_commands
 				value = enabled
-			}
-			NOT = {
-				is_friend = FROM
 			}
 		}
 		allow = { #Another check if friends or not
@@ -78,15 +76,14 @@ targetted_decisions = {
 
 	mp_cash_100 = { #Player to player, 100 gold transfer
 		ai = no
+		only_playable = yes
 		from_potential = { #Player only
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_mp_commands
 			}
 		}
 		potential = { #Targeted to player only, also check if source has >= 100 gold to give
-			is_alive = yes
 			ai = no
 			has_game_rule = {
 				name = multiplayer_commands
@@ -109,15 +106,14 @@ targetted_decisions = {
 
 	mp_cash_500 = { #500 gold transfer, see above for breakdown
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_mp_commands
 			}
 		}
 		potential = {
-			is_alive = yes
 			ai = no
 			has_game_rule = {
 				name = multiplayer_commands
@@ -140,15 +136,14 @@ targetted_decisions = {
 	
 	mp_cash_1000 = { #1000 gold transfer, see above for breakdown
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_mp_commands
 			}
 		}
 		potential = {
-			is_alive = yes
 			ai = no
 			has_game_rule = {
 				name = multiplayer_commands
@@ -171,15 +166,14 @@ targetted_decisions = {
 	
 	mp_cash_5000 = { #5000 gold transfer, see above for breakdown
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_mp_commands
 			}
 		}
 		potential = {
-			is_alive = yes
 			ai = no
 			has_game_rule = {
 				name = multiplayer_commands
@@ -202,15 +196,14 @@ targetted_decisions = {
 
 	mp_cash_10000 = { #10,000 gold transfer, see above for breakdown
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_mp_commands
 			}
 		}
 		potential = {
-			is_alive = yes
 			ai = no
 			has_game_rule = {
 				name = multiplayer_commands

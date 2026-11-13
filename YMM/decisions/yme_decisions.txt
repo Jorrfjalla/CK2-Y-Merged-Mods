@@ -1,6 +1,8 @@
 decisions = {
     yme_purge_world = { #Worldwide, kills everyone who isn't landed or a player
         is_high_prio = yes
+        ai = no
+		only_playable = yes
         potential = {
             ai = no
             has_game_rule = {

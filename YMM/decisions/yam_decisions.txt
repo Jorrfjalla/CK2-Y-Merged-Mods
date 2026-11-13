@@ -2,6 +2,8 @@ decisions = {
 
 	yam_bloodline_create = {
 		is_high_prio = yes
+		ai = no
+		only_playable = yes
 		potential = { #Player only and doesn't have existing bloodline already
 			ai = no
 			has_game_rule = {
@@ -30,6 +32,8 @@ decisions = {
 	
 	yam_artifacts_create = {
 		is_high_prio = yes
+		ai = no
+		only_playable = yes
 		potential = { #Player only
 			ai = no
 			has_game_rule = {
@@ -60,6 +64,8 @@ decisions = {
 	
 #	yam_traits_fix = {
 #		is_high_prio = yes
+#		ai = no
+#		only_playable = yes
 #		potential = { #Player only and doesn't already have cheat trait
 #			ai = no
 #			has_game_rule = {
@@ -106,6 +112,8 @@ decisions = {
 
 	yam_educate_me = {
 		is_high_prio = yes
+		ai = no
+		only_playable = yes
 		potential = { #Player only and doesn't already have all max educations
 			ai = no
 			has_game_rule = {
@@ -114,11 +122,11 @@ decisions = {
 			}
 			NOT = {
 				ROOT = {
-				trait = grey_eminence
-				trait = midas_touched
-				trait = brilliant_strategist
-				trait = elusive_shadow
-				trait = mastermind_theologian
+					trait = grey_eminence
+					trait = midas_touched
+					trait = brilliant_strategist
+					trait = elusive_shadow
+					trait = mastermind_theologian
 				}
 			}
 			NOT = {
@@ -154,6 +162,8 @@ decisions = {
 	}
 	
 	yam_bloodline_destroy = {
+		ai = no
+		only_playable = yes
 		potential = { #Player only and corresponding bloodline exists ingame
 			ai = no
 			has_game_rule = {
@@ -184,17 +194,16 @@ decisions = {
 targetted_decisions = {
 	yam_plus_5_smarts = {
 		ai = no
+		only_playable = yes
 		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_yam
 			}
 		}
 		potential = {
-			is_alive = yes
 			has_game_rule = {
 				name = artifact_mod
 				value = enabled
@@ -212,17 +221,16 @@ targetted_decisions = {
 	}
 	yam_plus_10_smarts = {
 		ai = no
+		only_playable = yes
 		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_yam
 			}
 		}
 		potential = {
-			is_alive = yes
 			has_game_rule = {
 				name = artifact_mod
 				value = enabled
@@ -240,17 +248,16 @@ targetted_decisions = {
 	}
 	yam_minus_5_smarts = {
 		ai = no
+		only_playable = yes
 		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_yam
 			}
 		}
 		potential = {
-			is_alive = yes
 			has_game_rule = {
 				name = artifact_mod
 				value = enabled
@@ -268,17 +275,16 @@ targetted_decisions = {
 	}
 	yam_minus_10_smarts = {
 		ai = no
+		only_playable = yes
 		diplomacy_icon = GFX_yam_smarts
 		filter = all_including_me
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_yam
 			}
 		}
 		potential = {
-			is_alive = yes
 			has_game_rule = {
 				name = artifact_mod
 				value = enabled
@@ -298,15 +304,14 @@ targetted_decisions = {
 		filter = all_including_me
 		diplomacy_icon = GFX_evil_sheep
 		ai = no
+		only_playable = yes
 		from_potential = {
 			ai = no
-			is_alive = yes
 			NOT = {
 				has_character_flag = hidden_yam
 			}
 		}
 		potential = {
-			is_alive = yes
 			has_game_rule = {
 				name = artifact_mod
 				value = enabled

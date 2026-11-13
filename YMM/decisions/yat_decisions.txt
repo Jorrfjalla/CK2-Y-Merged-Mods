@@ -1,6 +1,7 @@
 #decisions = {
 #    purge_cheat_trait = {
 #        ai = no
+#		only_playable = yes
 #        potential = {
 #            has_trait = yat_trait
 #            ai = no

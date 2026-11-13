@@ -3,8 +3,8 @@ targetted_decisions = {
     yrf_rename_family = {
 		diplomacy_icon = GFX_rename
 		ai = no
-		filter = dynasty #Performance tweak, instead of checking every character, now just checks dynasty members
-		
+		only_playable = yes
+		filter = dynasty #Performance tweak, instead of checking every character, now just checks dynasty members		
 		from_potential = { #Player only
 			ai = no
 			NOT = {
@@ -12,8 +12,8 @@ targetted_decisions = {
 			}
 		}
 		potential = { #Non-player, same dynasty as player
-			ai = yes
 			dynasty = FROM
+			ai = yes
 			has_game_rule = {
 				name = rename_family
 				value = enabled
@@ -37,15 +37,15 @@ targetted_decisions = {
 		diplomacy_icon = GFX_rename
 		filter = self #Self only
 		ai = no
-		
+		only_playable = yes		
 		from_potential = { #Player Only
 			ai = no
 			NOT = {
 				has_character_flag = hidden_renaming
 			}
 		}
-		potential = { #Just check if alive
-			is_alive = yes
+		potential = {
+			ai = no
 			has_game_rule = {
 				name = rename_family
 				value = enabled

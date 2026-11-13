@@ -1,6 +1,7 @@
 decisions = {
     ydv_crusade_trigger = {
         ai = no
+		only_playable = yes
         potential = {
             has_game_rule = {
                 name = artifact_mod
@@ -12,8 +13,17 @@ decisions = {
 			}
         }
         effect = {
-            narrative_event = {
+            narrative_event = { #1090 Jerusalem not christian
+                id = 39660
+            }
+            narrative_event = { #Byzantium falling
+                id = 39661
+            }
+            narrative_event = { #Rome fallen
                 id = 39662
+            }
+            narrative_event = { #Europe fallen
+                id = 39663
             }
         }
     }

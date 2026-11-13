@@ -3,19 +3,19 @@ targetted_decisions = {
 		diplomacy_icon = GFX_trait_has_bubonic_plague
 		filter = all_including_me #Has what it says on the tin, can target anyone
 		ai= no #Don't allow ai to do it
+		only_playable = yes
 		from_potential = { #Human player check
-			is_alive = yes
 			ai = no
 			NOT = { #Hides decision when intrigue toggle is used
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = { #Anyone can be targetted, as long as they are alive
-			is_alive = yes
 			has_game_rule = { #When gamerule is disabled, it won't even appear as an option
 				name = sex_change
 				value = enabled
 			}
+			is_alive = yes
 		}
 		allow = {
 			always = yes
@@ -30,19 +30,19 @@ targetted_decisions = {
 		diplomacy_icon = GFX_trait_has_bubonic_plague
 		filter = all
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
+			is_female = yes
 			has_game_rule = {
 				name = sex_change
 				value = enabled
 			}
-			is_female = yes
 		}
 		allow = {
 			always = yes
@@ -57,19 +57,19 @@ targetted_decisions = {
 		diplomacy_icon = GFX_trait_has_bubonic_plague
 		filter = all
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
+			is_female = no
 			has_game_rule = {
 				name = sex_change
 				value = enabled
 			}
-			is_female = no
 		}
 		allow = {
 			always = yes
@@ -84,8 +84,8 @@ targetted_decisions = {
 		diplomacy_icon = GFX_cross
 		filter = all_including_me
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
@@ -110,8 +110,8 @@ targetted_decisions = {
 		diplomacy_icon = GFX_cross
 		filter = all_including_me
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
@@ -136,8 +136,8 @@ targetted_decisions = {
 		diplomacy_icon = GFX_cross
 		filter = all
 		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
@@ -160,23 +160,23 @@ targetted_decisions = {
 	ystt_add_strong = {
 		diplomacy_icon = GFX_trait_strong
 		filter = all_including_me
-		ai=no
+		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
-			has_game_rule = {
-				name = sex_change
-				value = enabled
-			}
 			ROOT = {
 			 NOT = {
 				trait = strong
 			 }
+			}
+			has_game_rule = {
+				name = sex_change
+				value = enabled
 			}
 		}
 		allow = {
@@ -191,21 +191,21 @@ targetted_decisions = {
 	ystt_remove_strong = {
 		diplomacy_icon = GFX_trait_weak
 		filter = all_including_me
-		ai=no
+		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
+			ROOT = {
+				trait = strong
+			}
 			has_game_rule = {
 				name = sex_change
 				value = enabled
-			}
-			ROOT = {
-				trait = strong
 			}
 		}
 		allow = {
@@ -220,23 +220,23 @@ targetted_decisions = {
 	ystt_add_attractive = {
 		diplomacy_icon = GFX_trait_fair
 		filter = all_including_me
-		ai=no
+		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
+			ROOT = {
+			 	NOT = {
+					trait = fair
+			 	}
+			}
 			has_game_rule = {
 				name = sex_change
 				value = enabled
-			}
-			ROOT = {
-			 NOT = {
-				trait = fair
-			 }
 			}
 		}
 		allow = {
@@ -251,21 +251,21 @@ targetted_decisions = {
 	ystt_remove_attractive = {
 		diplomacy_icon = GFX_trait_uncouth
 		filter = all_including_me
-		ai=no
+		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
+			ROOT = {
+				trait = fair
+			}
 			has_game_rule = {
 				name = sex_change
 				value = enabled
-			}
-			ROOT = {
-				trait = fair
 			}
 		}
 		allow = {
@@ -280,23 +280,23 @@ targetted_decisions = {
 	ystt_add_genius = {
 		diplomacy_icon = GFX_trait_genius
 		filter = all_including_me
-		ai=no
+		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
+			ROOT = {
+			 	NOT = {
+					trait = genius
+			 	}
+			}
 			has_game_rule = {
 				name = sex_change
 				value = enabled
-			}
-			ROOT = {
-			 NOT = {
-				trait = genius
-			 }
 			}
 		}
 		allow = {
@@ -311,21 +311,21 @@ targetted_decisions = {
 	ystt_remove_genius = {
 		diplomacy_icon = GFX_trait_imbecile
 		filter = all_including_me
-		ai=no
+		ai = no
+		only_playable = yes
 		from_potential = {
-			is_alive = yes
 			ai = no
 			NOT = {
 				has_character_flag = hidden_ystt
 			}
 		}
 		potential = {
+			ROOT = {
+				trait = genius
+			}
 			has_game_rule = {
 				name = sex_change
 				value = enabled
-			}
-			ROOT = {
-				trait = genius
 			}
 		}
 		allow = {

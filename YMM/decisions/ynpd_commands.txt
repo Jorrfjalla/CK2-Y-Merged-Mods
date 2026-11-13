@@ -1,24 +1,24 @@
 targetted_decisions = {
     pact_suggest = {
         ai = no
+		only_playable = yes
         from_potential = { #Players only
-            is_alive = yes
             ai = no
             NOT = {
 				has_character_flag = hidden_nap
 			}
         }
         potential = {
-            has_game_rule = {
-				name = non_aggression_pact_decision
-				value = enabled
-			}
             NOT = { #No existing pact, otherwise hide
                 ROOT = {
                     has_non_aggression_pact_with = FROM
                 }
             }
-			is_ruler = yes
+            is_ruler = yes
+            has_game_rule = {
+				name = non_aggression_pact_decision
+				value = enabled
+			}
         }
         allow = {
             OR = {

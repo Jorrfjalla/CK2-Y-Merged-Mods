@@ -2,6 +2,8 @@ decisions = {
 
     ydt_destroy_empires = { #Destroys every onmap empire, transplanted and adjusted from R1D2s DM mod
         is_high_prio = yes
+        ai = no
+		only_playable = yes
         potential = { #Player only, correct gamerule and decision enabled
             ai = no
             has_game_rule = {
@@ -38,6 +40,8 @@ decisions = {
 
     ydt_destroy_kingdoms = { #Destroys every onmap kingdom, transplanted and adjusted from R1D2s DM mod
         is_high_prio = yes
+        ai = no
+		only_playable = yes
         potential = { #Player only, correct gamerule and decision enabled
             ai = no
             has_game_rule = {
@@ -74,6 +78,8 @@ decisions = {
 
     ydt_destroy_duchies = { #Destroys every onmap duchy, transplanted and adjusted from R1D2s DM mod
         is_high_prio = yes
+        ai = no
+		only_playable = yes
         potential = { #Player only, correct gamerule and decision enabled
             ai = no
             has_game_rule = {
